@@ -1,4950 +1,3590 @@
 export const templates = {
 
   /* =========================
-     GENERAL SYMPTOMS & SYSTEMIC ILLNESSES
+     HEAD & SCALP
   ========================== */
- 
-  
-  fever: `
-**🌡️ FEVER - Detailed Medical Guidance**
-
-**1. TEMPERATURE CLASSIFICATION**
-• **Normal:** 97.5°F - 98.6°F (36.4°C - 37°C)
-• **Low-grade:** 98.7°F - 100.4°F (37.1°C - 38°C)
-• **Moderate:** 100.5°F - 102.2°F (38.1°C - 39°C)
-• **High-grade:** 102.3°F - 104°F (39.1°C - 40°C)
-• **Hyperpyrexia:** Above 104°F (40°C) - Medical Emergency
-
-**2. PATHOPHYSIOLOGY**
-Fever occurs when pyrogens (bacteria, viruses, cytokines) reset the hypothalamus' thermostat.
-
-**3. COMMON INFECTIOUS CAUSES**
-**VIRAL:**
-• Influenza A/B, COVID-19, RSV, Adenovirus
-• Dengue (breakbone fever - severe joint/muscle pain)
-• Chikungunya (debilitating joint pain)
-• Measles (fever + cough + coryza + conjunctivitis)
-• Chickenpox (fever followed by vesicular rash)
-• Infectious Mononucleosis (EBV - fever + sore throat + lymphadenopathy)
-
-**BACTERIAL:**
-• Streptococcus pyogenes (strep throat, scarlet fever)
-• Staphylococcus aureus (skin infections, abscesses)
-• Escherichia coli (UTI, gastroenteritis)
-• Salmonella typhi (typhoid - stepwise fever pattern)
-• Mycobacterium tuberculosis (evening fever + night sweats)
-
-**PARASITIC:**
-• Malaria (cyclic fever - tertian/quartan)
-• Amoebiasis (fever + bloody diarrhea)
-• Giardiasis (fever + foul-smelling diarrhea)
-
-**4. NON-INFECTIOUS CAUSES**
-• Autoimmune (SLE, Rheumatoid arthritis)
-• Malignancy (Lymphoma, Leukemia - Pel-Ebstein fever)
-• Drug-induced (Antibiotics, Anticonvulsants)
-• Endocrine (Thyrotoxicosis)
-• Inflammatory (IBD, Vasculitis)
-
-**5. SYSTEMATIC ASSESSMENT**
-**Associated Symptoms Analysis:**
-• **Fever + Rash:** Consider measles, dengue, meningococcal
-• **Fever + Cough:** Pneumonia, bronchitis, COVID-19
-• **Fever + Diarrhea:** Gastroenteritis, typhoid
-• **Fever + Headache:** Meningitis, encephalitis
-• **Fever + Joint Pain:** Rheumatic fever, septic arthritis
-
-**6. HOME MANAGEMENT PROTOCOL**
-**Hydration Strategy:**
-• Adults: 2-3 liters/day minimum
-• Children: 50-100ml/kg/day
-• Electrolyte solution recipe: 1L water + 6tsp sugar + ½tsp salt
-
-**Medication Guidelines:**
-• **Acetaminophen:** 325-650mg every 4-6 hours (max 3g/day)
-• **Ibuprofen:** 200-400mg every 6-8 hours
-• **Aspirin:** Avoid <16 years (Reye's syndrome risk)
-• **Naproxen:** 220mg every 8-12 hours
-
-**Physical Cooling Methods:**
-• Tepid sponging (water at 85-90°F/29-32°C)
-• Cooling blankets for hyperpyrexia
-• Avoid ice baths (causes shivering)
-
-**7. DANGER SIGNS REQUIRING HOSPITALIZATION**
-🚨 **SEPSIS CRITERIA (qSOFA Score):**
-• Respiratory rate ≥22/min
-• Altered mental status (GCS <15)
-• Systolic BP ≤100 mmHg
-
-🚨 **MENINGITIS SUSPICION:**
-• Fever + neck stiffness + photophobia
-• Brudzinski's sign (flex neck → hip/knee flexion)
-• Kernig's sign (pain on knee extension)
-
-🚨 **EMERGENCY CONDITIONS:**
-• Febrile seizures (especially prolonged >5 minutes)
-• Signs of dehydration (sunken eyes, dry mucous membranes)
-• Petechial/purpuric rash (doesn't blanch)
-
-**8. WHEN TO CONSULT A DOCTOR **
-**Urgent (Within 24 hours):**
-• Fever >102°F (39°C) for >48 hours
-• Fever in infants 3-6 months >101°F (38.3°C)
-• Immunocompromised patients (HIV, chemotherapy)
-• Recent travel to tropical/malarial areas
-• Associated severe headache or stiff neck
-
-**Emergency (Go to ER Immediately):**
-• Infants <3 months with any fever >100.4°F (38°C)
-• Temperature >104°F (40°C) unresponsive to medication
-• Febrile seizure lasting >5 minutes
-• Signs of meningitis or encephalitis
-• Difficulty breathing or chest pain
-`,
-
-  headache: `
-**🤕 HEADACHE - Comprehensive Classification**
-
-**1. PRIMARY HEADACHES (ICHD-3 Classification)**
-
-**MIGRAINE WITH AURA:**
-• **Prodrome:** 24-48 hours before (mood changes, food cravings)
-• **Aura:** 5-60 minutes (visual, sensory, speech symptoms)
-• **Headache Phase:** 4-72 hours (unilateral, pulsating, N/V, photophobia)
-• **Postdrome:** 24 hours (fatigue, cognitive fog)
-
-**MIGRAINE WITHOUT AURA:**
-• At least 5 attacks fulfilling criteria
-• Duration 4-72 hours
-• Two of: Unilateral, pulsating, moderate-severe, aggravated by activity
-• One of: Nausea/vomiting, photophobia/phonophobia
-
-**CHRONIC MIGRAINE:**
-• ≥15 headache days/month for >3 months
-• ≥8 days with migraine features
-• Often develops from medication overuse
-
-**TENSION-TYPE HEADACHE (TTH):**
-• **Episodic:** <15 days/month
-• **Chronic:** ≥15 days/month for >3 months
-• Bilateral pressing/tightening quality
-• Mild-moderate intensity
-• No nausea/vomiting
-• Photophobia OR phonophobia (not both)
-
-**CLUSTER HEADACHE:**
-• "Suicide headache" - excruciating severity
-• Unilateral orbital/supraorbital/temporal pain
-• Duration 15-180 minutes untreated
-• Frequency: every other day to 8/day
-• Associated: Ipsilateral autonomic symptoms
-• **Chronic:** Pain-free intervals <3 months
-
-**2. SECONDARY HEADACHES (Dangerous Causes)**
-
-**INTRACRANIAL HYPERTENSION:**
-• Morning headache, worse with Valsalva
-• Papilledema on exam
-• Pulsatile tinnitus
-
-**SUBARACHNOID HEMORRHAGE:**
-• Thunderclap onset (max intensity <1 minute)
-• "Worst headache of life"
-• Sentinel headache (warning leak) in 30%
-
-**TEMPORAL ARTERITIS:**
-• Age >50 years
-• New headache + jaw claudication + scalp tenderness
-• ESR >50 mm/hour
-• Risk of permanent vision loss
-
-**CEREBRAL VENOUS THROMBOSIS:**
-• Progressive headache over weeks
-• Focal deficits, seizures
-• Risk factors: OCP use, pregnancy, thrombophilia
-
-**3. HEADACHE RED FLAGS (SNOOP4)**
-**S** - Systemic symptoms (fever, weight loss)
-**S** - Secondary risk factors (HIV, malignancy)
-**N** - Neurologic symptoms (confusion, weakness)
-**O** - Onset sudden (thunderclap)
-**O** - Older age (>50 new headache)
-**P** - Pattern change (different from usual)
-**P** - Precipitated by Valsalva/cough/position
-**P** - Papilledema
-**P** - Progressive worsening
-
-**4. TREATMENT ALGORITHM**
-
-**ACUTE TREATMENTS:**
-• **Mild-Moderate:** NSAIDs, Acetaminophen
-• **Moderate-Severe:** Triptans (contraindicated in CAD)
-• **Rescue:** Anti-emetics, Neuroleptics
-• **Status Migrainosus:** IV fluids, IV medications
-
-**PREVENTIVE TREATMENTS:**
-• **First-line:** Propranolol, Amitriptyline, Topiramate
-• **Second-line:** Candesartan, Venlafaxine
-• **CGRP mAbs:** Monthly injections for refractory cases
-• **Botox:** For chronic migraine
-
-**5. WHEN TO CONSULT A DOCTOR**
-**Primary Care (Schedule Appointment):**
-• New headache pattern in adult >50 years
-• Headaches increasing in frequency/severity
-• Need for preventive treatment
-• Medication overuse (>10-15 days/month analgesics)
-
-**Neurology Referral (Urgent):**
-• Thunderclap headache
-• Headache with focal neurologic deficits
-• Headache with papilledema
-• Suspected cluster headache
-• Refractory migraine failing 2-3 preventives
-
-**Emergency Department (Immediate):**
-• First/worst severe headache of life
-• Headache with fever + neck stiffness
-• Headache after head trauma with LOC
-• Headache with seizures or altered consciousness
-• Thunderclap headache (rule out SAH)
-`,
-
-
-  // UPDATED AND EXPANDED TEMPLATES:
-
-  /* =========================
-     HEAD & NEUROLOGICAL
-  ========================== */
-
   hair_loss: `
-**💇 HAIR LOSS (ALOPECIA) - Comprehensive Evaluation**
+I'm sorry to hear you're experiencing hair loss. Here are some guidelines:
 
-**1. CLASSIFICATION**
-**NON-SCARRING (Reversible):**
-• **Androgenetic alopecia:** Male/female pattern, genetic
-• **Telogen effluvium:** Stress, illness, postpartum, medication
-• **Alopecia areata:** Autoimmune, patchy loss, exclamation mark hairs
-• **Traction alopecia:** Hair styling practices
-• **Trichotillomania:** Compulsive hair pulling
+**When to Seek Immediate Medical Care**
+- Sudden, patchy hair loss with itching, burning, or pain on scalp
+- Hair loss with skin changes, redness, scaling, or pus
+- Hair loss after starting new medication
+- Hair loss with fatigue, weight changes, or muscle weakness
 
-**SCARRING (Permanent):**
-• **Lichen planopilaris:** Violaceous papules, perifollicular scale
-• **Discoid lupus:** Erythematous plaques with scaling/follicular plugging
-• **Folliculitis decalvans:** Pustules, tufted hairs
-• **Central centrifugal cicatricial alopecia:** African descent, central scalp
+**When to Call a Doctor**
+- Losing large amounts of hair daily (more than 100-150 hairs)
+- Notice bald patches or thinning areas
+- Hair loss has been progressive over several months
+- Hair loss is affecting your self-esteem
 
-**2. DIAGNOSTIC APPROACH**
-**HISTORY:**
-• Pattern: Diffuse vs patchy, acute vs chronic
-• Shedding: Amount (>100 hairs/day abnormal)
-• Timing: Postpartum, after illness, medication changes
-• Family history: Pattern baldness
+**Possible Causes**
+- Androgenetic alopecia (genetic thinning)
+- Telogen effluvium (temporary shedding after stress/illness)
+- Alopecia areata (autoimmune patchy loss)
+- Nutritional deficiencies (iron, protein, vitamins)
+- Thyroid disorders, medications, hormonal changes
 
-**EXAMINATION:**
-• **Pull test:** >6 hairs suggests active shedding
-• **Hair wash test:** Count shed hairs during washing
-• **Dermoscopy:** Assess follicular openings, inflammation
-• **Scalp biopsy:** Gold standard for scarring alopecia
+**What You Can Do**
+- Be gentle with your hair—avoid tight styles and harsh chemicals
+- Eat a balanced diet rich in protein, iron, and vitamins
+- Manage stress through relaxation techniques
+- Consider over-the-counter treatments like minoxidil
 
-**3. TREATMENT OPTIONS**
-**ANDROGENETIC ALOPECIA:**
-• **Men:** Minoxidil 5%, Finasteride 1mg
-• **Women:** Minoxidil 2%, Spironolactone, Anti-androgens
-• **Advanced:** Hair transplant, PRP therapy
-
-**ALOPECIA AREATA:**
-• **Mild:** Intralesional steroids, Topical steroids
-• **Moderate:** Topical immunotherapy (DPCP, SADBE)
-• **Severe:** Systemic steroids, JAK inhibitors
-
-**TELOGEN EFFLUVIUM:**
-• Identify/treat underlying cause
-• Nutritional optimization (iron, zinc, biotin)
-• Time (usually resolves in 6-12 months)
-
-**4. WHEN TO CONSULT A DOCTOR**
-**Dermatology (Within 1 month):**
-• Rapid hair loss (>50% density)
-• Suspected scarring alopecia
-• Patchy hair loss (alopecia areata)
-• Failed OTC treatments
-• Need for prescription therapy
-
-**Endocrinology:**
-• Hormonal imbalance suspected
-• PCOS-related hair loss
-• Thyroid disorders
-
-**Mental Health:**
-• Trichotillomania
-• Significant distress from hair loss
+**Final Advice**
+Some hair loss is temporary and will resolve on its own. However, if your hair loss is significant, progressive, or causing distress, consult a healthcare professional. Early intervention often yields better results.
 `,
 
   scalp_issues: `
-**🧠 SCALP CONDITIONS - Diagnosis & Management**
+I'm sorry to hear you're experiencing scalp problems. Here are some guidelines:
 
-**1. INFLAMMATORY CONDITIONS**
-**SEBORRHEIC DERMATITIS:**
-• **Distribution:** Scalp, face, chest, folds
-• **Appearance:** Yellowish, greasy scales on erythematous base
-• **Treatment:** Antifungal shampoos (ketoconazole), topical steroids
+**When to Seek Immediate Medical Care**
+- Severe swelling or redness spreading rapidly
+- Fever along with scalp pain and redness
+- Blisters, open sores, or pus-filled bumps
+- Sudden hair loss with scalp inflammation
 
-**PSORIASIS:**
-• **Scalp psoriasis:** Thick silvery scales, well-demarcated plaques
-• **Treatment:** Topical steroids, vitamin D analogs, tar shampoos, systemic agents for severe
+**When to Call a Doctor**
+- Symptoms don't improve after 2 weeks of OTC treatment
+- Persistent itching that interferes with sleep
+- Scaly patches, flaking, or crusting that won't go away
+- Suspect lice or another contagious condition
 
-**CONTACT DERMATITIS:**
-• Hair products, dyes, chemicals
-• Itchy, erythematous, vesicular
-• **Treatment:** Avoid allergen, topical steroids
+**Possible Causes**
+- Dandruff or seborrheic dermatitis (flaking, itching)
+- Psoriasis (thick, silvery scales)
+- Folliculitis (infected hair follicles)
+- Tinea capitis (scalp ringworm)
+- Lice infestation, contact dermatitis, scalp acne
 
-**2. INFECTIOUS**
-**TINEA CAPITIS (Ringworm):**
-• **Children mainly:** Broken hairs, black dots, kerion possible
-• **Diagnosis:** KOH prep, fungal culture
-• **Treatment:** Oral antifungals (griseofulvin, terbinafine) 6-8 weeks
+**What You Can Do**
+- Use medicated shampoos (zinc pyrithione, selenium sulfide, ketoconazole)
+- Avoid scratching to prevent infection
+- Wash hair regularly with gentle products
+- Apply cool compresses to relieve itching
 
-**FOLLICULITIS:**
-• **Bacterial:** Staph aureus, pustules at follicular openings
-• **Fungal:** Pityrosporum (Malassezia)
-• **Treatment:** Antibiotics, antifungal shampoos
-
-**PEDICULOSIS CAPITIS (Lice):**
-• **Symptoms:** Itching, nits on hair shafts
-• **Treatment:** Permethrin, malathion, ivermectin, manual removal
-
-**3. NEOPLASTIC**
-**ACTINIC KERATOSIS:** Sun damage, precancerous
-**BASAL CELL CARCINOMA:** Most common scalp skin cancer
-**SQUAMOUS CELL CARCINOMA:** More aggressive
-**MELANOMA:** ABCD criteria apply
-
-**4. WHEN TO CONSULT A DOCTOR**
-**Emergency:** Severe infection with systemic symptoms
-**Dermatology:** Persistent symptoms, suspected cancer, treatment failure
-**Primary Care:** Initial management, mild cases
+**Final Advice**
+Most common scalp conditions like dandruff can be managed with OTC treatments and good hair care. If symptoms are severe or persistent, seek medical evaluation for proper diagnosis.
 `,
 
+  /* =========================
+     EYES
+  ========================== */
   eye_problems: `
-**👁️ EYE SYMPTOMS - Comprehensive Guide**
+I'm sorry to hear you're experiencing eye problems. Here are some guidelines:
 
-**1. RED EYE DIFFERENTIAL**
-**NON-VISION THREATENING:**
-• **Conjunctivitis:** Viral (watery, contagious), Bacterial (purulent), Allergic (itching, bilateral)
-• **Subconjunctival hemorrhage:** Bright red, painless, no vision change
-• **Blepharitis:** Lid margin inflammation, crusting, chronic
+**When to Seek Immediate Medical Care**
+- Sudden loss of vision or significant vision changes
+- Severe eye pain, especially with nausea or vomiting
+- Sudden floaters, flashes of light, or curtain-like vision loss
+- Chemical or foreign object in eye, eye trauma
+- Double vision or sudden drooping of eyelid
 
-**VISION THREATENING:**
-• **Acute angle closure glaucoma:** Severe pain, nausea, halos, fixed mid-dilated pupil
-• **Uveitis:** Pain, photophobia, redness, decreased vision
-• **Keratitis:** Corneal inflammation/infection, photophobia, foreign body sensation
-• **Scleritis:** Deep boring pain, violet hue, systemic association (RA, vasculitis)
+**When to Call a Doctor**
+- Eye redness persists for more than 2 days
+- Moderate eye pain that doesn't improve
+- Vision changes like blurriness or distortion
+- Green, yellow, or excessive discharge
+- You wear contact lenses and develop irritation
 
-**2. VISUAL DISTURBANCES**
-**SUDDEN VISION LOSS:**
-• **Amaurosis fugax:** Transient monocular (carotid/retinal artery)
-• **Retinal detachment:** Floaters, flashes, curtain over vision
-• **CRAO/Central retinal artery occlusion:** Painless, profound loss, cherry red spot
-• **CRVO/Central retinal vein occlusion:** Painless, retinal hemorrhages
-• **Giant cell arteritis:** Age >50, jaw claudication, scalp tenderness, elevated ESR
+**Possible Causes**
+- Conjunctivitis (pink eye): viral, bacterial, allergic
+- Styes or chalazions (eyelid infections)
+- Dry eye syndrome, corneal abrasions
+- Glaucoma, cataracts, macular degeneration
+- Diabetic retinopathy, migraine with aura
 
-**GRADUAL VISION LOSS:**
-• **Cataracts:** Cloudy lens, glare, colors faded
-• **Glaucoma:** Peripheral vision loss first (tunnel vision)
-• **Macular degeneration:** Central vision loss, distortion (Amsler grid)
-• **Diabetic retinopathy:** Floaters, blurred vision, progressive
+**What You Can Do**
+- Apply warm compresses for styes
+- Use artificial tears for dry eyes
+- Avoid rubbing your eyes
+- Rest eyes from screens and bright lights
+- Remove contact lenses if you wear them
 
-**3. COMMON EYE CONDITIONS**
-**DRY EYE SYNDROME:**
-• Burning, gritty sensation, intermittent blurring
-• **Treatment:** Artificial tears, punctal plugs, anti-inflammatories
-
-**STYE (Hordeolum):**
-• Acute tender lump at lid margin
-• **Treatment:** Warm compresses, may need incision
-
-**CHALAZION:**
-• Chronic painless lump deeper in lid
-• **Treatment:** Warm compresses, steroid injection, excision
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY (Immediate):**
-• Sudden vision loss (any degree)
-• Severe eye pain
-• Chemical burns
-• Penetrating trauma
-• Flashes/floaters with vision loss
-
-**URGENT (Within 24 hours):**
-• Moderate-severe pain
-• Significant vision decrease
-• Purulent discharge
-• Corneal abrasion symptoms
-
-**OPHTHALMOLOGY (Schedule):**
-• Gradual vision changes
-• Chronic redness/discomfort
-• Routine exams (glaucoma, diabetes screening)
+**Final Advice**
+Never ignore sudden or severe eye symptoms—they can lead to permanent vision loss. Even mild persistent symptoms should be evaluated by an eye care professional. Regular eye exams are important for maintaining eye health.
 `,
 
+  /* =========================
+     EARS
+  ========================== */
   ear_problems: `
-**👂 EAR CONDITIONS - Comprehensive Evaluation**
+I'm sorry to hear you're experiencing ear problems. Here are some guidelines:
 
-**1. EAR PAIN (OTALGIA)**
-**PRIMARY (Ear origin):**
-• **Otitis externa:** Pain with tragus/pinna movement, swimmer's ear
-• **Otitis media:** Bulging TM, fever, recent URI
-• **Furuncle:** Localized abscess in ear canal, extremely tender
-• **Barotrauma:** Pressure changes, TM hemorrhage
+**When to Seek Immediate Medical Care**
+- Sudden hearing loss in one or both ears
+- Severe ear pain with fever, headache, or stiff neck
+- Clear fluid or blood draining from ear after head injury
+- Severe dizziness with vomiting
+- Facial weakness or drooping on one side
 
-**REFERRED PAIN:**
-• **Dental:** TMJ, caries, impacted teeth
-• **Pharyngeal:** Tonsillitis, pharyngitis, cancer
-• **Neck:** Cervical arthritis, lymphadenitis
-• **Neurologic:** Trigeminal neuralgia, glossopharyngeal neuralgia
+**When to Call a Doctor**
+- Ear pain lasts more than 2-3 days
+- Hearing loss or muffled hearing
+- Ringing in ears (tinnitus) or dizziness
+- Discharge from ear (unless clear wax)
+- Ear feels blocked and doesn't improve with home care
 
-**2. HEARING LOSS**
-**CONDUCTIVE:**
-• **Causes:** Cerumen impaction, otitis media, otosclerosis, perforation
-• **Weber:** Lateralizes to affected ear
-• **Rinne:** BC > AC
+**Possible Causes**
+- Otitis media (middle ear infection)
+- Otitis externa (swimmer's ear)
+- Earwax buildup, tinnitus
+- Meniere's disease, Eustachian tube dysfunction
+- TMJ disorders, barotrauma
 
-**SENSORINEURAL:**
-• **Causes:** Presbycusis, noise exposure, ototoxicity, Meniere's, acoustic neuroma
-• **Weber:** Lateralizes to better ear
-• **Rinne:** AC > BC (both ears)
+**What You Can Do**
+- Use OTC pain relievers (acetaminophen, ibuprofen)
+- Apply warm compresses to outer ear
+- Chew gum or yawn to equalize pressure
+- Avoid inserting anything into ear canal
+- Keep ears dry during bathing or swimming
 
-**SUDDEN SENSORINEURAL HL:**
-• Medical emergency
-• **Causes:** Viral, vascular, autoimmune, acoustic trauma
-• **Treatment:** High-dose steroids within 72 hours
-
-**3. VERTIGO/DIZZINESS**
-**PERIPHERAL (Inner ear):**
-• **BPPV:** Brief vertigo with position change, positive Dix-Hallpike
-• **Vestibular neuritis:** Severe vertigo, nausea, nystagmus, no hearing loss
-• **Meniere's:** Episodic vertigo, tinnitus, hearing loss, aural fullness
-• **Labyrinthitis:** Similar to neuritis but with hearing loss
-
-**CENTRAL (Brain):**
-• Stroke/TIA, MS, migraine, tumors
-• Often with other neurological symptoms
-
-**4. COMMON CONDITIONS**
-**CERUMEN IMPACTION:**
-• Hearing loss, fullness, tinnitus
-• **Removal:** Irrigation, manual removal, cerumenolytics
-
-**TINNITUS:**
-• **Subjective:** Only patient hears (most common)
-• **Objective:** Examiner can hear (vascular, muscular)
-• **Pulsatile:** Consider vascular causes (AVM, glomus tumor)
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:**
-• Sudden hearing loss
-• Severe vertigo with neurological symptoms
-• Trauma with CSF leak
-• Malignant otitis externa (diabetics, immunocompromised)
-
-**ENT (Within 1 week):**
-• Persistent hearing loss
-• Chronic vertigo
-• Tinnitus evaluation
-• Recurrent infections
-
-**PRIMARY CARE:**
-• Simple otitis externa/media
-• Cerumen impaction
-• Mild-moderate symptoms
+**Final Advice**
+Ear problems can indicate serious conditions, especially with hearing loss, dizziness, or facial weakness. Don't ignore persistent symptoms. Avoid cotton swabs—they push wax deeper or damage the eardrum.
 `,
 
+  /* =========================
+     NOSE
+  ========================== */
   nose_problems: `
-**👃 NASAL & SINUS CONDITIONS**
+I'm sorry to hear you're experiencing nose problems. Here are some guidelines:
 
-**1. RHINITIS TYPES**
-**ALLERGIC:**
-• **Seasonal:** Pollens (spring/fall)
-• **Perennial:** Dust mites, pet dander, mold
-• **Symptoms:** Clear rhinorrhea, sneezing, itching, nasal congestion
-• **Treatment:** Antihistamines, nasal steroids, immunotherapy
+**When to Seek Immediate Medical Care**
+- Nosebleed that doesn't stop after 20 minutes of pressure
+- Difficulty breathing with throat swelling
+- Clear fluid draining from nose after head injury
+- Severe facial pain with fever and vision changes
+- Nose injury with deformity
 
-**NON-ALLERGIC:**
-• **Vasomotor:** Temperature/humidity changes
-• **Infectious:** Viral/bacterial, discolored discharge
-• **Atrophic:** Wide nasal passages, crusting, foul smell (ozena)
-• **Rhinitis medicamentosa:** Rebound from decongestant overuse
+**When to Call a Doctor**
+- Nasal congestion lasts more than 10-14 days
+- Facial pain or pressure persists
+- Frequent nosebleeds
+- Reduced or lost sense of smell
+- Colored nasal discharge with fever
 
-**2. SINUSITIS**
-**ACUTE (<4 weeks):**
-• **Viral:** Most common, resolves in 10 days
-• **Bacterial:** Symptoms >10 days, fever, purulent discharge, facial pain
-• **Diagnosis:** Clinical, CT if complications suspected
-• **Treatment:** Supportive, antibiotics if bacterial
+**Possible Causes**
+- Rhinitis (allergic or non-allergic)
+- Sinusitis (sinus infection)
+- Nasal polyps, deviated septum
+- Nosebleeds (epistaxis)
+- Common cold or flu
 
-**CHRONIC (>12 weeks):**
-• **Symptoms:** Nasal congestion, drainage, facial pressure, reduced smell
-• **Diagnosis:** CT scan, nasal endoscopy
-• **Treatment:** Nasal steroids, saline irrigation, surgery if refractory
+**What You Can Do**
+- Use saline nasal sprays or rinses
+- Use a humidifier
+- Drink plenty of fluids
+- Apply warm compresses to sinus areas
+- Use OTC decongestants or antihistamines as directed
 
-**3. EPISTAXIS (Nosebleeds)**
-**ANTERIOR (90%):**
-• Kiesselbach's plexus
-• **Management:** Pinch nose, lean forward, topical vasoconstrictors
-• **Cautery:** Chemical or electrical
-
-**POSTERIOR (10%):**
-• Sphenopalatine artery
-• Often requires posterior packing, hospitalization
-• Consider in elderly, hypertension, bleeding disorders
-
-**4. NASAL OBSTRUCTION**
-**STRUCTURAL:**
-• **Deviated septum:** Often traumatic, unilateral obstruction
-• **Nasal valve collapse:** Inspiratory collapse
-• **Hypertrophic turbinates:** Chronic inflammation
-• **Polyps:** Bilateral, associated with asthma, aspirin sensitivity
-
-**NEOPLASTIC:**
-• **Benign:** Papilloma, hemangioma
-• **Malignant:** Squamous cell, adenocarcinoma, esthesioneuroblastoma
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:**
-• Uncontrolled epistaxis
-• Severe facial trauma
-• Sudden vision loss with sinusitis
-• Meningitis signs with sinus infection
-
-**ENT (Within 1 week):**
-• Chronic sinusitis (>12 weeks)
-• Nasal polyps
-• Structural obstruction
-• Suspected tumor
-
-**ALLERGY:**
-• Allergic rhinitis failing treatment
-• Need for immunotherapy
+**Final Advice**
+Most nasal symptoms from colds or allergies improve with time. However, persistent symptoms affecting breathing or with pain/fever need medical evaluation. Chronic issues may indicate underlying conditions.
 `,
 
+  /* =========================
+     MOUTH & THROAT
+  ========================== */
   mouth_problems: `
-**👄 ORAL CAVITY CONDITIONS**
+I'm sorry to hear you're experiencing mouth problems. Here are some guidelines:
 
-**1. COMMON ORAL LESIONS**
-**APTHOUS ULCERS (Canker sores):**
-• **Minor:** <1cm, heal in 7-14 days
-• **Major:** >1cm, heal in weeks, scar
-• **Herpetiform:** Clusters of small ulcers
-• **Treatment:** Topical steroids, analgesics, avoid triggers
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or swallowing
+- Severe swelling of lips, tongue, or throat
+- Mouth injury with heavy bleeding
+- Signs of severe infection: high fever, neck swelling
+- Chemical burns in mouth
 
-**ORAL CANDIDIASIS (Thrush):**
-• **Pseudomembranous:** White plaques removable leaving erythema
-• **Erythematous:** Red patches
-• **Angular cheilitis:** Cracks at mouth corners
-• **Risk factors:** Antibiotics, steroids, immunosuppression, dentures
+**When to Call a Doctor**
+- Mouth sores or ulcers last more than 2 weeks
+- Persistent mouth pain without obvious cause
+- White or red patches that don't go away
+- Chronic dry mouth
+- Gums bleed easily or are swollen
 
-**HERPES SIMPLEX:**
-• Primary herpetic gingivostomatitis (children)
-• Recurrent herpes labialis (cold sores)
-• **Treatment:** Antivirals (acyclovir, valacyclovir)
+**Possible Causes**
+- Canker sores, cold sores
+- Oral thrush (fungal infection)
+- Gingivitis, periodontitis
+- Tooth decay or abscess
+- Dry mouth (xerostomia)
 
-**LICHEN PLANUS:**
-• **Reticular:** White lace-like pattern
-• **Erosive:** Painful ulcers
-• **Malignant potential:** Monitor for transformation
+**What You Can Do**
+- Practice good oral hygiene: brush twice, floss daily
+- Use salt water rinses for mouth sores
+- Avoid spicy, acidic, or rough foods
+- Stay hydrated
+- Use OTC topical treatments for canker/cold sores
 
-**2. DENTAL PROBLEMS**
-**CARIES:** Tooth decay, cavities
-**GINGIVITIS:** Bleeding gums, inflammation
-**PERIODONTITIS:** Bone loss, tooth mobility
-**PERIAPICAL ABSCESS:** Tooth infection, swelling, pain
-
-**3. ORAL CANCER**
-**RISK FACTORS:** Tobacco, alcohol, HPV, betel nut
-**COMMON SITES:** Tongue, floor of mouth, lips
-**SIGNS:** Non-healing ulcer, erythroplakia (red patch), leukoplakia (white patch), mass
-**DIAGNOSIS:** Biopsy
-
-**4. TEMPOROMANDIBULAR DISORDERS**
-**MYOFASCIAL PAIN:** Muscle tenderness, trigger points
-**INTERNAL DERANGEMENT:** Disc displacement
-**ARTHRITIS:** Osteoarthritis, rheumatoid arthritis
-**SYMPTOMS:** Jaw pain, clicking/popping, limited opening, headaches
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:**
-• Airway compromise (epiglottitis, Ludwig's angina)
-• Uncontrolled bleeding
-• Severe infection with systemic symptoms
-
-**DENTIST:**
-• Dental pain, caries
-• Gum disease
-• Routine care
-
-**ORAL SURGERY:**
-• Wisdom teeth, extractions
-• Biopsy of lesions
-• TMJ disorders
-
-**ENT/ORAL MEDICINE:**
-• Persistent mouth ulcers
-• Oral cancer screening
-• Complex oral conditions
+**Final Advice**
+Regular dental check-ups are essential. Don't ignore persistent mouth symptoms—they can indicate underlying health issues. Good oral hygiene and avoiding tobacco are key preventive measures.
 `,
 
   throat_problems: `
-**🗣️ THROAT CONDITIONS**
+I'm sorry to hear you're experiencing throat problems. Here are some guidelines:
 
-**1. SORE THROAT DIFFERENTIAL**
-**VIRAL PHARYNGITIS:**
-• Rhinovirus, adenovirus, influenza
-• Cough, rhinorrhea, conjunctivitis common
-• Self-limited (3-5 days)
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or noisy breathing
+- Inability to swallow liquids or saliva
+- Severe throat pain with drooling
+- Rapidly increasing neck swelling
+- Signs of anaphylaxis: throat swelling, hives, difficulty breathing
 
-**STREPTOCOCCAL PHARYNGITIS:**
-• Group A Strep (S. pyogenes)
-• **Centor Criteria:** Fever, tonsillar exudate, tender nodes, no cough
-• **Treatment:** Penicillin/amoxicillin to prevent rheumatic fever
+**When to Call a Doctor**
+- Sore throat lasts more than a week
+- Difficulty swallowing that persists
+- Hoarseness lasting more than 2 weeks
+- Lump in neck or throat
+- Cough up blood
+- Fever over 101°F with sore throat
 
-**EPIGLOTTITIS:**
-• **Medical emergency**
-• H. influenzae type b (vaccine reduced incidence)
-• **Symptoms:** Severe pain, dysphagia, drooling, tripod position, stridor
-• Do not examine throat (can cause obstruction)
+**Possible Causes**
+- Pharyngitis (viral or bacterial)
+- Tonsillitis, laryngitis
+- Strep throat
+- GERD (acid reflux)
+- Postnasal drip, allergies
 
-**PERITONSILLAR ABSCESS:**
-• Complication of tonsillitis
-• Unilateral severe pain, trismus, "hot potato" voice, uvular deviation
-• **Treatment:** Drainage, antibiotics
+**What You Can Do**
+- Gargle with warm salt water
+- Drink warm liquids with honey
+- Use throat lozenges
+- Use a humidifier
+- Rest your voice if hoarse
 
-**2. TONSILLITIS**
-**ACUTE:** Viral or bacterial, enlarged, erythematous, exudate
-**RECURRENT:** >7 episodes/year, >5/year for 2 years, >3/year for 3 years
-**CHRONIC:** Persistent enlargement, cryptic debris
-**TREATMENT:** Supportive, antibiotics if bacterial, tonsillectomy if recurrent
-
-**3. VOICE PROBLEMS**
-**LARYNGITIS:** Hoarseness, often viral
-**VOCAL CORD NODULES:** Bilateral, from overuse (singer's nodes)
-**POLYPS:** Unilateral, from trauma/irritation
-**PARALYSIS:** Unilateral/bilateral, from surgery, neurological, malignancy
-**REFLUX LARYNGITIS:** Chronic throat clearing, globus sensation, morning hoarseness
-
-**4. SWALLOWING DIFFICULTIES**
-**ODYNOPHAGIA (Painful swallow):** Infection, inflammation
-**DYSPHAGIA (Difficulty swallow):**
-• **Oropharyngeal:** Neurological (stroke, Parkinson's), muscular (myasthenia)
-• **Esophageal:** Stricture, tumor, achalasia, GERD
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:**
-• Respiratory distress, stridor
-• Drooling, inability to swallow
-• Severe dehydration
-• Suspected epiglottitis/deep neck infection
-
-**ENT (Urgent):**
-• Peritonsillar abscess
-• Persistent hoarseness >3 weeks
-• Unilateral throat pain with risk factors (smoking, alcohol)
-• Suspected cancer
-
-**PRIMARY CARE:**
-• Simple pharyngitis
-• Mild-moderate symptoms
-• Initial evaluation
+**Final Advice**
+Most sore throats improve within a week. However, persistent, severe, or breathing-affecting symptoms need medical evaluation. Strep throat requires antibiotics to prevent complications.
 `,
 
   /* =========================
-     NECK & UPPER BODY
+     HEADACHE
   ========================== */
-  back_pain: `
-**🦴 BACK PAIN - Mechanical vs Systemic**
+  headache: `
+I'm sorry to hear you're experiencing a headache. Here are some guidelines:
 
-**1. CLASSIFICATION BY DURATION**
-• **Acute:** <6 weeks
-• **Subacute:** 6-12 weeks
-• **Chronic:** >12 weeks
+**When to Seek Immediate Medical Care**
+- Severe pain that is sudden and intense (thunderclap)
+- Numbness or weakness on one side of face or body
+- Confusion, forgetfulness, or trouble speaking
+- Fever and stiff neck
+- Headache after trauma or head injury
 
-**2. MECHANICAL BACK PAIN (95% of cases)**
+**When to Call a Doctor**
+- Daily headaches that don't improve with treatment
+- Headache symptoms change or new symptoms appear
+- Headaches becoming more frequent or severe
+- Need pain medications daily to manage headaches
+- Headaches interfere with daily activities
 
-**LUMBAR STRAIN/SPRAIN:**
-• Pain with movement, improves with rest
-• Paraspinal muscle tenderness
-• No neurological deficits
+**Possible Causes**
+- Tension headaches (stress, muscle tension)
+- Migraines (with nausea, light sensitivity)
+- Cluster headaches (intense pain around one eye)
+- Sinus headaches (with congestion)
+- Medication overuse headaches
 
-**DISC HERNIATION:**
-• **L4-L5:** L5 radiculopathy (foot drop, great toe weakness)
-• **L5-S1:** S1 radiculopathy (ankle reflex loss, lateral foot numbness)
-• Positive straight leg raise test
+**What You Can Do**
+- Rest in cool, dark, quiet room
+- Stay hydrated
+- Take OTC pain medications as needed
+- Use relaxation techniques
+- Apply cold or warm compress
 
-**SPINAL STENOSIS:**
-• Neurogenic claudication (pain with walking, relieved by sitting)
-• Elderly patients
-• Extension worsens, flexion improves
-
-**SPONDYLOLISTHESIS:**
-• Step-off deformity on palpation
-• Often L5-S1 level
-• May have hamstring tightness
-
-**3. RED FLAGS FOR SERIOUS PATHOLOGY**
-
-**CAUDA EQUINA SYNDROME (Surgical Emergency):**
-• Saddle anesthesia (perineal numbness)
-• Bladder/bowel dysfunction (retention/incontinence)
-• Lower extremity weakness
-• Sexual dysfunction
-
-**INFECTION (Discitis/Osteomyelitis):**
-• Fever, chills
-• IV drug use, immunosuppression
-• Recent infection/procedure
-• Constant pain, worse at night
-
-**MALIGNANCY:**
-• Age >50 or <20
-• History of cancer
-• Unexplained weight loss
-• Pain worse at night/rest
-• No relief with positional changes
-
-**FRACTURE:**
-• Trauma (major or minor in osteoporosis)
-• Prolonged steroid use
-• Age >70
-• Focal tenderness
-
-**4. NON-MECHANICAL CAUSES**
-
-**INFLAMMATORY (Axial Spondyloarthritis):**
-• Age <40 at onset
-• Morning stiffness >30 minutes
-• Improvement with exercise
-• Alternating buttock pain
-• HLA-B27 positive
-
-**REFERRED PAIN:**
-• **Renal:** Flank pain, urinary symptoms
-• **Pancreatic:** Epigastric radiating to back
-• **Aortic:** Tearing pain, pulsatile mass
-• **Gynecologic:** Cyclic, pelvic symptoms
-
-**5. WHEN TO CONSULT A DOCTOR**
-**Emergency Department (Immediate):**
-• Cauda equina symptoms (saddle anesthesia, bladder issues)
-• Severe trauma (fall, MVA)
-• Fever >101°F with back pain
-• Neurologic deficit progression
-• Suspected aortic dissection
-
-**Urgent Care/Primary Care (Within 24 hours):**
-• Radicular symptoms (leg pain/numbness/weakness)
-• Failure of conservative treatment >6 weeks
-• New onset in elderly or immunocompromised
-• Night pain preventing sleep
-
-**Physical Therapy (Initial Conservative Management):**
-• Mechanical back pain without red flags
-• Postural strain
-• Mild-moderate pain
-• Need for exercise prescription
-
-**Specialist Referral (Ortho/Neuro/PM&R):**
-• Failed 6 weeks conservative treatment
-• Neurological deficits
-• Suspected serious pathology
-• Need for interventional procedures
+**Final Advice**
+If your headache is mild without concerning symptoms, try home management. If it persists, worsens, or has other symptoms, consult a healthcare professional to rule out serious conditions.
 `,
+
+  /* =========================
+     NECK
+  ========================== */
   neck_pain: `
-**👔 NECK PAIN - Cervical Spine Issues**
+I'm sorry to hear you're experiencing neck pain. Here are some guidelines:
 
-**1. MECHANICAL NECK PAIN**
-**CERVICAL STRAIN/SPRAIN:**
-• Postural, muscle overuse, poor ergonomics
-• Pain with movement, muscle tenderness
-• No neurological deficits
+**When to Seek Immediate Medical Care**
+- Trauma from accident, fall, or blow to neck
+- Severe pain with weakness or numbness in arms/legs
+- Loss of bladder or bowel control
+- Fever with neck stiffness and headache
+- Difficulty walking or maintaining balance
 
-**DISC HERNIATION:**
-• **C5-C6:** C6 radiculopathy (thumb/index numbness, biceps weakness)
-• **C6-C7:** C7 radiculopathy (middle finger, triceps weakness)
-• **Spurling test:** Extend/rotate head toward symptomatic side → radicular pain
+**When to Call a Doctor**
+- Neck pain persists for more than a week
+- Pain radiates down one arm with numbness
+- Difficulty turning head or looking up/down
+- Pain wakes you from sleep
+- Headaches accompany neck pain
 
-**CERVICAL SPONDYLOSIS:**
-• Degenerative changes (disc, facet joints, osteophytes)
-• **Myelopathy signs:** Gait disturbance, hand clumsiness, hyperreflexia, Babinski
-• **Radiculopathy:** Nerve root compression symptoms
+**Possible Causes**
+- Muscle strain (poor posture, sleeping position)
+- Whiplash (injury from sudden movement)
+- Cervical spondylosis (age-related wear)
+- Herniated disc, pinched nerve
+- Arthritis, meningitis (with fever)
 
-**WHIPLASH:**
-• Acceleration-deceleration injury (MVA)
-• Delayed onset (12-24 hours)
-• Multiple symptoms: Pain, stiffness, headache, dizziness, cognitive
+**What You Can Do**
+- Apply ice first 48 hours, then heat
+- Take OTC pain relievers
+- Practice gentle neck stretches
+- Maintain good posture
+- Use supportive pillow
 
-**2. NON-MECHANICAL CAUSES**
-**INFLAMMATORY:**
-• **Rheumatoid arthritis:** Atlantoaxial subluxation risk
-• **Ankylosing spondylitis:** Bamboo spine, limited motion
-
-**INFECTIOUS:**
-• **Meningitis:** Fever, headache, photophobia, nuchal rigidity
-• **Discitis/Osteomyelitis:** Constant pain, fever, elevated ESR/CRP
-
-**NEOPLASTIC:**
-• Metastatic disease (breast, lung, prostate, kidney)
-• Primary spinal tumors
-• Night pain, unexplained weight loss
-
-**3. RED FLAGS**
-• Trauma (especially high-energy)
-• Fever, night sweats, weight loss
-• Neurological deficits (weakness, gait problems)
-• Severe headache with neck pain
-• History of cancer, immunosuppression
-• Pain that doesn't improve with rest
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:**
-• Trauma with neurological deficit
-• Suspected meningitis
-• Severe pain with myelopathy signs
-• Instability (rheumatoid with neurological symptoms)
-
-**NEUROLOGY/ORTHO:**
-• Radiculopathy with weakness
-• Myelopathy symptoms
-• Failed conservative treatment >6 weeks
-• Need for imaging/specialized testing
-
-**PHYSICAL THERAPY:**
-• Mechanical neck pain
-• Postural correction
-• Exercise prescription
+**Final Advice**
+Most neck pain improves within days to weeks. However, neck pain with neurological symptoms needs prompt evaluation. Good posture and ergonomics help prevent recurrence.
 `,
 
-  shoulder_pain: `
-**💪 SHOULDER CONDITIONS**
+  dementia_memory: `
+I'm sorry to hear you're experiencing memory problems. Here are some guidelines:
 
-**1. ROTATOR CUFF DISORDERS**
-**TENDINOPATHY:** Overuse, age-related degeneration
-**TEARS:**
-• **Partial thickness:** Deep aching, night pain
-• **Full thickness:** Weakness, possible atrophy
-• **Tests:** Empty can (supraspinatus), lift-off (subscapularis)
+**When to Seek Immediate Medical Care**
+- Sudden confusion or disorientation
+- Loss of consciousness or fainting
+- Severe headache with memory changes
+- Sudden difficulty speaking
+- Weakness on one side of body
+- Recent head injury with memory problems
 
-**IMPINGEMENT SYNDROME:**
-• Pain with overhead activities
-• **Neer test:** Pain with forced flexion
-• **Hawkins test:** Pain with internal rotation at 90° flexion
+**When to Call a Doctor**
+- Memory problems interfere with daily activities
+- Forgetting important information
+- Family/friends express concern
+- Getting lost in familiar places
+- Difficulty managing finances or medications
+- Memory problems getting worse over time
 
-**2. GLENOHUMERAL INSTABILITY**
-**DISLOCATION:**
-• **Anterior (95%):** Arm abducted/externally rotated
-• **Posterior:** Seizure, electrocution
-• **Multidirectional:** Generalized laxity
+**Possible Causes**
+- Normal age-related changes
+- Mild cognitive impairment
+- Alzheimer's disease, vascular dementia
+- Medication side effects
+- Depression, anxiety
+- Thyroid problems, vitamin deficiencies
+- Sleep disorders
 
-**LABRAL TEARS:**
-• **SLAP:** Superior labrum anterior to posterior
-• **Bankart:** Anterior inferior, associated with dislocation
+**What You Can Do**
+- Use memory aids (calendars, lists, reminders)
+- Establish routines
+- Get regular physical exercise
+- Engage in mentally stimulating activities
+- Ensure adequate sleep
+- Stay socially engaged
 
-**3. ADHESIVE CAPSULITIS (Frozen Shoulder)**
-**STAGES:**
-• **Freezing:** Progressive pain, stiffness (3-9 months)
-• **Frozen:** Less pain, marked stiffness (4-12 months)
-• **Thawing:** Gradual improvement (12-42 months)
-
-**RISK FACTORS:** Diabetes, thyroid disease, immobilization
-**TREATMENT:** PT, intraarticular steroids, manipulation under anesthesia
-
-**4. ARTHRITIS**
-**OSTEOARTHRITIS:** Age, prior trauma, crepitus
-**RHEUMATOID:** Symmetric, synovitis, systemic
-**AVASCULAR NECROSIS:** Steroid use, sickle cell, trauma
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Acute dislocation, trauma with deformity
-**ORTHOPEDICS:** Persistent pain >6 weeks, weakness, instability, need for surgery
-**PRIMARY CARE/PT:** Initial management, mild-moderate symptoms
-`,
-
-  elbow_pain: `
-**🦾 ELBOW CONDITIONS**
-
-**1. LATERAL EPICONDYLITIS (Tennis Elbow)**
-• Overuse of wrist extensors
-• Pain with gripping, lifting
-• **Cozen's test:** Pain with resisted wrist extension
-• **Treatment:** Rest, PT, brace, steroid injection, surgery if chronic
-
-**2. MEDIAL EPICONDYLITIS (Golfer's Elbow)**
-• Overuse of wrist flexors/pronators
-• Pain with gripping, throwing
-• **Treatment:** Similar to lateral epicondylitis
-
-**3. OLECRANON BURSITIS**
-• **Non-inflammatory:** Trauma, repetitive pressure
-• **Inflammatory:** Gout, RA, pseudogout
-• **Septic:** Warm, erythematous, fever, aspiration needed
-• **Treatment:** Aspiration, compression, antibiotics if septic
-
-**4. NERVE ENTRAPMENT**
-**CUBITAL TUNNEL (Ulnar nerve):**
-• Medial elbow pain, 4th/5th finger numbness
-• Tinel's sign at cubital tunnel
-• **Treatment:** Elbow pad, activity modification, surgery
-
-**RADIAL TUNNEL:** Lateral elbow pain without sensory changes
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Septic bursitis, trauma with deformity
-**ORTHOPEDICS:** Failed conservative treatment, neurological symptoms, need for surgery
-**PRIMARY CARE:** Initial management, mild cases
-`,
-
-  wrist_pain: `
-**🖐️ WRIST CONDITIONS**
-
-**1. CARPAL TUNNEL SYNDROME**
-• Median nerve compression
-• **Symptoms:** Numbness/tingling thumb/index/middle, night waking, thenar atrophy
-• **Tests:** Tinel's, Phalen's, Durkan's compression
-• **Treatment:** Splint, steroid injection, surgery
-
-**2. DE QUERVAIN'S TENOSYNOVITIS**
-• First dorsal compartment (APL/EPB)
-• Pain with thumb motion, Finkelstein test positive
-• **Treatment:** Thumb spica splint, NSAIDs, steroid injection
-
-**3. GANGLION CYST**
-• Most common soft tissue mass
-• Dorsal wrist (scapholunate) or volar
-• May cause pain, weakness, cosmetic concern
-• **Treatment:** Aspiration, excision if symptomatic
-
-**4. TRAUMA-RELATED**
-**SCAPHOID FRACTURE:**
-• Snuffbox tenderness
-• High non-union risk (proximal pole avascular)
-• **Treatment:** Cast, surgery if displaced/non-union
-
-**DISTAL RADIUS FRACTURE:**
-• Colles' (dorsal displacement), Smith's (volar)
-• Common in osteoporosis
-
-**5. ARTHRITIS**
-**OA:** 1st CMC joint (basal joint), squaring
-**RA:** Symmetric, ulnar deviation, swan neck/boutonniere deformities
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Trauma with deformity, neurovascular compromise
-**HAND SURGERY:** Persistent symptoms, neurological deficits, fractures, masses
-**PRIMARY CARE:** Initial evaluation, mild CTS, splinting
-`,
-
-  hand_finger_problems: `
-**✋ HAND & FINGER CONDITIONS**
-
-**1. TRIGGER FINGER**
-• Stenosing tenosynovitis of flexor tendon
-• Catching/locking, palpable nodule
-• **Treatment:** Splint, steroid injection, surgery
-
-**2. DUPUYTREN'S CONTRACTURE**
-• Palmar fascia thickening/nodules
-• Progressive finger flexion contracture (ring>little>middle)
-• **Risk factors:** Northern European, male, diabetes, alcohol, smoking
-• **Treatment:** Collagenase injection, needle aponeurotomy, surgery
-
-**3. ARTHRITIS**
-**HEBERDEN'S NODES:** DIP joint OA
-**BOUCHARD'S NODES:** PIP joint OA
-**RA:** PIP/MCP involvement, ulnar deviation, synovitis
-
-**4. INFECTIONS**
-**PARONYCHIA:** Nail fold infection
-**FELON:** Pulp space infection (closed space)
-**FLEXOR TENOSYNOVITIS:**
-• **Kanavel signs:** Fusiform swelling, semiflexed posture, pain with extension, tenderness along sheath
-• Surgical emergency
-
-**5. NAIL DISORDERS**
-**ONYCHOMYCOSIS:** Fungal infection, thickened, discolored
-**PSORIASIS:** Pitting, oil spots, onycholysis
-**INGROWN TOENAIL:** Pain, erythema, drainage
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Flexor tenosynovitis, severe infection, trauma with neurovascular compromise
-**HAND SURGERY/DERMATOLOGY:** Persistent problems, infections, need for specialized care
+**Final Advice**
+Some memory changes are normal with aging, but significant memory loss affecting daily function is not. Early evaluation allows for better management. Many reversible causes exist, so thorough evaluation is important.
 `,
 
   /* =========================
-     CHEST & THORAX
+     CHEST & RESPIRATORY
   ========================== */
+  chest_pain: `
+I'm sorry to hear you're experiencing chest pain. Here are critical guidelines:
 
-chest_pain: `
-**💓 CHEST PAIN - Life-Threatening vs Benign**
+**When to Seek Immediate Medical Care**
+Call emergency services immediately if you have:
+- Chest pressure, squeezing, or heaviness
+- Pain radiating to jaw, neck, back, shoulder, or arm
+- Shortness of breath with chest discomfort
+- Cold sweat, nausea, or lightheadedness
+- Sudden onset of severe chest pain
+- Chest pain with coughing up blood
 
-**1. CARDIAC CHEST PAIN (Angina/AMI)**
+**When to Call a Doctor**
+- Chest discomfort comes and goes over days
+- Pain occurs with exertion and resolves with rest
+- Heartburn symptoms not responding to antacids
+- Chest pain follows respiratory infection
+- Pain reproducible by pressing on chest wall
 
-**TYPICAL ANGINA:**
-• Substernal chest discomfort
-• Provoked by exertion/emotional stress
-• Relieved by rest/nitroglycerin within 5 minutes
-• Quality: Pressure, squeezing, heaviness
+**Possible Causes**
+- Cardiac: Angina, heart attack
+- Pulmonary: Pulmonary embolism, pneumonia
+- Gastrointestinal: GERD, esophageal spasm
+- Musculoskeletal: Costochondritis, muscle strain
+- Psychological: Anxiety, panic attacks
 
-**ATYPICAL ANGINA:**
-• Meets 2 of above 3 characteristics
+**What You Can Do** (only if mild and non-cardiac)
+- Rest and avoid strenuous activity
+- Use OTC antacids for heartburn
+- Apply heat or ice to sore muscles
+- Practice relaxation techniques
 
-**NON-CARDIAC CHEST PAIN:**
-• Meets 1 or none of above characteristics
-
-**2. ACUTE CORONARY SYNDROMES**
-
-**STEMI (ST-Elevation MI):**
-• >20 minutes continuous chest pain
-• ST elevation on ECG
-• Requires immediate reperfusion (<90 minutes door-to-balloon)
-
-**NSTEMI/Unstable Angina:**
-• Positive cardiac enzymes (NSTEMI)
-• Normal enzymes (Unstable Angina)
-• High-risk features require urgent catheterization
-
-**3. HEART-SCORE FOR RISK STRATIFICATION**
-**Elements (1 point each except age 2 points):**
-• History of CAD
-• Aspirin use in last 7 days
-• Recent severe pain
-• Age >65 (2 points)
-• 3 Cardiac risk factors
-• ST deviation on ECG
-• Positive cardiac markers
-
-**Risk Categories:**
-• 0-3: Low risk (1-2% major cardiac events)
-• 4-6: Moderate risk (8-19%)
-• ≥7: High risk (30-51%)
-
-**4. NON-CARDIAC CAUSES**
-
-**PULMONARY:**
-• Pulmonary embolism (pleuritic, dyspnea, hemoptysis)
-• Pneumothorax (sudden, unilateral, dyspnea)
-• Pneumonia (fever, cough, purulent sputum)
-
-**GASTROINTESTINAL:**
-• GERD (burning, worse after meals/lying down)
-• Esophageal spasm (crushing, may respond to nitrates)
-• Peptic ulcer (epigastric, relieved by antacids)
-
-**MUSCULOSKELETAL:**
-• Costochondritis (reproducible by palpation)
-• Fibromyalgia (multiple tender points)
-• Rib fracture (trauma history, point tenderness)
-
-**5. WHEN TO CONSULT A DOCTOR A DOCTOR**
-**Call 911 Immediately:**
-• Chest pain lasting >15 minutes unrelieved by rest
-• Chest pain with syncope/presyncope
-• Chest pain with systolic BP <90
-• Chest pain with new heart failure symptoms
-• Known CAD with typical symptoms at rest
-
-**Emergency Department (Within 1 hour):**
-• New onset chest pain in high-risk patient
-• Chest pain with diaphoresis/nausea/vomiting
-• Chest pain radiating to jaw/back/arms
-• Chest pain worse with exertion
-
-**Primary Care (Within 24 hours):**
-• Recurrent atypical chest pain
-• Chest pain reproduced by palpation
-• Heartburn-type symptoms without cardiac features
-• Anxiety/panic-related chest pain
-
-**Cardiology Referral:**
-• Abnormal stress test/imaging
-• High Heart-Score ≥7
-• Suspicion of microvascular angina
-• Vasospastic angina symptoms
+**Final Advice**
+Never ignore chest pain, especially if severe, persistent, or with shortness of breath or sweating. When in doubt, seek immediate medical attention—it's always better to be safe.
 `,
 
   shortness_of_breath: `
-**😮‍💨 SHORTNESS OF BREATH (DYSPNEA)**
+I'm sorry to hear you're experiencing shortness of breath. Here are some guidelines:
 
-**1. ACUTE (<72 HOURS)**
-**CARDIAC:**
-• **CHF exacerbation:** Orthopnea, PND, edema, crackles
-• **ACS:** Chest pain, diaphoresis, nausea
-• **Arrhythmia:** Palpitations, lightheadedness
+**When to Seek Immediate Medical Care**
+- Chest pain or pressure
+- Fainting or near-fainting
+- Severe lightheadedness
+- Blue lips or fingertips
+- Confusion
+- Rapid heartbeat
+- Inability to speak in full sentences
 
-**PULMONARY:**
-• **PE:** Pleuritic pain, tachycardia, hypoxia, risk factors
-• **Pneumonia:** Fever, cough, sputum
-• **Asthma/COPD exacerbation:** Wheezing, known history
-• **Pneumothorax:** Sudden, unilateral, decreased breath sounds
+**When to Call a Doctor**
+- Occurs with minimal exertion or at rest
+- Wake up at night short of breath
+- Swelling in legs/ankles with breathing difficulty
+- Fever, cough, or chest congestion
+- Symptoms getting worse over time
+- History of heart or lung disease
 
-**OTHER:**
-• **Anaphylaxis:** Urticaria, swelling, wheezing
-• **Metabolic acidosis:** Kussmaul breathing (DKA, renal failure)
-• **Anemia:** Fatigue, pallor
+**Possible Causes**
+- Respiratory: Asthma, COPD, pneumonia, pulmonary embolism
+- Heart: Heart failure, arrhythmias, heart attack
+- Anxiety or panic attacks
+- Anemia, allergies, obesity
 
-**2. CHRONIC (>1 MONTH)**
-**CARDIAC:**
-• **CHF:** Progressive exertional dyspnea, edema
-• **Valvular disease:** Murmur, depending on valve
+**What You Can Do** (if mild)
+- Sit upright and lean forward slightly
+- Practice pursed-lip breathing
+- Use a fan to circulate air
+- Avoid triggers like smoke or dust
+- Pace activities and rest frequently
 
-**PULMONARY:**
-• **COPD:** Smoking history, progressive, spirometry confirmation
-• **ILD:** Dry crackles (Velcro), clubbing, restrictive pattern
-• **Pulmonary hypertension:** Loud P2, RV heave, syncope
-
-**OTHER:**
-• **Anemia:** CBC confirmation
-• **Deconditioning:** No organic cause, improves with exercise
-• **Psychogenic:** Anxiety, sighing respiration, normal exam
-
-**3. WORKUP BASED ON SUSPICION**
-**BASIC:** CXR, ECG, CBC, BNP, troponin
-**PULMONARY:** PFTs, CT chest, V/Q scan, echocardiogram
-**CARDIAC:** Stress test, cardiac catheterization
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Acute severe dyspnea, hypoxia, chest pain, instability
-**PULMONOLOGY:** Chronic dyspnea, abnormal PFTs, interstitial lung disease
-**CARDIOLOGY:** Suspected cardiac cause, abnormal echo, high BNP
+**Final Advice**
+Shortness of breath should never be ignored, especially if new, worsening, or with other symptoms. Even mild breathing difficulties can indicate serious conditions. When in doubt, seek medical evaluation.
 `,
 
   cough: `
-**🤧 COUGH - Acute vs Chronic**
+I'm sorry to hear you're experiencing a cough. Here are some guidelines:
 
-**1. ACUTE (<3 WEEKS)**
-**VIRAL UPPER RESPIRATORY:** Most common, self-limited
-**ACUTE BRONCHITIS:** Productive cough, usually viral
-**PNEUMONIA:** Fever, productive, crackles, infiltrate on CXR
-**COVID-19:** Varied presentation, testing needed
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or shortness of breath
+- Coughing up blood or pink, frothy mucus
+- Chest pain or pressure
+- High fever with chills
+- Wheezing or noisy breathing
+- Blue lips or fingertips
 
-**2. SUBACUTE (3-8 WEEKS)**
-**POST-INFECTIOUS:** After URI, can last weeks
-**PERTUSSIS:** Paroxysmal cough, whoop, post-tussive vomiting
-**MYCOPLASMA/CHLAMYDIA:** Atypical pneumonia
+**When to Call a Doctor**
+- Cough lasts more than 3 weeks
+- Cough up yellow, green, or bloody mucus
+- Fever lasts more than 3 days
+- Cough interferes with sleep or daily activities
+- Unexplained weight loss with cough
+- Night sweats with cough
 
-**3. CHRONIC (>8 WEEKS)**
-**UPPER AIRWAY COUGH SYNDROME:** Postnasal drip, throat clearing
-**ASTHMA:** Cough-variant, wheezing, response to bronchodilators
-**GERD:** Heartburn, worse lying down, hoarseness
-**ACE INHIBITORS:** Dry cough, starts weeks-months after starting
-**CHRONIC BRONCHITIS:** Productive cough >3 months for 2 consecutive years (smokers)
+**Possible Causes**
+- Upper respiratory infections (cold, flu, COVID-19)
+- Lower respiratory conditions (bronchitis, pneumonia)
+- Chronic conditions (asthma, COPD, GERD)
+- Allergies, medications (ACE inhibitors)
+- Environmental irritants (smoke, dust)
 
-**4. ALARM FEATURES**
-• Hemoptysis
-• Smoking history >20 pack-years
-• Weight loss, night sweats
-• Immunosuppression
-• Dysphagia, hoarseness >3 weeks
+**What You Can Do**
+- Stay hydrated with warm liquids
+- Use a humidifier
+- Try honey (for adults and children over 1 year)
+- Elevate head when sleeping
+- Avoid irritants like smoke
 
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Hemoptysis, respiratory distress, suspected foreign body
-**PULMONOLOGY:** Chronic cough unexplained, abnormal CXR, need for bronchoscopy
-**ENT:** Suspected upper airway cause, chronic sinusitis
-**GI:** Suspected GERD-related cough
+**Final Advice**
+Most acute coughs improve within 1-3 weeks. A cough persisting beyond 3 weeks needs evaluation. If you smoke, quitting is the most important step for lung health.
 `,
 
   palpitations: `
-**💗 PALPITATIONS**
+I'm sorry to hear you're experiencing palpitations. Here are some guidelines:
 
-**1. CHARACTERIZATION**
-**REGULAR vs IRREGULAR:** AFib irregularly irregular
-**RATE:** Tachycardia >100, Bradycardia <60
-**ONSET/OFFSET:** Sudden (SVT), gradual (sinus tachycardia)
-**SYMPTOMS:** Lightheadedness, presyncope, syncope, chest pain
+**When to Seek Immediate Medical Care**
+- Chest pain or pressure
+- Severe shortness of breath
+- Fainting or near-fainting
+- Severe dizziness
+- Rapid heartbeat that doesn't slow
+- History of heart disease with new palpitations
 
-**2. COMMON ARRHYTHMIAS**
-**SUPRAVENTRICULAR:**
-• **SVT:** Regular, rapid, abrupt onset/termination
-• **Atrial fibrillation:** Irregularly irregular, variable intensity
-• **Atrial flutter:** Regular, often 2:1 or 3:1 block
+**When to Call a Doctor**
+- Palpitations occur frequently or worsen
+- Racing heart at rest (over 100 bpm)
+- History of heart conditions
+- Palpitations with fatigue or weakness
+- Risk factors for heart disease
 
-**VENTRICULAR:**
-• **PVCs:** Skipped beat, thump, pause
-• **VT:** Regular, wide QRS, may degenerate to VFib
+**Possible Causes**
+- Stress, anxiety, panic attacks
+- Caffeine, nicotine, alcohol
+- Medications (decongestants, asthma inhalers)
+- Hormonal changes (pregnancy, menopause, thyroid)
+- Heart conditions (arrhythmias)
+- Electrolyte imbalances, anemia
 
-**3. WORKUP**
-**BASIC:** ECG, Holter monitor, event monitor, echocardiogram
-**ADVANCED:** Stress test, EP study, cardiac MRI
+**What You Can Do** (if mild)
+- Sit or lie down and rest
+- Practice deep, slow breathing
+- Drink water
+- Avoid caffeine, nicotine, alcohol
+- Manage stress, ensure adequate sleep
 
-**4. RED FLAGS**
-• Syncope/near syncope
-• Family history of sudden death
-• Known structural heart disease
-• ECG abnormalities (QT prolongation, Brugada pattern)
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** With chest pain, syncope, severe shortness of breath
-**CARDIOLOGY/EP:** Recurrent palpitations, abnormal ECG, need for medication/ablation
+**Final Advice**
+Most palpitations aren't dangerous, but evaluate if frequent, persistent, or with other symptoms. Palpitations with fainting, chest pain, or severe shortness of breath need urgent evaluation.
 `,
 
+/*
   /* =========================
-     ABDOMEN & DIGESTIVE
+     ABDOMINAL & DIGESTIVE
   ========================== */
-
-
   abdominal_pain: `
-**🤢 ABDOMINAL PAIN - Surgical vs Medical**
+I'm sorry to hear you're experiencing abdominal pain. Here are some guidelines:
 
-**1. ANATOMICAL LOCALIZATION**
+**When to Seek Immediate Medical Care**
+- Severe, constant pain that suddenly worsens
+- Pain with fever over 101°F
+- Inability to keep down fluids for 24 hours
+- Blood in vomit or stool
+- Abdomen hard and tender to touch
+- Pain after abdominal trauma
 
-**RIGHT UPPER QUADRANT:**
-• **Gallbladder:** Murphy's sign positive, fatty food intolerance
-• **Liver:** Hepatitis (jaundice, elevated LFTs)
-• **Right kidney:** CVA tenderness, pyelonephritis
-• **Lung:** Basal pneumonia (referred pain)
+**When to Call a Doctor**
+- Pain persists for more than a few days
+- Recurrent abdominal pain
+- Pain interferes with daily activities
+- Unexplained weight loss
+- Changes in bowel habits
+- Pain associated with eating certain foods
 
-**LEFT UPPER QUADRANT:**
-• **Spleen:** Trauma history, mononucleosis
-• **Stomach:** Burning pain, NSAID use
-• **Pancreas:** Epigastric radiating to back, alcohol history
+**Possible Causes**
+- Digestive: Indigestion, gas, constipation
+- Infections: Gastroenteritis, UTIs
+- Inflammatory: Appendicitis, diverticulitis
+- Organ-related: Gallstones, kidney stones
+- Gynecological: Menstrual cramps, ovarian cysts
 
-**PERIUMBILICAL:**
-• **Early appendicitis:** Migrates to RLQ
-• **Small bowel:** Obstruction, ischemia
-• **Aorta:** Pulsatile mass, back pain (AAA)
+**What You Can Do** (if mild)
+- Rest and avoid solid foods for a few hours
+- Sip clear fluids
+- Apply heating pad (avoid if appendicitis suspected)
+- Try OTC antacids or gas relief
+- Eat bland foods (BRAT diet)
 
-**RIGHT LOWER QUADRANT:**
-• **Appendix:** McBurney's point tenderness
-• **Cecum/terminal ileum:** Crohn's disease
-• **Right ovary:** Mittelschmerz, torsion
-
-**LEFT LOWER QUADRANT:**
-• **Sigmoid colon:** Diverticulitis (fever, leukocytosis)
-• **Left ovary:** Similar to right
-
-**DIFFUSE:**
-• Gastroenteritis, peritonitis, IBD, mesenteric ischemia
-
-**2. PAIN CHARACTERISTICS**
-
-**COLICKY (Intermittent):**
-• Renal/ureteral stones: Severe, waves of pain
-• Biliary colic: RUQ, after fatty meals
-• Intestinal obstruction: Crampy, distension
-
-**CONSTANT:**
-• Inflammation: Appendicitis, cholecystitis
-• Ischemia: Severe, out of proportion to exam
-• Perforation: Sudden, severe, board-like rigidity
-
-**3. ALARMS SIGNS FOR SERIOUS PATHOLOGY**
-• **Age >50:** Consider malignancy, diverticulitis, AAA
-• **Weight loss:** Malignancy, IBD, malabsorption
-• **GI bleeding:** Peptic ulcer, malignancy, IBD
-• **Nocturnal pain:** Organic disease (not functional)
-• **Family history:** IBD, celiac, polyposis syndromes
-
-**4. DIAGNOSTIC WORKUP BASED ON LOCATION**
-
-**RLQ PAIN (Appendicitis Workup):**
-• CBC (leukocytosis)
-• Urinalysis (rule out UTI)
-• CT abdomen/pelvis (sensitivity 94%)
-• Ultrasound (alternative in pregnancy/children)
-
-**EPIGASTRIC PAIN (Pancreatitis Workup):**
-• Lipase/amylase (3x upper limit)
-• LFTs, bilirubin
-• CT abdomen (assess severity)
-• Triglycerides, calcium
-
-**5. WHEN TO CONSULT A DOCTOR **
-**Surgical Emergency (Go to ER Now):**
-• Peritonitis signs (rebound, guarding, rigidity)
-• Suspected appendicitis (migratory pain, fever)
-• Bowel obstruction (vomiting, distension, obstipation)
-• Suspected AAA (pulsatile mass, hypotension)
-• Trauma with abdominal pain
-
-**Medical Emergency (Within 2-4 hours):**
-• Severe pain unrelieved by medication
-• Pain with fever >101.5°F (38.6°C)
-• Signs of dehydration/inability to tolerate fluids
-• Blood in stool/vomitus
-• Jaundice with abdominal pain
-
-**Primary Care (Within 24-48 hours):**
-• Mild-moderate pain >48 hours
-• Recurrent pain without alarm features
-• Suspected gastritis/GERD
-• Constipation/diarrhea with pain
-• Dyspepsia symptoms
-
-**Gastroenterology Referral:**
-• Chronic abdominal pain >3 months
-• Suspected IBD (bloody diarrhea, weight loss)
-• Suspected celiac disease (bloating, diarrhea)
-• Family history of GI malignancies
-• Abnormal imaging/lab results
+**Final Advice**
+Most mild abdominal pain resolves within a day or two. Severe, persistent, or worsening pain needs medical evaluation. Don't ignore pain with fever, vomiting, or blood in stool.
 `,
 
   nausea_vomiting: `
-**🤮 NAUSEA & VOMITING**
+I'm sorry to hear you're experiencing nausea or vomiting. Here are some guidelines:
 
-**1. ACUTE (<1 WEEK)**
-**GASTROENTERITIS:** Most common, diarrhea common
-**MEDICATIONS:** Chemo, antibiotics, opioids, digoxin
-**METABOLIC:** DKA, uremia, adrenal insufficiency
-**ABDOMINAL EMERGENCIES:** Pancreatitis, cholecystitis, bowel obstruction, appendicitis
-**NEUROLOGIC:** Migraine, increased ICP, vestibular disorders
+**When to Seek Immediate Medical Care**
+- Severe abdominal pain
+- Chest pain or pressure
+- Head injury followed by vomiting
+- Vomiting blood or coffee-ground material
+- Severe headache with stiff neck
+- Signs of dehydration: dry mouth, no urine for 8 hours
+- Inability to keep down any liquids for 24 hours
 
-**2. CHRONIC/RECURRENT**
-**GASTROPARESIS:** Diabetes, post-surgical, idiopathic
-**GERD:** Heartburn, regurgitation
-**CYCLIC VOMITING SYNDROME:** Stereotypical episodes, migraine association
-**PREGNANCY:** First trimester, hyperemesis gravidarum
-**PSYCHOGENIC:** Eating disorders, anxiety
+**When to Call a Doctor**
+- Vomiting persists more than 2 days
+- Diabetes and can't keep down food/meds
+- Pregnant with severe morning sickness
+- Suspect food poisoning
+- Vomiting after starting new medication
 
-**3. ASSESSMENT**
-**HISTORY:** Timing, relation to meals, content (undigested food suggests gastroparesis)
-**EXAM:** Abdominal, neurological, orthostatic vitals
-**TESTING:** Basic labs, abdominal imaging, gastric emptying study, endoscopy
+**Possible Causes**
+- Gastrointestinal: Food poisoning, gastroenteritis
+- Infections: Stomach flu
+- Pregnancy: Morning sickness
+- Medications: Chemotherapy, antibiotics
+- Migraines, motion sickness
+- Inner ear problems
 
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Severe dehydration, intractable vomiting, severe abdominal pain, neurological signs
-**GI:** Chronic nausea, suspected gastroparesis, need for endoscopy
-**NEUROLOGY:** Migraine-associated, central causes
+**What You Can Do**
+- Start with small sips of clear liquids
+- Progress to bland foods (crackers, toast)
+- Use ginger (tea, candies)
+- Eat smaller, more frequent meals
+- Avoid strong odors, fatty/spicy foods
+
+**Final Advice**
+Most vomiting improves within 24-48 hours. The main concern is preventing dehydration—small, frequent sips of fluids are key. Persistent vomiting needs medical evaluation.
 `,
 
   diarrhea: `
-**💩 DIARRHEA**
+I'm sorry to hear you're experiencing diarrhea. Here are some guidelines:
 
-**1. ACUTE (<14 DAYS)**
-**INFECTIOUS:**
-• **Viral:** Norovirus, rotavirus (children)
-• **Bacterial:** Salmonella, Campylobacter, Shigella, E. coli
-• **Parasitic:** Giardia (campers), Cryptosporidium
+**When to Seek Immediate Medical Care**
+- Signs of severe dehydration: no urine 8 hours, dry mouth, dizziness
+- Blood or pus in stool
+- Severe abdominal pain
+- High fever over 102°F
+- Recent antibiotic use
+- Recent travel to areas with serious diarrheal diseases
 
-**MEDICATION:** Antibiotics (C. difficile), laxatives, magnesium
-**TOXINS:** Food poisoning (S. aureus, B. cereus)
+**When to Call a Doctor**
+- Diarrhea lasts more than 2 days
+- Six or more loose stools in 24 hours
+- Fever over 100.4°F with diarrhea
+- Moderate abdominal pain
+- Chronic medical conditions
+- Elderly or weakened immune system
 
-**2. CHRONIC (>4 WEEKS)**
-**OSMOTIC:** Improves with fasting (lactose, sorbitol)
-**SECRETORY:** Persists with fasting (carcinoid, VIPoma)
-**INFLAMMATORY:** Blood/mucus, weight loss (IBD, infection)
-**MALABSORPTIVE:** Steatorrhea, weight loss (celiac, pancreatic insufficiency)
-**MOTILITY:** IBS, hyperthyroidism
+**Possible Causes**
+- Viral infections (norovirus, rotavirus)
+- Bacterial infections (E. coli, Salmonella)
+- Food poisoning
+- Medications (antibiotics)
+- Food intolerances
+- Chronic conditions (IBD, IBS)
 
-**3. ALARM FEATURES**
-• Blood in stool
-• Weight loss >10 lbs
-• Fever
-• Severe abdominal pain
-• Age >50 (new onset)
-• Nocturnal diarrhea (suggests organic)
+**What You Can Do**
+- Stay hydrated with clear fluids
+- Avoid caffeine, alcohol, sugary drinks
+- Eat bland foods (BRAT diet)
+- Avoid fatty, spicy, dairy foods
+- Use OTC anti-diarrheals cautiously
 
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Severe dehydration, toxic appearance, significant bleeding
-**GI:** Chronic diarrhea, weight loss, need for colonoscopy, suspected IBD
-**INFECTIOUS DISEASE:** Persistent/recurrent infections
+**Final Advice**
+Most acute diarrhea improves within a few days with hydration. Diarrhea with blood, high fever, or severe pain needs prompt evaluation. Good hand hygiene prevents spread.
 `,
 
   constipation: `
-**🚽 CONSTIPATION**
+I'm sorry to hear you're experiencing constipation. Here are some guidelines:
 
-**1. DEFINITION**
-• <3 bowel movements per week
-• Straining >25% of time
-• Hard/lumpy stools
-• Sensation of incomplete evacuation
+**When to Seek Immediate Medical Care**
+- Severe abdominal pain or cramping
+- Inability to pass gas
+- Vomiting with abdominal distension
+- Heavy or persistent rectal bleeding
+- Sudden change in bowel habits with weight loss
+- Signs of bowel obstruction
 
-**2. CAUSES**
-**PRIMARY (Functional):**
-• **Normal transit:** Most common, perceived constipation
-• **Slow transit:** Infrequent urges, may be idiopathic or neurological
-• **Outlet dysfunction:** Dyssynergic defecation, rectocele
+**When to Call a Doctor**
+- Constipation is a new problem
+- No bowel movement in 3 days
+- Pain during bowel movements
+- Blood in stool
+- Unexplained weight loss with constipation
+- Constipation alternates with diarrhea
 
-**SECONDARY:**
-• **Medications:** Opioids, anticholinergics, calcium channel blockers
-• **Metabolic:** Hypothyroidism, hypercalcemia, diabetes
-• **Neurological:** Parkinson's, MS, spinal cord injury
-• **Structural:** Colon cancer, strictures, Hirschsprung's
+**Possible Causes**
+- Dietary: Insufficient fiber or fluid
+- Lifestyle: Lack of exercise, ignoring urge
+- Medications: Pain meds, antacids, antidepressants
+- Medical conditions: IBS, thyroid disorders, diabetes
+- Pregnancy, travel, stress
 
-**3. EVALUATION**
-**HISTORY:** Rome IV criteria, alarm features, medication review
-**EXAM:** Digital rectal exam (tone, masses, stool)
-**TESTING:** TSH, calcium, colonoscopy if alarm features/age appropriate
-**SPECIALIZED:** Anorectal manometry, colonic transit study, defecography
+**What You Can Do**
+- Increase fiber gradually (fruits, vegetables, whole grains)
+- Drink plenty of water
+- Exercise regularly
+- Establish regular bathroom routine
+- Don't ignore the urge to go
+- Try OTC fiber supplements if needed
 
-**4. TREATMENT LADDER**
-**FIRST LINE:** Fiber, fluids, exercise
-**SECOND:** Osmotic laxatives (PEG, lactulose)
-**THIRD:** Stimulant laxatives (senna, bisacodyl)
-**FOURTH:** Prescription (lubiprostone, linaclotide, prucalopride)
-**SPECIAL:** Biofeedback for dyssynergia, surgery for refractory cases
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Obstipation with pain/vomiting (obstruction), severe impaction
-**GI:** Refractory to OTC, need for specialized testing, alarm features
+**Final Advice**
+Occasional constipation is common and usually responds to diet and lifestyle changes. Chronic constipation or sudden changes need medical evaluation. Don't rely on stimulant laxatives long-term.
 `,
 
   heartburn: `
-**🔥 HEARTBURN/GERD**
+I'm sorry to hear you're experiencing heartburn. Here are some guidelines:
 
-**1. TYPICAL SYMPTOMS**
-• Burning retrosternal discomfort
-• Regurgitation of gastric contents
-• Worse after meals, lying down, bending
-• Relieved by antacids
+**When to Seek Immediate Medical Care**
+- Severe chest pain or pressure with jaw/neck/arm pain
+- Shortness of breath
+- Dizziness or fainting
+- Cold sweat with chest discomfort
+- Vomiting blood or coffee-ground material
+- Black, tarry stools
+- Difficulty swallowing or pain with swallowing
 
-**2. ATYPICAL/EXTRAESOPHAGEAL**
-• **ENT:** Chronic cough, hoarseness, globus sensation
-• **Pulmonary:** Asthma exacerbation, recurrent pneumonia
-• **Dental:** Erosion, caries
-• **Chest pain:** May mimic cardiac
+**When to Call a Doctor**
+- Heartburn occurs more than twice a week
+- OTC medications don't provide relief
+- Symptoms persist despite lifestyle changes
+- Nighttime heartburn disrupts sleep
+- Difficulty swallowing
+- Unexplained weight loss
 
-**3. COMPLICATIONS**
-**ESOPHAGITIS:** Erosive (LA classification A-D)
-**STRICTURE:** Progressive dysphagia
-**BARRETT'S ESOPHAGUS:** Intestinal metaplasia, pre-malignant
-**ADENOCARCINOMA:** Risk with long-standing GERD/Barrett's
+**Possible Causes**
+- GERD (gastroesophageal reflux disease)
+- Hiatal hernia
+- Pregnancy
+- Certain foods (spicy, fatty, acidic, chocolate, caffeine, alcohol)
+- Medications, smoking, obesity, stress
 
-**4. DIAGNOSIS**
-**EMPIRIC:** PPI trial (response suggests GERD)
-**ENDOSCOPY:** For alarm symptoms, screening for Barrett's
-**pH MONITORING:** Gold standard, assesses acid exposure
+**What You Can Do**
+- Avoid trigger foods
+- Eat smaller, more frequent meals
+- Don't lie down for 2-3 hours after eating
+- Elevate head of bed 6-8 inches
+- Wear loose-fitting clothing
+- Maintain healthy weight
+- Try OTC antacids, H2 blockers, or PPIs
 
-**5. TREATMENT**
-**LIFESTYLE:** Weight loss, elevate head of bed, avoid triggers
-**MEDICATIONS:** Antacids, H2 blockers, PPIs
-**SURGERY:** Fundoplication (laparoscopic)
-
-**6. ALARM SYMPTOMS**
-• Dysphagia/odynophagia
-• Weight loss
-• GI bleeding
-• Anemia
-• Family history of GI cancer
-
-**7. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Severe chest pain (rule out cardiac), hematemesis, food impaction
-**GI:** Alarm symptoms, refractory to PPI, need for endoscopy, suspected complications
+**Final Advice**
+Occasional heartburn is manageable with lifestyle changes and OTC meds. Frequent heartburn may indicate GERD, which needs proper diagnosis to prevent complications.
 `,
 
   /* =========================
      GENITOURINARY
   ========================== */
-
   urinary_problems: `
-**🚻 URINARY SYMPTOMS**
+I'm sorry to hear you're experiencing urinary problems. Here are some guidelines:
 
-**1. DYSURIA (Painful Urination)**
-**INFECTIOUS:**
-• **Cystitis:** Frequency, urgency, suprapubic pain, usually E. coli
-• **Urethritis:** STD-related (chlamydia, gonorrhea), discharge
-• **Prostatitis:** Male, perineal pain, urinary symptoms
+**When to Seek Immediate Medical Care**
+- Inability to urinate
+- Severe pain in back, side, or groin
+- Fever with chills and urinary symptoms
+- Blood in urine with clots
+- Nausea and vomiting with urinary pain
 
-**NON-INFECTIOUS:**
-• **Interstitial cystitis:** Chronic pelvic pain, bladder fullness
-• **Chemical irritation:** Soaps, spermicides
-• **Atrophic vaginitis:** Postmenopausal, estrogen deficiency
+**When to Call a Doctor**
+- Pain or burning with urination
+- Frequent or urgent urination
+- Wake up multiple times at night to urinate
+- Difficulty starting or maintaining stream
+- Blood in urine
+- Urinary incontinence
 
-**2. FREQUENCY/URGENCY**
-**OVERACTIVE BLADDER:** Urge incontinence, no infection
-**UTI:** With dysuria, cloudy urine
-**DIABETES:** Polyuria, polydipsia
-**DIURETICS:** Medication effect
+**Possible Causes**
+- Urinary tract infections
+- Overactive bladder
+- BPH (enlarged prostate in men)
+- Interstitial cystitis
+- Kidney stones
+- Medications, diabetes, pregnancy
 
-**3. HEMATURIA**
-**GROSS:** Visible blood
-**MICROSCOPIC:** >3 RBCs/HPF on dipstick/microscopy
-**CAUSES:**
-• **Urological:** Cancer (bladder, kidney, prostate), stones, BPH, infection
-• **Medical:** Glomerulonephritis, anticoagulants, exercise
-• **Always evaluate:** Age >40, smoking history, occupational exposure
+**What You Can Do** (if mild)
+- Drink plenty of water
+- Avoid bladder irritants (caffeine, alcohol, spicy foods)
+- Practice timed voiding
+- Do pelvic floor exercises (Kegels)
+- Use proper hygiene
 
-**4. INCONTINENCE**
-**STRESS:** With coughing/sneezing/lifting
-**URGE:** Strong sudden need, overactive bladder
-**OVERFLOW:** Chronic retention, dribbling
-**FUNCTIONAL:** Physical/cognitive impairment
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Severe pain, inability to void, fever with UTI symptoms
-**UROLOGY:** Gross hematuria, recurrent UTIs, incontinence requiring intervention
-**GYNECOLOGY:** Pelvic floor disorders, recurrent UTIs in women
+**Final Advice**
+Urinary symptoms shouldn't be ignored—infections can spread to kidneys. Incontinence is not normal and can often be treated. Seek evaluation for appropriate management.
 `,
 
   kidney_pain: `
-**🧠 KIDNEY/FLANK PAIN**
+I'm sorry to hear you're experiencing kidney pain. Here are some guidelines:
 
-**1. RENAL COLIC (Stone)**
-• **Severe colicky pain:** Radiates groin/testicle/labia
-• **Associated:** Nausea/vomiting, hematuria, restlessness
-• **Location:** Costovertebral angle tenderness
-• **Imaging:** CT non-contrast (gold standard)
+**When to Seek Immediate Medical Care**
+- High fever with chills
+- Severe pain that comes in waves
+- Nausea and vomiting with pain
+- Inability to urinate
+- Blood in urine with clots
+- Signs of infection spreading
 
-**2. PYELONEPHRITIS**
-• **Fever/chills:** Usually >101°F
-• **Flank/CVA tenderness**
-• **Urinary symptoms:** Frequency, urgency, dysuria
-• **Diagnosis:** Urinalysis (WBCs, bacteria), culture
+**When to Call a Doctor**
+- Persistent flank pain
+- Pain radiating to groin
+- Blood in urine
+- Fever with back or side pain
+- Recurrent kidney stones
+- History of kidney disease with new pain
 
-**3. OTHER CAUSES**
-**RENAL INFARCTION:** Atrial fibrillation, hypercoagulable
-**RENAL VEIN THROMBOSIS:** Nephrotic syndrome, malignancy
-**POLYCYSTIC KIDNEY DISEASE:** Family history, bilateral masses
-**TUMOR:** Usually asymptomatic until advanced, may cause hematuria
+**Possible Causes**
+- Kidney stones
+- Urinary tract infections spreading to kidneys
+- Kidney infections (pyelonephritis)
+- Kidney cysts
+- Polycystic kidney disease
+- Kidney injury
 
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Severe pain, fever with flank pain, anuria
-**UROLOGY:** Stones requiring intervention, recurrent stones, masses
-**NEPHROLOGY:** Medical kidney disease, proteinuria, renal insufficiency
+**What You Can Do** (while awaiting evaluation)
+- Drink plenty of water unless instructed otherwise
+- Apply heat to painful area
+- Take OTC pain relievers as directed
+- Rest and avoid strenuous activity
+
+**Final Advice**
+Kidney pain, especially with fever or urinary symptoms, needs prompt evaluation. Kidney infections can become serious quickly. If you have a history of kidney stones, work with your doctor to prevent recurrence.
 `,
 
   /* =========================
-     REPRODUCTIVE (WOMEN)
+     MUSCULOSKELETAL
   ========================== */
+  back_pain: `
+I'm sorry to hear you're experiencing back pain. Here are some guidelines:
 
- menstrual_pain: `
-**🩸 MENSTRUAL PAIN (DYSMENORRHEA)**
+**When to Seek Immediate Medical Care**
+- Loss of bowel or bladder control
+- Numbness in groin or inner thighs
+- Severe weakness in legs
+- Fever with back pain
+- Trauma from accident or fall
+- Unexplained weight loss with back pain
+- History of cancer with new back pain
 
-**1. CLASSIFICATION**
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Pain radiates down legs
+- Numbness, tingling, or weakness in legs
+- Pain follows injury
+- Pain interferes with sleep or daily activities
 
-**PRIMARY DYSMENORRHEA:**
-• Absence of pelvic pathology
-• Usually begins 6-12 months after menarche
-• Crampy suprapubic pain
-• Starts 1-2 days before menses, peaks 24 hours
-• Lasts 2-3 days
-• Associated: Nausea, diarrhea, headache, fatigue
+**Possible Causes**
+- Muscle or ligament strain
+- Herniated discs
+- Arthritis
+- Spinal stenosis
+- Osteoporosis (compression fractures)
+- Kidney problems
 
-**SECONDARY DYSMENORRHEA:**
-• Underlying pelvic pathology
-• Starts later in life (>25 years)
-• Pain may begin before menses and continue
-• May have intermenstrual pain
-• Associated with heavy bleeding, dyspareunia
+**What You Can Do** (if mild)
+- Rest 1-2 days but avoid prolonged bed rest
+- Ice first 48 hours, then heat
+- Take OTC pain relievers
+- Practice gentle stretching
+- Maintain good posture
+- Use proper lifting techniques
 
-**2. UNDERLYING CAUSES OF SECONDARY DYSMENORRHEA**
-
-**ENDOMETRIOSIS:**
-• Chronic pelvic pain
-• Dyspareunia (deep)
-• Cyclic rectal pain/bleeding
-• Infertility
-• **Diagnosis:** Laparoscopy with biopsy
-
-**ADENOMYOSIS:**
-• Enlarged, tender uterus
-• Heavy menstrual bleeding
-• Ultrasound findings: Heterogeneous myometrium
-
-**FIBROIDS:**
-• Submucosal location most symptomatic
-• Bulk symptoms (pressure, urinary frequency)
-• Intermenstrual bleeding
-• Ultrasound diagnosis
-
-**PELVIC INFLAMMATORY DISEASE:**
-• STD history
-• Fever, discharge
-• Cervical motion tenderness
-• Elevated WBC, ESR
-
-**3. PAIN PATHOPHYSIOLOGY**
-• Prostaglandin F2α release → uterine contractions → ischemia
-• Leukotriene production → inflammation
-• Vasopressin release → increased contractions
-
-**4. MANAGEMENT STRATEGY**
-
-**FIRST-LINE (NSAIDs):**
-• Start 1-2 days before expected menses
-• Continue through first 2-3 days
-• **Ibuprofen:** 400-600mg every 6 hours
-• **Naproxen:** 500mg load, then 250mg every 8 hours
-• **Mefenamic acid:** 500mg load, then 250mg every 6 hours
-
-**HORMONAL THERAPIES:**
-• Combined oral contraceptives (cyclic or continuous)
-• Progestin-only methods (IUD, implant, pill)
-• GnRH agonists (severe endometriosis)
-
-**NON-PHARMACOLOGIC:**
-• Heat therapy (40°C/104°F heating pad)
-• Transcutaneous electrical nerve stimulation
-• Acupuncture/acupressure
-• Exercise (releases endorphins)
-• Dietary changes (omega-3, reduce caffeine/alcohol)
-
-**5. WHEN TO CONSULT A DOCTOR **
-**Emergency Department:**
-• Severe pain with fever >101°F (38.3°C)
-• Syncope or near-syncope with pain
-• Suspected ectopic pregnancy (missed period + pain)
-• Severe pain unresponsive to NSAIDs
-
-**Gynecology (Within 1 week):**
-• Secondary dysmenorrhea suspected
-• Pain interfering with daily activities
-• Desire for hormonal management
-• Need for diagnostic workup (ultrasound)
-• Infertility concerns
-
-**Primary Care (Schedule Appointment):**
-• Primary dysmenorrhea failing OTC treatment
-• Need for prescription NSAIDs
-• Basic evaluation and management
-• Contraceptive counseling
-
-**Chronic Pain Clinic:**
-• Refractory pain despite treatment
-• Multidisciplinary approach needed
-• Consideration of central sensitization
+**Final Advice**
+Most acute back pain improves within weeks with self-care. However, back pain with neurological symptoms needs prompt evaluation. Good posture and exercise help prevent recurrence.
 `,
 
-   heavy_periods: `
-**💔 HEAVY MENSTRUAL BLEEDING (MENORRHAGIA)**
+  shoulder_pain: `
+I'm sorry to hear you're experiencing shoulder pain. Here are some guidelines:
 
-**1. QUANTITATIVE DEFINITIONS**
-• **Objective:** >80mL blood loss per cycle
-• **Practical:** Soaking through pad/tampon in ≤1 hour
-• Changing protection at night
-• Passing clots >1 inch (2.5cm)
-• Anemia symptoms (fatigue, pallor, SOB)
+**When to Seek Immediate Medical Care**
+- Severe trauma or deformity
+- Inability to move arm or shoulder
+- Sudden, severe swelling or bruising
+- Signs of infection: redness, warmth, fever
+- Chest pain with shoulder pain
+- Numbness or weakness in arm/hand
 
-**2. PALM-COEIN CLASSIFICATION**
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Difficulty lifting arm or reaching overhead
+- Pain interferes with sleep
+- Popping, clicking, or grinding with movement
+- History of shoulder problems
+- Weakness or instability
 
-**STRUCTURAL (PALM):**
-• **P**olyp
-• **A**denomyosis
-• **L**eiomyoma (fibroid)
-• **M**alignancy/hyperplasia
+**Possible Causes**
+- Rotator cuff tendinitis or tear
+- Bursitis
+- Frozen shoulder (adhesive capsulitis)
+- Arthritis
+- Shoulder impingement
+- Dislocation or instability
+- Fracture
 
-**NON-STRUCTURAL (COEIN):**
-• **C**oagulopathy (von Willebrand, platelet disorders)
-• **O**vulatory dysfunction (PCOS, thyroid)
-• **E**ndometrial (breakthrough bleeding)
-• **I**atrogenic (anticoagulants, IUD)
-• **N**ot yet classified
+**What You Can Do** (if mild)
+- Rest but avoid complete immobilization
+- Apply ice 15-20 minutes several times daily
+- Take OTC pain relievers
+- Perform gentle range-of-motion exercises
+- Avoid overhead activities that worsen pain
 
-**3. DIAGNOSTIC WORKUP**
-
-**INITIAL EVALUATION:**
-• CBC (hemoglobin, MCV)
-• Ferritin (iron stores)
-• TSH (thyroid dysfunction)
-• Pregnancy test (always)
-• Coagulation screen if indicated
-
-**IMAGING:**
-• Transvaginal ultrasound (first line)
-• Saline infusion sonohysterography
-• MRI (if complex fibroids/adenomyosis)
-
-**HISTOLOGIC:**
-• Endometrial biopsy (age >45 or risk factors)
-• Hysteroscopy with biopsy
-
-**4. TREMENT ALGORITHM**
-
-**MEDICAL MANAGEMENT:**
-• **First-line:** Levonorgestrel IUD (Mirena)
-• **Second-line:** Tranexamic acid (1g TID during menses)
-• **Third-line:** Combined oral contraceptives
-• **Fourth-line:** Progestins (oral, injectable)
-• **NSAIDs:** Reduce flow by 20-40%
-
-**SURGICAL OPTIONS:**
-• Endometrial ablation (not for future fertility)
-• Uterine artery embolization (fibroids)
-• Myomectomy (fibroid removal)
-• Hysterectomy (definitive)
-
-**5. WHEN TO CONSULT A DOCTOR **
-**Emergency Department:**
-• Hemodynamic instability (tachycardia, hypotension)
-• Syncope with bleeding
-• Severe anemia (Hb <7 g/dL with symptoms)
-• Bleeding despite hormonal treatment
-
-**Gynecology (Urgent - Within 1 week):**
-• New onset heavy bleeding >40 years
-• Intermenstrual bleeding
-• Postmenopausal bleeding
-• Suspected fibroids/polyps
-• Desire for procedural treatment
-
-**Primary Care/Hematology:**
-• Anemia management
-• Coagulation disorder workup
-• Thyroid dysfunction treatment
-• Medical management initiation
-
-**Fertility Specialist:**
-• Heavy bleeding with infertility
-• Desire for fertility-sparing treatment
-• Recurrent pregnancy loss evaluation
-`,
-  vaginal_discharge: `
-**🌸 VAGINAL DISCHARGE & INFECTIONS**
-
-**1. NORMAL DISCHARGE**
-• Clear/white, non-odorous, varies with cycle
-• Cervical mucus changes: Egg-white at ovulation
-
-**2. ABNORMAL DISCHARGE**
-**BACTERIAL VAGINOSIS:**
-• **Discharge:** Thin, gray-white, fishy odor (especially after sex)
-• **Diagnosis:** Amsel criteria (3/4): Discharge, pH >4.5, clue cells, whiff test
-• **Treatment:** Metronidazole/clindamycin
-
-**YEAST INFECTION:**
-• **Discharge:** Thick, white, cottage cheese-like
-• **Symptoms:** Itching, burning, erythema
-• **Treatment:** Topical azoles, fluconazole oral
-
-**TRICHOMONIASIS:**
-• **Discharge:** Frothy, yellow-green, malodorous
-• **Symptoms:** Itching, burning, strawberry cervix
-• **Treatment:** Metronidazole/tinidazole (treat partner)
-
-**3. SEXUALLY TRANSMITTED**
-**CHLAMYDIA/GONORRHEA:** Often asymptomatic, may cause discharge, PID risk
-**HERPES:** Painful ulcers, systemic symptoms with primary
-**HPV:** May cause warts, abnormal Pap
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Severe pelvic pain, fever, toxic appearance (PID)
-**GYNECOLOGY:** Recurrent infections, persistent symptoms, need for Pap/STD testing
+**Final Advice**
+Shoulder pain from overuse often improves with rest. However, persistent pain, weakness, or limited movement should be evaluated. Early treatment prevents chronic issues.
 `,
 
-  breast_problems: `
-**👙 BREAST CONCERNS**
+  elbow_pain: `
+I'm sorry to hear you're experiencing elbow pain. Here are some guidelines:
 
-**1. BREAST PAIN (MASTALGIA)**
-**CYCLICAL:** Related to menstrual cycle, bilateral, diffuse
-**NON-CYCLICAL:** Unilateral, localized, constant/intermittent
-**EXTRAMAMMARY:** Chest wall pain (costochondritis), referred
+**When to Seek Immediate Medical Care**
+- Visible deformity or abnormal positioning
+- Inability to move elbow or bear weight
+- Numbness, tingling, or weakness in hand
+- Signs of infection
+- Severe pain and swelling after trauma
 
-**2. BREAST MASSES**
-**BENIGN:**
-• **Fibroadenoma:** Young women, rubbery, mobile
-• **Cyst:** Fluctuant, may be tender, ultrasound diagnosis
-• **Fibrocystic changes:** Tender, lumpy, cyclic
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Difficulty bending or straightening elbow
+- Swelling doesn't improve
+- Instability or catching in joint
+- Pain interferes with sleep
+- History of elbow problems or arthritis
 
-**MALIGNANT:**
-• Hard, irregular, fixed, may have skin changes
-• Risk factors: Age, family history, BRCA, early menarche/late menopause
+**Possible Causes**
+- Tennis elbow (lateral epicondylitis)
+- Golfer's elbow (medial epicondylitis)
+- Bursitis
+- Arthritis
+- Tendinitis
+- Fracture or dislocation
+- Nerve compression
 
-**3. NIPPLE DISCHARGE**
-**PHYSIOLOGICAL:** Bilateral, multiple ducts, milky/clear
-**PATHOLOGICAL:** Unilateral, single duct, spontaneous, bloody/serosanguinous
-**GALACTORRHEA:** Milky, bilateral, consider prolactinoma
+**What You Can Do** (if mild)
+- Rest and avoid activities that cause pain
+- Apply ice 15-20 minutes several times daily
+- Use an elbow brace for tendonitis
+- Take OTC pain relievers
+- Perform gentle stretching exercises
 
-**4. SCREENING**
-**MAMMOGRAPHY:** Starting age depends on risk
-**BREAST MRI:** High-risk patients (BRCA, strong family history)
-**SELF-EXAM:** Awareness of normal vs changes
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Mastitis with abscess, inflammatory breast cancer signs (peau d'orange)
-**BREAST SURGERY:** Palpable mass, abnormal imaging, biopsy needed
-**GYNECOLOGY:** Routine screening, benign problems
+**Final Advice**
+Most elbow pain from overuse improves with rest and ice. However, persistent pain with weakness or numbness needs evaluation. Early treatment prevents chronic problems.
 `,
 
-  pregnancy_symptoms: `
-**🤰 PREGNANCY - Symptoms & Complications**
+  wrist_pain: `
+I'm sorry to hear you're experiencing wrist pain. Here are some guidelines:
 
-**1. TRIMESTER-SPECIFIC SYMPTOMS**
+**When to Seek Immediate Medical Care**
+- Visible deformity or abnormal positioning
+- Inability to move wrist or fingers
+- Numbness or loss of sensation in hand
+- Severe pain and swelling after trauma
+- Signs of infection
+- Pale, cool, or blue fingers
 
-**FIRST TRIMESTER (Weeks 1-13):**
-• **Nausea/vomiting:** 70-80% of pregnancies
-• **Fatigue:** Profound, hormonal-mediated
-• **Breast changes:** Tenderness, enlargement, darkening areolae
-• **Urinary frequency:** Increased renal flow, uterine pressure
-• **Food aversions/cravings:** Hormonal influence
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Swelling doesn't improve
+- Clicking, popping, or grinding with movement
+- Pain interferes with sleep
+- Numbness or tingling in fingers
+- History of wrist problems or arthritis
 
-**SECOND TRIMESTER (Weeks 14-27):**
-• **Quickening:** Fetal movements felt (18-22 weeks primigravida, 16-20 multigravida)
-• **Round ligament pain:** Sharp groin pain with movement
-• **Nasal congestion:** Estrogen effect on mucosa
-• **Linea nigra:** Pigmented midline abdominal line
-• **Heartburn:** Progesterone relaxation of LES
+**Possible Causes**
+- Carpal tunnel syndrome
+- Tendinitis
+- Arthritis
+- Sprains or strains
+- Fractures
+- Ganglion cysts
+- De Quervain's tenosynovitis
 
-**THIRD TRIMESTER (Weeks 28-40):**
-• **Back pain:** Weight gain, postural changes
-• **Braxton-Hicks contractions:** Irregular, painless
-• **Pelvic pressure:** Lightening (engagement)
-• **Edema:** Dependent, usually physiological
-• **Shortness of breath:** Uterine pressure on diaphragm
+**What You Can Do** (if mild)
+- Rest wrist and avoid painful activities
+- Apply ice 15-20 minutes several times daily
+- Use wrist splint, especially at night
+- Take OTC pain relievers
+- Perform gentle stretching exercises
 
-**2. DANGER SIGNS BY TRIMESTER**
-
-**FIRST TRIMESTER EMERGENCIES:**
-• **Ectopic pregnancy:** Unilateral pain, bleeding, shoulder tip pain
-• **Molar pregnancy:** Excessive nausea, rapid uterine growth, bleeding
-• **Missed miscarriage:** Loss of pregnancy symptoms, bleeding
-
-**SECOND TRIMESTER:**
-• **Preterm labor:** Regular contractions <37 weeks
-• **PPROM:** Premature rupture of membranes
-• **Preeclampsia:** Headache, visual changes, RUQ pain
-
-**THIRD TRIMESTER:**
-• **Abruptio placentae:** Painful bleeding, uterine tenderness
-• **Placenta previa:** Painless bright red bleeding
-• **Cholestasis:** Severe itching, especially palms/soles
-
-**3. NORMAL VS ABNORMAL SYMPTOMS**
-
-**NAUSEA/VOMITING:**
-• **Normal:** Morning sickness, manageable
-• **Abnormal:** Hyperemesis gravidarum (weight loss >5%, ketonuria, dehydration)
-
-**VAGINAL BLEEDING:**
-• **Normal:** Implantation bleeding (light, brief)
-• **Abnormal:** Any bleeding beyond spotting
-
-**CONTRACTIONS:**
-• **Normal:** Braxton-Hicks (irregular, painless)
-• **Abnormal:** Preterm labor (regular, painful, cervical change)
-
-**4. WHEN TO CONSULT A DOCTOR **
-**Emergency Department (Immediate):**
-• Severe abdominal pain (constant or intermittent)
-• Vaginal bleeding (soaking >1 pad/hour)
-• Severe headache with visual changes
-• Rupture of membranes (fluid leakage)
-• Decreased fetal movement (>50% reduction)
-• Fever >100.4°F (38°C)
-
-**OB Clinic (Within 24 hours):**
-• Moderate bleeding (less than pad/hour)
-• Regular contractions <37 weeks
-• Suspected UTI symptoms
-• Mild-moderate abdominal pain
-• Itching without rash
-
-**Routine Prenatal Care:**
-• Scheduled appointments
-• Mild symptoms (backache, mild edema)
-• Nutrition/lifestyle counseling
-• Routine screening tests
-• Birth planning
-
-**Maternal-Fetal Medicine:**
-• High-risk pregnancy (HTN, diabetes, multiples)
-• Abnormal ultrasound findings
-• Genetic counseling needs
-• Preterm labor prevention
+**Final Advice**
+Wrist pain from overuse often improves with rest and ergonomic adjustments. Persistent pain with numbness or weakness needs evaluation. Early treatment of carpal tunnel can prevent permanent nerve damage.
 `,
 
+  hand_finger_problems: `
+I'm sorry to hear you're experiencing hand or finger problems. Here are some guidelines:
 
-   pcos: `
-**🦋 POLYCYSTIC OVARY SYNDROME (ROTTERDAM CRITERIA)**
+**When to Seek Immediate Medical Care**
+- Severe trauma with visible deformity
+- Inability to move fingers or make a fist
+- Deep cuts with heavy bleeding
+- Signs of severe infection
+- Sudden, severe pain with swelling
+- Chemical burns
 
-**1. DIAGNOSTIC CRITERIA (Need 2 of 3)**
-• **Oligo/anovulation:** Cycles >35 days or <8/year
-• **Clinical/biochemical hyperandrogenism:** Hirsutism, acne, alopecia, elevated testosterone
-• **Polycystic ovaries on ultrasound:** ≥20 follicles (2-9mm) or ovarian volume >10mL
+**When to Call a Doctor**
+- Pain or swelling persists more than 2-3 weeks
+- Difficulty gripping objects
+- Fingers lock or catch when bending
+- Lumps or nodules that are growing
+- Persistent numbness or tingling
+- Skin changes that don't heal
 
-**2. CLINICAL MANIFESTATIONS**
+**Possible Causes**
+- Arthritis (osteoarthritis, rheumatoid)
+- Trigger finger
+- Carpal tunnel syndrome
+- Dupuytren's contracture
+- Ganglion cysts
+- Fractures or dislocations
+- Tendinitis
 
-**REPRODUCTIVE:**
-• Infertility (anovulation)
-• Menstrual irregularity
-• Increased miscarriage risk
-• Endometrial hyperplasia risk
+**What You Can Do** (if mild)
+- Rest the affected hand
+- Apply ice for swelling
+- Take OTC pain relievers
+- Perform gentle stretching exercises
+- Use proper ergonomics
+- Keep hands moisturized
 
-**METABOLIC:**
-• Insulin resistance (50-70%)
-• Type 2 diabetes (7x increased risk)
-• Dyslipidemia (low HDL, high triglycerides)
-• NAFLD (non-alcoholic fatty liver disease)
-
-**DERMATOLOGIC:**
-• Hirsutism (Ferriman-Gallwey score >8)
-• Acne (inflammatory, cystic)
-• Androgenetic alopecia (female pattern)
-• Acanthosis nigricans (insulin resistance marker)
-
-**PSYCHOLOGICAL:**
-• Depression (2-3x increased)
-• Anxiety
-• Eating disorders
-• Poor quality of life
-
-**3. DIAGNOSTIC WORKUP**
-
-**LABORATORY TESTS:**
-• **Androgens:** Total/free testosterone, DHEA-S
-• **Ovulation assessment:** Day 21 progesterone
-• **Metabolic:** Fasting glucose, insulin, lipid profile
-• **Exclusion tests:** TSH, prolactin, 17-OHP (rule out CAH)
-
-**IMAGING:**
-• Transvaginal ultrasound (preferred)
-• Assess follicle count, ovarian volume
-• Endometrial thickness (if amenorrheic)
-
-**4. MANAGEMENT STRATEGY**
-
-**LIFESTYLE (First-line for all):**
-• Weight loss (5-10% improves symptoms)
-• Mediterranean/low-glycemic diet
-• 150 minutes moderate exercise/week
-• Behavioral counseling
-
-**MEDICAL:**
-• **Menstrual regulation:** Combined OCPs, cyclic progestin
-• **Hirsutism/acne:** Anti-androgens (spironolactone)
-• **Insulin sensitizers:** Metformin (improves ovulation)
-• **Infertility:** Letrozole (first-line), clomiphene
-
-**5. LONG-TERM SCREENING**
-• **Diabetes:** OGTT annually if obese/prediabetic
-• **Endometrial:** Biopsy if prolonged amenorrhea
-• **Cardiovascular:** BP, lipids annually
-• **Depression:** Annual screening
-
-**6. WHEN TO CONSULT A DOCTOR **
-**Primary Care/Endocrinology:**
-• Menstrual irregularities + hirsutism/acne
-• Infertility evaluation
-• Metabolic syndrome features
-• Need for insulin sensitizer therapy
-
-**Gynecology:**
-• Menstrual regulation needs
-• Contraceptive counseling
-• Infertility treatment
-• Endometrial surveillance
-
-**Dermatology:**
-• Severe hirsutism requiring laser
-• Refractory acne
-• Alopecia management
-
-**Mental Health:**
-• Depression/anxiety symptoms
-• Eating disorder concerns
-• Body image issues
+**Final Advice**
+Many hand problems from overuse or mild arthritis can be managed with self-care. However, persistent pain, deformity, or signs of infection need evaluation. Early treatment of rheumatoid arthritis can prevent joint damage.
 `,
-
-
-  menopause: `
-**🍂 MENOPAUSE & PERIMENOPAUSE**
-
-**1. STAGES (STRAW+10 CRITERIA)**
-
-**PERIMENOPAUSE:**
-• **Early:** Variable cycle length (>7 days different)
-• **Late:** ≥2 skipped cycles, amenorrhea ≥60 days
-• **Duration:** Typically 4-8 years
-• **FSH:** Variable, often >25 IU/L
-
-**MENOPAUSE:**
-• 12 consecutive months of amenorrhea
-• Average age: 51 years (range 40-58)
-• **Premature:** <40 years
-• **Early:** 40-45 years
-
-**POSTMENOPAUSE:**
-• Years following final menstrual period
-• Further divided into early/late
-
-**2. VASOMOTOR SYMPTOMS**
-
-**HOT FLASHES:**
-• Sudden heat sensation, flushing, sweating
-• Duration: 1-5 minutes
-• Frequency: Multiple daily
-• Triggers: Heat, stress, alcohol, caffeine
-• **Severity grading:** Mild (aware but not disruptive), Moderate (disruptive), Severe (intolerable)
-
-**NIGHT SWEATS:**
-• Sleep disruption
-• Fatigue, irritability
-• May require bedclothes/bedding changes
-
-**3. GENITOURINARY SYNDROME OF MENOPAUSE**
-
-**VULVOVAGINAL SYMPTOMS:**
-• Dryness, burning, irritation
-• Dyspareunia (painful intercourse)
-• Urinary urgency, frequency
-• Recurrent UTIs
-
-**ATROPHIC CHANGES:**
-• Pale, thin vaginal mucosa
-• Loss of rugae
-• Decreased elasticity
-• pH >5.0 (normal 3.5-4.5)
-
-**4. OTHER SYMPTOMS**
-
-**PSYCHOLOGICAL:**
-• Mood swings, irritability
-• Anxiety, depression
-• Poor concentration ("brain fog")
-• Sleep disturbances
-
-**PHYSICAL:**
-• Joint/muscle pain
-• Weight gain (central adiposity)
-• Skin/hair changes
-• Osteoporosis risk
-
-**5. TREATMENT OPTIONS**
-
-**HORMONE THERAPY (HT):**
-• **Indications:** Vasomotor symptoms, GSM, osteoporosis prevention
-• **Contraindications:** Breast cancer, CHD, history VTE, active liver disease
-• **Timing:** Start within 10 years of menopause, age <60
-• **Duration:** Lowest dose, shortest time (reassess annually)
-
-**NON-HORMONAL:**
-• **Vasomotor:** SSRIs/SNRIs (paroxetine, venlafaxine), gabapentin
-• **Vaginal:** Moisturizers (daily), lubricants (coital), local estrogen
-• **Bone health:** Bisphosphonates, SERMs, denosumab
-
-**6. WHEN TO CONSULT A DOCTOR **
-**Primary Care/Gynecology:**
-• Vasomotor symptoms affecting quality of life
-• Vaginal dryness/dyspareunia
-• Menstrual irregularities after 40
-• Bone health concerns
-
-**Cardiology:**
-• Cardiovascular risk assessment
-• HT decision in high-risk patients
-
-**Mental Health:**
-• Depression/anxiety symptoms
-• Cognitive concerns
-
-**Urogynecology:**
-• Urinary incontinence
-• Pelvic organ prolapse
-• Refractory GSM symptoms
-
-**Emergency Department:**
-• Heavy bleeding after menopause
-• Severe depression with suicidal thoughts
-• Severe hot flashes with syncope
-`,
-
-
-  /* =========================
-     REPRODUCTIVE (MEN)
-  ========================== */
-
-  erectile_dysfunction: `
-**🍆 ERECTILE DYSFUNCTION - Comprehensive Evaluation**
-
-**1. DEFINITION & CLASSIFICATION**
-• **Persistent inability** to attain/maintain erection sufficient for sexual performance
-• Affects 52% of men 40-70 years (Massachusetts Male Aging Study)
-• **Mild:** Occasional failure (25-50%)
-• **Moderate:** Frequent failure (50-75%)
-• **Severe:** Consistent failure (>75%)
-
-**2. ETIOLOGY (Often Multifactorial)**
-
-**VASCULAR (Most Common - 70%):**
-• **Arteriogenic:** Atherosclerosis, hypertension, smoking
-• **Venogenic:** Venous leak, Peyronie's disease
-• **Mixed:** Combined arterial/venous
-
-**NEUROGENIC:**
-• Diabetes mellitus (autonomic neuropathy)
-• Spinal cord injury
-• Multiple sclerosis
-• Pelvic surgery (prostatectomy)
-
-**ENDOCRINE:**
-• Hypogonadism (low testosterone)
-• Hyperprolactinemia
-• Thyroid disorders
-• Diabetes mellitus
-
-**PSYCHOGENIC:**
-• Performance anxiety
-• Depression
-• Relationship issues
-• Stress
-
-**DRUG-INDUCED:**
-• Antihypertensives (beta-blockers, thiazides)
-• Antidepressants (SSRIs)
-• Anti-androgens
-• Recreational drugs/alcohol
-
-**3. DIAGNOSTIC WORKUP**
-
-**INITIAL ASSESSMENT:**
-• **History:** Onset, progression, situational factors
-• **Sexual function questionnaires:** IIEF-5, SHIM
-• **Physical exam:** Genital, secondary sex characteristics, pulses
-• **Laboratory:** Testosterone (morning), glucose, lipids, PSA
-
-**SPECIALIZED TESTS:**
-• **Nocturnal penile tumescence:** Differentiate psychogenic/organic
-• **Doppler ultrasound:** Assess arterial inflow/venous leakage
-• **Intracavernosal injection test:** Response to vasoactive agents
-
-**4. TREATMENT LADDER**
-
-**FIRST-LINE (Oral Agents - PDE5 Inhibitors):**
-• **Sildenafil:** 50-100mg, onset 30-60 min, duration 4-6h
-• **Tadalafil:** 5-20mg, onset 30 min, duration 36h
-• **Vardenafil:** 10-20mg, onset 25-60 min, duration 4-5h
-• **Contraindications:** Nitrate use, recent MI, hypotension
-
-**SECOND-LINE:**
-• **Intracavernosal injections:** Alprostadil, bimix, trimix
-• **Intraurethral suppository:** MUSE (alprostadil)
-• **Vacuum erection devices**
-
-**THIRD-LINE:**
-• **Penile prosthesis:** Inflatable or malleable
-• **Vascular surgery:** Young men with arterial insufficiency
-
-**5. WHEN TO CONSULT A DOCTOR **
-**Urology (Schedule Appointment):**
-• ED lasting >3 months
-• Concern about penile curvature/deformity
-• Suspected vascular/neurologic cause
-• Failed PDE5 inhibitor trial
-• Need for advanced therapies
-
-**Endocrinology:**
-• Low testosterone confirmed
-• Suspected hormonal cause
-• Diabetes with ED
-
-**Cardiology:**
-• ED as marker of cardiovascular disease
-• Need for cardiac clearance before treatment
-• Syncopal episodes with sexual activity
-
-**Mental Health:**
-• Primary psychogenic ED
-• Performance anxiety
-• Relationship counseling needs
-
-**Emergency Department:**
-• Priapism (>4 hours erection)
-• Penile fracture (trauma with popping sound)
-• Severe pain with erection
-`,
-
-   prostate_issues: `
-**👴 PROSTATE CONDITIONS - Differential Diagnosis**
-
-**1. AGE-RELATED PREVALENCE**
-• **20-30s:** Prostatitis (infectious/non-infectious)
-• **40-50s:** BPH early symptoms
-• **50-60s:** BPH symptomatic, prostate cancer detection begins
-• **60+:** BPH treatment, prostate cancer surveillance
-
-**2. BENIGN PROSTATIC HYPERPLASIA**
-
-**SYMPTOM SCORING (IPSS):**
-• **Mild:** 0-7 points
-• **Moderate:** 8-19 points
-• **Severe:** 20-35 points
-• **Voiding symptoms:** Hesitancy, weak stream, straining, intermittency
-• **Storage symptoms:** Frequency, urgency, nocturia
-
-**TREATMENT OPTIONS:**
-• **Watchful waiting:** Mild symptoms (IPSS <7)
-• **Medications:**
-  - Alpha-blockers (tamsulosin): Rapid relief
-  - 5-alpha reductase inhibitors (finasteride): Reduce size, slow-acting
-• **Minimally invasive:** TUMT, TUNA, Rezum
-• **Surgical:** TURP (gold standard), laser enucleation
-
-**3. PROSTATITIS SYNDROMES**
-
-**ACUTE BACTERIAL:**
-• Fever, chills, dysuria, pelvic pain
-• Tender prostate on exam
-• Urine culture positive
-• Treatment: Fluoroquinolones 2-4 weeks
-
-**CHRONIC BACTERIAL:**
-• Recurrent UTIs, same organism
-• Pelvic pain between episodes
-• Treatment: Longer antibiotics (4-12 weeks)
-
-**CHRONIC PELVIC PAIN SYNDROME:**
-• Pelvic pain >3 months
-• No infection documented
-• **Inflammatory:** WBC in semen/EPS
-• **Non-inflammatory:** No WBC
-• Treatment: Multimodal (alpha-blockers, anti-inflammatories, physical therapy)
-
-**4. PROSTATE CANCER SCREENING**
-
-**PSA INTERPRETATION:**
-• **Normal:** <4 ng/mL (age-adjusted)
-• **Gray zone:** 4-10 ng/mL (25% cancer risk)
-• **High:** >10 ng/mL (50%+ cancer risk)
-• **PSA velocity:** >0.75 ng/mL/year increase
-• **PSA density:** PSA/prostate volume >0.15
-
-**BIOPSY INDICATIONS:**
-• PSA >4 with abnormal DRE
-• PSA 4-10 with high PSA density/velocity
-• Rising PSA on surveillance
-
-**5. WHEN TO CONSULT A DOCTOR **
-**Emergency Department:**
-• Acute urinary retention
-• Severe dysuria with fever >101°F
-• Blood clots in urine with obstruction
-• Suspected prostatic abscess
-
-**Urology (Urgent - Within 1 week):**
-• Acute urinary retention relieved
-• Severe BPH symptoms (IPSS >19)
-• Gross hematuria
-• Abnormal DRE
-• PSA >10 ng/mL
-
-**Primary Care (Schedule):**
-• Mild-moderate LUTS (IPSS 8-19)
-• PSA 4-10 for shared decision making
-• Chronic prostatitis symptoms
-• Routine screening discussions
-
-**Oncology:**
-• Prostate cancer diagnosis
-• Treatment decision making
-• Active surveillance monitoring
-• Advanced disease management
-`,
-
- male_infertility: `
-**👨‍👩‍👧‍👦 MALE INFERTILITY - Evaluation & Management**
-
-**1. DEFINITION & EPIDEMIOLOGY**
-• Failure to conceive after 12 months of unprotected intercourse
-• Male factor contributes to 50% of infertile couples
-• **Primary:** Never achieved pregnancy
-• **Secondary:** Previous pregnancy with current partner
-
-**2. SEMEN ANALYSIS (WHO 5th EDITION CRITERIA)**
-
-**NORMAL PARAMETERS:**
-• **Volume:** ≥1.5 mL
-• **Concentration:** ≥15 million/mL
-• **Total sperm count:** ≥39 million/ejaculate
-• **Motility:** ≥40% total motile or ≥32% progressive
-• **Morphology:** ≥4% normal forms
-• **Vitality:** ≥58% live sperm
-• **Leukocytes:** <1 million/mL
-
-**ABNORMALITIES:**
-• **Azoospermia:** No sperm in ejaculate
-• **Oligozoospermia:** Low concentration
-• **Asthenozoospermia:** Poor motility
-• **Teratozoospermia:** Abnormal morphology
-
-**3. ETIOLOGIC CLASSIFICATION**
-
-**PRETESTICULAR (HORMONAL):**
-• Hypogonadotropic hypogonadism
-• Hyperprolactinemia
-• Thyroid disorders
-• Exogenous androgen use
-
-**TESTICULAR:**
-• Varicocele (most common correctable cause)
-• Cryptorchidism
-• Genetic (Klinefelter, Y microdeletions)
-• Trauma, torsion
-• Infection (mumps orchitis)
-
-**POST-TESTICULAR (OBSTRUCTIVE):**
-• Congenital bilateral absence of vas deferens
-• Ejaculatory duct obstruction
-• Vasectomy
-• Infection/inflammation
-
-**4. DIAGNOSTIC WORKUP**
-
-**INITIAL (ALL PATIENTS):**
-• Two semen analyses (2-3 weeks apart)
-• Detailed history (medical, surgical, sexual)
-• Physical exam (testes, varicocele, vas)
-
-**SECOND-LEVEL:**
-• Hormonal profile (FSH, LH, testosterone)
-• Scrotal ultrasound
-• Genetic testing (karyotype, Y microdeletion)
-• Post-ejaculatory urinalysis (retrograde)
-
-**SPECIALIZED:**
-• Testicular biopsy (azoospermic)
-• Vasography (obstructive azoospermia)
-• Sperm function tests
-
-**5. TREATMENT OPTIONS**
-
-**MEDICAL:**
-• **Hormonal:** Clomiphene, hCG, FSH (hypogonadotropic)
-• **Antioxidants:** CoQ10, vitamin E, carnitine
-• **Empirical:** Not evidence-based
-
-**SURGICAL:**
-• **Varicocelectomy:** Improves parameters in 60-70%
-• **Vasovasostomy/VEP:** Vasectomy reversal
-• **TESE/microTESE:** Sperm retrieval for IVF/ICSI
-
-**ASSISTED REPRODUCTION:**
-• **IUI:** Mild-moderate abnormalities
-• **IVF:** Moderate-severe abnormalities
-• **ICSI:** Severe abnormalities, obstructive azoospermia
-
-**6. WHEN TO CONSULT A DOCTOR **
-**Urology/Andrology (After 1 year trying):**
-• Any abnormal semen analysis
-• Known risk factors (varicocele, cryptorchidism)
-• Sexual dysfunction contributing to infertility
-• Need for surgical evaluation/treatment
-
-**Reproductive Endocrinology:**
-• Couple evaluation needed
-• Planning assisted reproduction
-• Need for IVF/ICSI
-• Female factor also present
-
-**Genetic Counseling:**
-• Severe oligospermia/azoospermia
-• Known genetic conditions
-• Recurrent pregnancy loss
-• Planning genetic testing of embryos
-
-**Primary Care:**
-• Initial evaluation
-• Basic laboratory testing
-• Lifestyle modification counseling
-• Referral coordination
-`,
-
-  testicular_pain: `
-**🥜 TESTICULAR PAIN & CONDITIONS**
-
-**1. SURGICAL EMERGENCIES**
-**TESTICULAR TORSION:**
-• **Age:** Peak bimodal (neonatal, puberty)
-• **Symptoms:** Sudden severe pain, nausea/vomiting, high-riding testis, absent cremasteric reflex
-• **Imaging:** Doppler ultrasound shows absent flow
-• **Treatment:** Surgical detorsion within 6 hours (salvage rate decreases with time)
-
-**EPIDIDYMITIS/ORCHITIS:**
-• **Gradual onset:** Hours to days
-• **Symptoms:** Tender epididymis/testis, dysuria, discharge
-• **Causes:** <35: STDs (chlamydia, gonorrhea); >35: UTI pathogens
-• **Treatment:** Antibiotics, NSAIDs, scrotal support
-
-**2. NON-EMERGENT**
-**HYDROCELE:** Fluid collection, transilluminates
-**VARICOCELE:** "Bag of worms," left > right, may affect fertility
-**SPERMATOCELE:** Epididymal cyst, transilluminates
-**INGUINAL HERNIA:** May extend into scrotum
-
-**3. TESTICULAR CANCER**
-• **Peak:** 20-34 years
-• **Symptoms:** Painless lump, heaviness, sudden pain (10% with hemorrhage)
-• **Risk:** Cryptorchidism, family history
-• **Diagnosis:** Ultrasound, tumor markers (AFP, β-hCG, LDH)
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Sudden severe pain (rule out torsion), trauma
-**UROLOGY:** Palpable mass, persistent pain, fertility concerns
-`,
-
-  /* =========================
-     LOWER BODY & EXTREMITIES
-  ========================== */
 
   hip_pain: `
-**🦵 HIP PAIN**
+I'm sorry to hear you're experiencing hip pain. Here are some guidelines:
 
-**1. INTRA-ARTICULAR**
-**OSTEOARTHRITIS:**
-• Age >50, progressive pain, stiffness
-• Pain with weight-bearing, improves with rest
-• **Exam:** Limited internal rotation, pain with log roll
-• **X-ray:** Joint space narrowing, osteophytes, sclerosis
+**When to Seek Immediate Medical Care**
+- Inability to bear weight
+- Visible deformity or abnormal positioning
+- Sudden swelling with severe pain
+- Signs of infection: fever, redness, warmth
+- Pain following trauma or fall
+- Numbness or weakness in leg
 
-**AVASCULAR NECROSIS:**
-• **Risk factors:** Steroids, alcohol, sickle cell, trauma
-• **MRI:** Early diagnosis before X-ray changes
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Difficulty walking or climbing stairs
+- Pain interferes with sleep
+- Clicking, popping, or grinding in hip
+- History of hip problems or arthritis
+- Morning stiffness
 
-**LABRAL TEAR:**
-• Younger patients, mechanical symptoms (clicking, catching)
-• **Diagnosis:** MRI arthrogram
+**Possible Causes**
+- Arthritis (osteoarthritis, rheumatoid)
+- Bursitis
+- Tendinitis
+- Labral tear
+- Fracture
+- Muscle strain
+- Referred pain from back
 
-**2. EXTRA-ARTICULAR**
-**GREATER TROCHANTERIC PAIN SYNDROME:**
-• Lateral hip pain, tenderness over greater trochanter
-• **Treatment:** PT, steroid injection
+**What You Can Do** (if mild)
+- Rest and avoid painful activities
+- Apply ice for swelling
+- Take OTC pain relievers
+- Use cane or walking aid if needed
+- Perform gentle stretching exercises
+- Maintain healthy weight
 
-**BURSITIS:** Trochanteric, iliopsoas
-**SNAPPING HIP:** Iliotibial band or iliopsoas tendon
-
-**3. REFERRED PAIN**
-**LUMBAR SPINE:** Radiculopathy (L1-L4)
-**SACROILIAC JOINT:** Buttock pain, may radiate to posterior thigh
-**HERNIA:** Inguinal/femoral
-**GYNECOLOGIC:** Endometriosis, ovarian
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Trauma, inability to bear weight, suspected fracture
-**ORTHOPEDICS:** Persistent pain, need for replacement, mechanical symptoms
-**RHEUMATOLOGY:** Inflammatory arthritis
+**Final Advice**
+Hip pain from overuse often improves with rest. However, persistent pain, especially with difficulty walking or weight-bearing, needs evaluation. Early treatment prevents worsening and maintains mobility.
 `,
 
   knee_pain: `
-**🦵 KNEE PAIN**
+I'm sorry to hear you're experiencing knee pain. Here are some guidelines:
 
-**1. TRAUMATIC**
-**LIGAMENT INJURIES:**
-• **ACL:** Pop, swelling, instability, Lachman test
-• **MCL:** Valgus stress injury, tenderness medially
-• **PCL:** Dashboard injury, posterior drawer
-• **LCL:** Varus stress injury, laterally
+**When to Seek Immediate Medical Care**
+- Inability to bear weight
+- Visible deformity or abnormal positioning
+- Sudden swelling with severe pain
+- Popping sound at injury with immediate swelling
+- Signs of infection
+- Knee giving way or locking
 
-**MENISCAL TEAR:**
-• **Mechanical symptoms:** Locking, catching, giving way
-• **McMurray test:** Click/pain with rotation/extension
-• **MRI:** Diagnostic
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Swelling doesn't improve
+- Difficulty straightening or bending fully
+- Pain interferes with sleep
+- Clicking, popping, or grinding
+- Knee feels unstable
 
-**FRACTURES:** Patellar, tibial plateau, femoral condyle
+**Possible Causes**
+- Arthritis
+- Ligament injuries (ACL, MCL)
+- Meniscus tears
+- Tendinitis
+- Bursitis
+- Fractures
+- Dislocation
+- Overuse injuries
 
-**2. DEGENERATIVE**
-**OSTEOARTHRITIS:**
-• Age, progressive, crepitus, bony enlargement
-• **X-ray:** Joint space narrowing, osteophytes
+**What You Can Do** (if mild)
+- Rest and avoid painful activities
+- Apply ice for swelling
+- Compress with elastic bandage
+- Elevate leg when resting
+- Take OTC pain relievers
+- Use knee brace if needed
 
-**CHONDROMALACIA PATELLAE:**
-• Anterior knee pain, worse with stairs/squatting
-• Patellofemoral maltracking
-
-**3. INFLAMMATORY**
-**RHEUMATOID ARTHRITIS:** Symmetric, synovitis, morning stiffness
-**GOUT/PSEUDOGOUT:** Acute monoarthritis, crystals in fluid
-**SEPTIC ARTHRITIS:** Hot, swollen, painful, fever, emergency
-
-**4. OTHER**
-**PATELLAR TENDINITIS:** "Jumper's knee," inferior patellar pain
-**OSGOOD-SCHLATTER:** Adolescent, tibial tubercle pain/swelling
-**BAKER'S CYST:** Posterior swelling, may rupture mimicking DVT
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Suspected septic arthritis, fracture, dislocation
-**ORTHOPEDICS:** Ligament/meniscal injuries, persistent pain, need for surgery
-**SPORTS MEDICINE:** Overuse injuries, tendinopathy
+**Final Advice**
+Knee pain from minor strains often improves with self-care. However, persistent pain, swelling, or instability needs evaluation. Proper footwear and maintaining healthy weight are key preventive measures.
 `,
 
   ankle_foot_pain: `
-**👣 ANKLE & FOOT PAIN**
+I'm sorry to hear you're experiencing ankle or foot pain. Here are some guidelines:
 
-**1. ANKLE SPRAINS**
-• **Lateral (most common):** Inversion injury, ATFL affected first
-• **Medial:** Deltoid ligament, eversion injury
-• **Syndesmotic:** "High ankle sprain," squeeze test, external rotation
+**When to Seek Immediate Medical Care**
+- Inability to bear weight
+- Visible deformity or abnormal positioning
+- Severe pain and swelling immediately after injury
+- Numbness or tingling in foot/toes
+- Open wound with exposed bone
+- Signs of infection
 
-**2. COMMON FOOT CONDITIONS**
-**PLANTAR FASCIITIS:**
-• Heel pain, worst with first steps in morning
-• **Treatment:** Stretching, orthotics, night splints
+**When to Call a Doctor**
+- Pain persists more than 2-3 weeks
+- Swelling doesn't improve
+- Difficulty walking or bearing weight
+- Notice deformity or changes in foot shape
+- History of diabetes or circulation issues
+- Sores that don't heal
 
-**ACHILLES TENDINOPATHY:**
-• Posterior heel pain, thickening of tendon
-• **Risk:** Fluoroquinolones, steroids
-• **Rupture:** Thompson test positive
+**Possible Causes**
+- Sprains (most commonly ankle)
+- Fractures
+- Arthritis
+- Tendinitis (Achilles, peroneal)
+- Plantar fasciitis
+- Bunions
+- Neuromas
 
-**MORTON'S NEUROMA:**
-• Interdigital neuroma (usually 3rd webspace)
-• Burning, numbness, feels like walking on pebble
+**What You Can Do** (if mild)
+- Rest and avoid painful activities
+- Apply ice for swelling
+- Compress with elastic bandage
+- Elevate foot when resting
+- Wear supportive, well-fitting shoes
+- Use orthotics if recommended
 
-**BUNIONS (Hallux Valgus):**
-• Medial prominence 1st MTP, may be painful
-
-**3. ARTHRITIS**
-**GOUT:** 1st MTP classic (podagra), red, hot, swollen
-**RA:** MTP involvement, forefoot pain, synovitis
-**OA:** Great toe, loss of motion, dorsal osteophytes
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Open fracture, dislocation, compartment syndrome
-**PODIATRY/ORTHOPEDICS:** Persistent pain, deformities, need for surgery
-**RHEUMATOLOGY:** Inflammatory arthritis, gout management
+**Final Advice**
+Ankle/foot pain from minor sprains often improves with self-care. However, persistent pain, especially with difficulty walking, needs evaluation. People with diabetes should seek prompt care for any foot issues.
 `,
 
   leg_pain_swelling: `
-**🦵 LEG PAIN & SWELLING**
+I'm sorry to hear you're experiencing leg pain or swelling. Here are some guidelines:
 
-**1. VASCULAR**
-**DVT:**
-• **Wells criteria:** Active cancer, paralysis, bedridden >3 days, localized tenderness, swelling >3cm, pitting edema, collateral veins, alternative diagnosis less likely
-• **Diagnosis:** D-dimer, ultrasound
-• **Treatment:** Anticoagulation
+**When to Seek Immediate Medical Care**
+- Sudden swelling in one leg with pain, especially in calf
+- Chest pain or shortness of breath
+- Cold, pale, or blue leg or foot
+- Severe pain following injury
+- Inability to bear weight or walk
+- Signs of severe infection
+- Sudden numbness or weakness
 
-**PERIPHERAL ARTERIAL DISEASE:**
-• Claudication (pain with walking, relieved by rest)
-• Diminished pulses, bruits, hair loss, shiny skin
-• **ABI:** <0.9 diagnostic
+**When to Call a Doctor**
+- Swelling doesn't improve after a few days
+- Persistent pain interferes with daily activities
+- Redness, warmth, or tenderness in calf
+- Painful or bleeding varicose veins
+- History of blood clots
+- Skin changes (ulcers, discoloration)
 
-**2. MUSCULOSKELETAL**
-**MUSCLE STRAIN:** Overuse, specific muscle tender
-**COMPARTMENT SYNDROME:** Pain out of proportion, emergency
-**STRESS FRACTURE:** Gradual onset, pain with activity, point tenderness
+**Possible Causes**
+- Muscle strain or injury
+- Deep vein thrombosis (DVT)
+- Venous insufficiency
+- Lymphedema
+- Arthritis
+- Nerve compression (sciatica)
+- Infections (cellulitis)
 
-**3. NEUROLOGIC**
-**RADICULOPATHY:** Radiating pain, dermatomal pattern
-**PERIPHERAL NEUROPATHY:** Distal symmetric, burning, tingling
+**What You Can Do** (if mild)
+- Elevate legs above heart level
+- Apply ice for pain and swelling
+- Use compression stockings if recommended
+- Stay active with gentle walking
+- Avoid prolonged sitting or standing
+- Maintain healthy weight
 
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Suspected DVT with respiratory symptoms (PE), compartment syndrome, acute limb ischemia
-**VASCULAR:** PAD, chronic venous insufficiency, DVT management
-**NEUROLOGY:** Neuropathic pain, radiculopathy
+**Final Advice**
+Swelling in both legs often indicates systemic issues (heart/kidney). Swelling in one leg with pain may indicate blood clot—seek urgent care. Don't ignore persistent leg symptoms.
 `,
 
   /* =========================
      SKIN CONDITIONS
   ========================== */
-
   rash: `
-**🔴 RASHES - Morphological Diagnosis**
+I'm sorry to hear you're experiencing a rash. Here are some guidelines:
 
-**1. PRIMARY LESION IDENTIFICATION**
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or swallowing
+- Swelling of face, lips, or tongue
+- Fever with stiff neck and headache
+- Widespread blistering or peeling
+- Purple spots that don't fade when pressed
+- Rash following new medication
 
-**MACULE/PATCH (Flat):**
-• **Viral exanthems:** Roseola, measles, rubella
-• **Drug eruptions:** Morbilliform, fixed drug
-• **Tinea versicolor:** Hypo/hyperpigmented patches
-• **Vitiligo:** Depigmented macules
+**When to Call a Doctor**
+- Rash covers large areas
+- Fever or pain with rash
+- Rash spreading rapidly
+- Signs of infection: redness, warmth, pus, fever
+- Rash painful or severely itchy
+- Rash doesn't improve after a week
 
-**PAPULE/PLAQUE (Elevated):**
-• **Psoriasis:** Silver scale, Auspitz sign
-• **Lichen planus:** Purple, pruritic, polygonal
-• **Pityriasis rosea:** Herald patch, Christmas tree
-• **Granuloma annulare:** Annular, flesh-colored
+**Possible Causes**
+- Allergic reactions (foods, medications, plants)
+- Infections (viral, bacterial, fungal)
+- Skin conditions (eczema, psoriasis)
+- Autoimmune diseases
+- Insect bites or stings
+- Contact dermatitis
 
-**VESICLE/BULLA (Fluid-filled):**
-• **Herpes simplex:** Grouped vesicles on erythematous base
-• **Varicella:** Dewdrop on rose petal, different stages
-• **Pemphigus vulgaris:** Flaccid bullae, Nikolsky sign
-• **Bullous pemphigoid:** Tense bullae, eosinophils
+**What You Can Do** (if mild)
+- Keep skin clean and dry
+- Use cool compresses for itching
+- Apply calamine lotion or OTC hydrocortisone
+- Take oral antihistamines for itching
+- Wear loose, breathable clothing
+- Avoid scratching
 
-**PUSTULE (Purulent):**
-• **Folliculitis:** Hair follicle centered
-• **Acne vulgaris:** Comedones, inflammatory lesions
-• **Pustular psoriasis:** Sterile pustules on erythema
-
-**2. DISTRIBUTION PATTERNS**
-
-**PHOTODISTRIBUTED (Sun-exposed):**
-• SLE malar rash
-• Phototoxic drug reaction
-• Polymorphous light eruption
-
-**DERMATOMAL:**
-• Herpes zoster (shingles)
-• Follows sensory nerve distribution
-
-**FLEXURAL:**
-• Atopic dermatitis (antecubital, popliteal)
-• Inverse psoriasis
-
-**EXTENSOR:**
-• Psoriasis vulgaris (elbows, knees)
-• Granuloma annulare
-
-**3. DANGEROUS RASHES**
-
-**STEVENS-JOHNSON SYNDROME/TEN:**
-• Target lesions with central blistering
-• Mucosal involvement (>1 site)
-• <10% BSA (SJS), 10-30% (SJS/TEN overlap), >30% (TEN)
-• Recent medication (anticonvulsants, antibiotics)
-
-**MENINGOCOCCEMIA:**
-• Rapidly spreading petechiae/purpura
-• Doesn't blanch
-• Fever, headache, neck stiffness
-• Can progress to DIC
-
-**NECROTIZING FASCIITIS:**
-• Pain out of proportion to exam
-• Rapid progression
-• Skin necrosis, bullae, crepitus
-• Systemic toxicity
-
-**4. WHEN TO CONSULT A DOCTOR**
-**Emergency Department:**
-• Fever + non-blanching rash
-• Rapidly spreading rash
-• Mucosal involvement (eyes, mouth, genitals)
-• Signs of anaphylaxis (wheezing, swelling)
-• Suspected necrotizing infection
-
-**Dermatology (Within 24-48 hours):**
-• Bullous disorders
-• Severe atopic dermatitis
-• Suspected autoimmune blistering
-• Widespread psoriasis
-• Unclear diagnosis
-
-**Primary Care (Within 1 week):**
-• Localized rash without systemic symptoms
-• Mild-moderate eczema
-• Suspected contact dermatitis
-• Acne requiring prescription treatment
-• Fungal infections
+**Final Advice**
+Most rashes improve with time and basic care. However, rashes with fever, widespread blistering, or signs of severe allergic reaction need immediate attention. Don't ignore a rash that persists or worsens.
 `,
 
+  itching: `
+I'm sorry to hear you're experiencing itching. Here are some guidelines:
 
-   itching: `
-**🦠 ITCHING (PRURITUS) - Localized vs Generalized**
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or swallowing
+- Swelling of face, lips, or tongue
+- Dizziness or fainting
+- Rapid heartbeat
+- Widespread hives with swelling
+- Fever with rash and stiff neck
 
-**1. CLASSIFICATION BY DURATION**
-• **Acute:** <6 weeks
-• **Chronic:** >6 weeks
+**When to Call a Doctor**
+- Itching persists more than 2 weeks
+- Itching severe, interferes with sleep or daily activities
+- Whole-body itching without visible rash
+- Yellowing of skin or eyes with itching
+- Unexplained weight loss or fatigue with itching
+- Itching after starting new medication
 
-**2. SYSTEMIC CAUSES (25% of chronic itch)**
+**Possible Causes**
+- Dry skin (most common)
+- Skin conditions (eczema, psoriasis, hives)
+- Allergic reactions
+- Internal diseases (kidney, liver, thyroid)
+- Nerve disorders
+- Parasitic infections (scabies, lice)
+- Pregnancy
 
-**HEPATOBILIARY:**
-• Cholestasis (primary biliary cholangitis, obstruction)
-• Hyperbilirubinemia
-• **Character:** Worse on palms/soles, worse at night
+**What You Can Do** (if mild)
+- Apply cool compresses
+- Take lukewarm baths
+- Use fragrance-free moisturizers
+- Apply OTC hydrocortisone or calamine
+- Take oral antihistamines
+- Wear loose, breathable cotton clothing
 
-**RENAL:**
-• Uremic pruritus (CKD stage 4-5)
-• Improves with dialysis
-• **Distribution:** Trunk, limbs
-
-**HEMATOLOGIC:**
-• Polycythemia vera (aquagenic pruritus)
-• Iron deficiency anemia
-• Lymphoma (Hodgkin's - alcohol-induced itch)
-
-**ENDOCRINE:**
-• Hyperthyroidism (increased blood flow)
-• Hypothyroidism (dry skin)
-• Diabetes (localized/generalized)
-
-**3. DERMATOLOGICAL CAUSES**
-
-**INFLAMMATORY:**
-• Atopic dermatitis (flexural, lichenification)
-• Psoriasis (scaly plaques)
-• Urticaria (wheals, angioedema)
-
-**INFECTIOUS:**
-• Scabies (burrows, finger webs, nocturnal)
-• Pediculosis (nits on hair shafts)
-• Fungal infections (annular, scaling)
-
-**4. NEUROLOGIC/PSYCHOGENIC**
-
-**NEUROPATHIC:**
-• Notalgia paresthetica (unilateral scapular)
-• Brachioradial pruritus (lateral forearm)
-• Post-herpetic neuralgia
-
-**PSYCHOGENIC:**
-• Delusions of parasitosis
-• Obsessive-compulsive related
-• Depression/anxiety associated
-
-**5. DIAGNOSTIC WORKUP**
-
-**BASIC SCREENING:**
-• CBC with differential
-• LFTs (especially alkaline phosphatase)
-• Renal function (BUN, creatinine)
-• TSH, glucose
-• Chest X-ray (if lymphoma suspected)
-
-**DERMATOLOGIC:**
-• Skin scrapings (scabies, fungi)
-• Biopsy (if diagnosis unclear)
-• Patch testing (contact dermatitis)
-
-**6. TREATMENT APPROACH**
-
-**TOPICAL:**
-• Emollients (petroleum-based)
-• Menthol/camphor (cooling)
-• Capsaicin (neuropathic)
-• Topical steroids (inflammatory)
-• Calcineurin inhibitors (face/genitals)
-
-**SYSTEMIC:**
-• Antihistamines (sedating for night)
-• Gabapentin/pregabalin (neuropathic)
-• SSRIs/SNRIs (psychogenic)
-• Opioid antagonists (cholestatic)
-• Phototherapy (broadband UVB)
-
-**7. WHEN TO CONSULT A DOCTOR**
-**Emergency Department:**
-• Itching with respiratory distress (anaphylaxis)
-• Itching with fever and rash (infection)
-• Severe self-injury from scratching
-
-**Dermatology (Urgent - Within 1 week):**
-• Suspected scabies (household contacts)
-• Bullous lesions with itching
-• Rapidly progressive rash
-• Failed OTC treatment
-
-**Primary Care (Schedule Appointment):**
-• Chronic itching >6 weeks
-• Itching without visible rash
-• Associated systemic symptoms
-• Need for systemic medication
-
-**Specialist Referral:**
-• Hepatology/GI: Suspected liver disease
-• Nephrology: CKD-associated
-• Hematology: Blood disorders
-• Psychiatry: Delusional infestation
+**Final Advice**
+Most itching from dry skin improves with good skin care. However, persistent, severe, or generalized itching needs evaluation. Don't ignore itching without rash—it can indicate internal conditions.
 `,
-
 
   acne: `
-**😳 ACNE VULGARIS**
+I'm sorry to hear you're experiencing acne. Here are some guidelines:
 
-**1. PATHOPHYSIOLOGY**
-• **Four factors:** Increased sebum, follicular hyperkeratinization, C. acnes, inflammation
-• **Hormonal influence:** Androgens stimulate sebum production
+**When to Seek Immediate Medical Care**
+- Signs of severe infection: spreading redness, warmth, fever, pus
+- Severe cystic acne with pain and swelling
+- Allergic reaction to acne medication
 
-**2. CLASSIFICATION**
-**COMEDONAL:** Open/closed comedones (blackheads/whiteheads)
-**INFLAMMATORY:** Papules, pustules
-**NODULOCYSTIC:** Deep nodules, cysts, higher scarring risk
+**When to Call a Doctor**
+- OTC treatments haven't improved acne after 2-3 months
+- Moderate to severe acne (inflamed pimples, cysts)
+- Acne causing scarring or dark spots
+- Acne affecting self-esteem
+- Painful, deep cysts
+- Suspect hormonal acne
 
-**3. SEVERITY**
-**MILD:** Mostly comedones, few inflammatory lesions
-**MODERATE:** More inflammatory lesions, limited nodules
-**SEVERE:** Numerous inflammatory lesions, nodules, scarring
+**Possible Causes**
+- Hormonal changes (puberty, menstrual cycles, pregnancy, PCOS)
+- Excess oil production
+- Clogged pores
+- Bacteria
+- Certain medications, stress, genetics
 
-**4. TREATMENT**
-**TOPICAL:**
-• **Retinoids:** Tretinoin, adapalene, tazarotene (comedolytic)
-• **Benzoyl peroxide:** Antimicrobial, anti-inflammatory
-• **Antibiotics:** Clindamycin, erythromycin (combine with BP to prevent resistance)
-• **Azelaic acid:** Anti-inflammatory, reduces hyperpigmentation
+**What You Can Do** (for mild acne)
+- Wash face twice daily with gentle cleanser
+- Use non-comedogenic products
+- Apply OTC treatments with benzoyl peroxide or salicylic acid
+- Avoid picking or squeezing pimples
+- Use oil-free makeup
+- Clean items that touch your face
 
-**ORAL:**
-• **Antibiotics:** Doxycycline, minocycline (moderate-severe inflammatory)
-• **Hormonal:** OCPs, spironolactone (women with hormonal pattern)
-• **Isotretinoin:** Severe nodulocystic, multiple side effects, teratogenic
+**Final Advice**
+Acne is a medical condition, not just cosmetic. Effective treatments are available. Early treatment of moderate to severe acne prevents scarring. Be patient—it often takes 4-8 weeks to see improvement.
+`,
 
-**5. WHEN TO CONSULT A DOCTOR**
-**DERMATOLOGY:** Moderate-severe acne, scarring, failed OTC/topical treatments, need for isotretinoin
-**PRIMARY CARE:** Mild-moderate acne, initial management
+  skin_problems: `
+I'm sorry to hear you're experiencing skin problems. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Widespread rash with fever
+- Rash that blisters or involves eyes/mouth/genitals
+- Rapidly spreading redness with pain and fever
+- Rash following new medication
+- Purple rash that doesn't fade when pressed
+- Chemical burns or large thermal burns
+
+**When to Call a Doctor**
+- Rash persists more than 2 weeks
+- Symptoms worsen despite OTC treatment
+- Painful or itchy lesions interfere with daily life
+- Signs of infection
+- New moles or changes in existing moles
+- Skin symptoms with joint pain, fever, or fatigue
+
+**Possible Causes**
+- Eczema (dry, itchy, inflamed skin)
+- Psoriasis (red, scaly patches)
+- Acne, rosacea
+- Hives (allergic)
+- Fungal, bacterial, viral infections
+- Skin cancer, autoimmune conditions
+
+**What You Can Do** (if mild)
+- Keep skin clean and moisturized
+- Use gentle, fragrance-free products
+- Avoid scratching
+- Use cool compresses for itching
+- Take lukewarm baths
+- Wear loose, breathable clothing
+
+**Final Advice**
+Many common skin conditions can be managed with good skin care and OTC treatments. However, persistent, worsening, or severe symptoms need evaluation. Don't ignore changing moles—early detection of skin cancer is crucial.
 `,
 
   /* =========================
      INFECTIOUS DISEASES
   ========================== */
+  fever: `
+I'm sorry to hear you're experiencing a fever. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Temperature above 104°F in adults or children
+- Fever in infants under 3 months (any temp above 100.4°F)
+- Stiff neck, severe headache, light sensitivity
+- Difficulty breathing or chest pain
+- Confusion, lethargy, difficulty waking
+- Severe abdominal pain
+- Purple rash that doesn't fade when pressed
+- Fever persists more than 3 days
+
+**When to Call a Doctor**
+- Fever 102-104°F doesn't respond to medication
+- Chronic medical condition
+- Recently traveled internationally
+- Fever with sore throat, ear pain, or cough
+- Pregnant with fever
+- Fever returns after going away 24 hours
+
+**Possible Causes**
+- Viral infections (flu, COVID-19, cold)
+- Bacterial infections (strep, UTIs, pneumonia)
+- Inflammatory conditions
+- Medications or immunizations
+- Heat exhaustion or heat stroke
+
+**What You Can Do** (if mild)
+- Rest and allow body to recover
+- Stay hydrated
+- Take fever-reducing meds (acetaminophen, ibuprofen)
+- Use lukewarm sponge baths
+- Wear lightweight clothing
+- Monitor temperature regularly
+
+**Final Advice**
+Most fevers resolve within 3-4 days. However, if your fever is high, persistent, or with severe symptoms, seek medical attention promptly to identify underlying conditions.
+`,
 
   common_cold: `
-**🥶 COMMON COLD (VIRAL UPPER RESPIRATORY INFECTION)**
+I'm sorry to hear you're experiencing cold symptoms. Here are some guidelines:
 
-**1. CAUSATIVE VIRUSES**
-• Rhinovirus (most common)
-• Coronavirus
-• Adenovirus
-• Respiratory syncytial virus (RSV)
-• Parainfluenza
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or shortness of breath
+- Chest pain or pressure
+- Severe headache with stiff neck
+- High fever (over 103°F) not responding to medication
+- Confusion or difficulty waking
+- Symptoms improve then suddenly worsen
 
-**2. SYMPTOMS**
-• Nasal congestion/rhinorrhea
-• Sneezing
-• Sore/scratchy throat
-• Cough (usually mild)
-• Mild fatigue/malaise
-• Low-grade fever (more common in children)
+**When to Call a Doctor**
+- Symptoms last more than 10 days without improvement
+- Fever over 100.4°F for more than 3 days
+- Severe sinus pain or headache
+- Symptoms of ear infection
+- Sore throat lasts more than 5-7 days
+- Chronic medical condition
 
-**3. DIFFERENTIATION FROM FLU**
-**COLD:** Gradual onset, milder symptoms, rarely fever >100.4°F
-**INFLUENZA:** Sudden onset, high fever, body aches, severe fatigue, dry cough
+**Possible Causes**
+- Rhinoviruses (most common)
+- Coronaviruses (some types)
+- Respiratory syncytial virus (RSV)
+- Adenoviruses
 
-**4. TREATMENT**
-**SUPPORTIVE:**
-• Rest, hydration
-• Saline nasal sprays/irrigation
-• Honey for cough (age >1)
-• Humidifier
-• OTC symptom relief (decongestants, antitussives, analgesics)
+**What You Can Do**
+- Rest and recover
+- Stay hydrated
+- Use saline nasal spray for congestion
+- Use a humidifier
+- Gargle warm salt water for sore throat
+- Use OTC cold medications as directed
 
-**NOT RECOMMENDED:**
-• Antibiotics (viral)
-• Most supplements (zinc may shorten duration if started early)
-
-**5. DURATION**
-• Symptoms peak day 2-3
-• Improve by day 7-10
-• Cough may persist 2-3 weeks
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Difficulty breathing, severe dehydration, confusion
-**PRIMARY CARE:** Symptoms >10 days, high fever, severe symptoms, underlying conditions
+**Final Advice**
+Most colds resolve within 7-10 days with self-care. Antibiotics don't work for viral colds. Good hand hygiene prevents spread. Get annual flu vaccine and stay up-to-date on COVID-19 vaccines.
 `,
 
   flu: `
-**🤧 INFLUENZA**
+I'm sorry to hear you're experiencing flu symptoms. Here are some guidelines:
 
-**1. INFLUENZA TYPES**
-• **A:** Most common, causes epidemics/pandemics, subtypes (H1N1, H3N2)
-• **B:** Usually milder, seasonal
-• **C:** Mild, rarely causes epidemics
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or shortness of breath
+- Chest pain or pressure
+- Persistent dizziness, confusion
+- Severe weakness or muscle pain
+- Fever or cough that improves then returns worse
+- Seizures
+- Not urinating
 
-**2. SYMPTOMS**
-• **Sudden onset:** Fever (usually 100-104°F), chills
-• **Systemic:** Severe body aches, headache, fatigue/weakness
-• **Respiratory:** Dry cough, sore throat, nasal congestion
-• **GI:** Nausea/vomiting/diarrhea (more common in children)
+**When to Call a Doctor**
+- High risk for flu complications (over 65, pregnant, chronic conditions)
+- Severe or concerning symptoms
+- Symptoms of pneumonia (fever, cough with mucus, shortness of breath)
+- Symptoms don't improve after 7-10 days
 
-**3. COMPLICATIONS**
-• Pneumonia (viral or bacterial secondary)
-• Worsening of chronic conditions (asthma, COPD, CHF)
-• Myocarditis, pericarditis
-• Neurological (encephalitis, seizures)
-• Myositis/rhabdomyolysis
+**Flu vs Cold**
+Flu typically has: sudden onset, high fever, severe headache, body aches, extreme fatigue, chest discomfort/cough
 
-**4. TREATMENT**
-**ANTIVIRALS (Start within 48 hours best):**
-• Oseltamivir (oral)
-• Zanamivir (inhaled)
-• Peramivir (IV)
-• Baloxavir (single dose)
+**What You Can Do**
+- Rest and allow body to fight infection
+- Stay hydrated
+- Use fever reducers (acetaminophen, ibuprofen)
+- Use a humidifier
+- Gargle warm salt water
+- Isolate to prevent spreading
 
-**SUPPORTIVE:** Rest, hydration, analgesics/antipyretics
+**Antiviral Medications**
+- Most effective when started within 48 hours
+- Can reduce severity and duration
+- Important for high-risk individuals
 
-**5. PREVENTION**
-• Annual vaccination (recommended for everyone >6 months)
-• Good hand hygiene
-• Avoid sick contacts
-• Antiviral prophylaxis for high-risk exposed
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Difficulty breathing, chest pain, confusion, severe dehydration, bluish lips/face
-**URGENT CARE:** Within 48 hours for antiviral consideration, high-risk patients
+**Final Advice**
+Most people recover within 1-2 weeks. Antiviral meds work best when started early. If you're high-risk or have severe symptoms, contact your healthcare provider promptly.
 `,
 
   sti: `
-**⚠️ SEXUALLY TRANSMITTED INFECTIONS**
-
-**1. ULCERATIVE STIs**
-**SYPHILIS:**
-• **Primary:** Painless chancre
-• **Secondary:** Rash (palms/soles), condyloma lata, fever, lymphadenopathy
-• **Latent/tertiary:** Neurosyphilis, cardiovascular, gummas
-
-**GENITAL HERPES:**
-• Painful vesicles/ulcers, systemic symptoms with primary
-• Recurrent episodes typically milder
-• **Diagnosis:** PCR/viral culture, type-specific serology
-
-**CHANCROID:** Painful ulcer, tender lymphadenopathy (suppurative)
-
-**2. DISCHARGE STIs**
-**CHLAMYDIA:** Often asymptomatic, can cause PID, epididymitis, reactive arthritis
-**GONORRHEA:** May be asymptomatic, purulent discharge, PID, disseminated infection
-**TRICHOMONIASIS:** Frothy discharge, itching, strawberry cervix
-
-**3. VIRAL STIs**
-**HPV:** Warts (low-risk types 6,11), cervical dysplasia/cancer (high-risk types 16,18)
-**HIV:** Acute retroviral syndrome (fever, rash, lymphadenopathy, pharyngitis), then latent then AIDS
-
-**4. SCREENING RECOMMENDATIONS**
-• **All sexually active <25:** Annual chlamydia/gonorrhea
-• **All adults:** HIV at least once, more if risk factors
-• **Women 21-65:** Cervical cancer screening (Pap/HPV)
-• **MSM:** More frequent (3-6 months)
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Disseminated infection (arthritis-dermatitis syndrome), severe PID, HIV with opportunistic infection
-**PUBLIC HEALTH/INFECTIOUS DISEASE:** HIV, syphilis, reporting requirements
-**GYNECOLOGY/UROLOGY:** Routine screening, management
-`,
-
-  /* =========================
-     CHILD HEALTH
-  ========================== */
-
- infant_fever: `
-**👶 INFANT FEVER - Age-Based Management**
-
-**1. AGE-SPECIFIC RISK STRATEGY**
-
-**0-28 DAYS (NEONATE):**
-• **Any fever >100.4°F (38°C):** Medical emergency
-• **Risk:** 10% serious bacterial infection (SBI)
-• **Required:** Full sepsis workup + hospitalization
-• **Empiric antibiotics:** Ampicillin + Gentamicin/Cefotaxime
-
-**29-56 DAYS (YOUNG INFANT):**
-• **Risk:** 5-7% SBI
-• **Rochester/Pennsylvania/Boston criteria** to identify low-risk
-• **Low-risk:** May avoid LP, observe with/without antibiotics
-• **High-risk:** Full workup + admission
-
-**3-6 MONTHS:**
-• **Fever >102.2°F (39°C):** Higher UTI risk
-• **Well-appearing:** May outpatient manage with close follow-up
-• **Ill-appearing:** Requires evaluation
-
-**2. SERIOUS BACTERIAL INFECTIONS IN INFANTS**
-
-**UTI (Most Common SBI):**
-• Prevalence: 7% in febrile infants
-• **Diagnosis:** Catheterized urine culture
-• **Treatment:** IV antibiotics initially
-
-**BACTEREMIA:**
-• **Occult:** Positive blood culture in well-appearing infant
-• **Organisms:** S. pneumoniae, N. meningitidis, E. coli
-• **Risk:** 1.5-2% in 3-36 month-olds
-
-**MENINGITIS:**
-• **Mortality:** 5-10%
-• **Neurologic sequelae:** 15-25%
-• **Diagnosis:** LP required if suspected
-
-**3. EVALUATION PROTOCOL**
-
-**WELL-APPEARING 3-36 MONTHS:**
-• **History:** Immunization status, sick contacts, symptoms
-• **Exam:** Thorough, including hydration status
-• **Testing based on age/temperature**
-• **Disposition:** Home vs observation vs admission
-
-**ILL-APPEARING ANY AGE:**
-• **Full sepsis evaluation:** CBC, blood culture, UA/UCx, CXR if respiratory, LP
-• **Empiric antibiotics:** Ceftriaxone 50mg/kg
-• **Admission required**
-
-**4. WHEN TO CONSULT A DOCTOR**
-**Emergency Department IMMEDIATELY:**
-• Infant <28 days with any fever
-• Ill-appearing infant (lethargic, poor feeding)
-• Fever >104°F (40°C)
-• Petechial/purpuric rash
-• Signs of dehydration
-• Seizures
-
-**Pediatrician (Within 2-4 hours):**
-• Infant 29-56 days with fever
-• 3-6 months with fever >102.2°F
-• Well-appearing but concerning symptoms
-• Need for outpatient workup
-
-**Follow-up (Next day):**
-• Sent home from ED with pending cultures
-• Need for re-evaluation
-• Antibiotic course monitoring
-
-**Telephone Triage:**
-• Mild fever <102°F in older infant
-• Recent vaccination fever
-• Mild URI symptoms with low-grade fever
-`,
-
- childhood_viral: `
-**🦠 COMMON CHILDHOOD VIRAL ILLNESSES**
-
-**1. VIRAL EXANTHEMS (Classic Childhood Rashes)**
-
-**MEASLES (Rubeola):**
-• **Prodrome:** 2-4 days fever, cough, coryza, conjunctivitis
-• **Rash:** Maculopapular, starts face → spreads downward
-• **Koplik spots:** White spots on buccal mucosa (pathognomonic)
-• **Complications:** Pneumonia, encephalitis, SSPE
-
-**RUBELLA (German Measles):**
-• **Mild symptoms:** Low-grade fever, lymphadenopathy
-• **Rash:** Pink macules, face → trunk → extremities
-• **Complications:** Arthritis (adults), congenital rubella syndrome
-
-**FIFTH DISEASE (Parvovirus B19):**
-• **"Slapped cheek" appearance:** Erythematous cheeks
-• **Rash:** Lacy/reticular on extremities
-• **Complications:** Aplastic crisis (sickle cell), hydrops fetalis
-
-**ROSEOLA (HHV-6):**
-• **High fever:** 3-5 days, child well-appearing
-• **Rash:** Appears as fever breaks, rose-pink macules trunk
-• **Febrile seizures common**
-
-**2. RESPIRATORY VIRUSES**
-
-**RSV (Respiratory Syncytial Virus):**
-• **Bronchiolitis:** Wheezing, retractions, nasal flaring
-• **High-risk:** Premature, congenital heart, chronic lung
-• **Season:** Winter/spring
-
-**INFLUENZA:**
-• **Sudden onset:** High fever, myalgia, headache, cough
-• **Complications:** Pneumonia, myositis, encephalitis
-• **Antivirals:** Oseltamivir if started <48 hours
-
-**COVID-19:**
-• **Spectrum:** Asymptomatic to severe
-• **MIS-C:** Multisystem inflammatory syndrome in children
-• **Symptoms:** Fever, cough, GI symptoms, loss taste/smell
-
-**3. GASTROINTESTINAL VIRUSES**
-
-**ROTAVIRUS:**
-• **Severe dehydration risk**
-• **Vaccine available**
-• **Season:** Winter
-
-**NOROVIRUS:**
-• **"Winter vomiting bug"**
-• **Explosive vomiting**
-• **Rapid spread in communities**
-
-**4. MANAGEMENT PRINCIPLES**
-
-**SUPPORTIVE CARE:**
-• **Hydration:** Small frequent fluids, ORS for diarrhea
-• **Fever control:** Acetaminophen 10-15mg/kg, Ibuprofen 5-10mg/kg
-• **Comfort measures:** Humidifier, saline nasal drops
-• **Nutrition:** BRAT diet if vomiting, continue breastfeeding
-
-**5. WHEN TO CONSULT A DOCTOR**
-**Emergency Department:**
-• Respiratory distress (retractions, grunting, cyanosis)
-• Signs of dehydration (no urine >8 hours, sunken eyes)
-• Febrile seizure
-• Petechial/purpuric rash with fever
-• Stiff neck, photophobia
-• Toxic appearance
-
-**Pediatrician (Within 24 hours):**
-• Fever >3 days
-• Poor oral intake
-• Worsening symptoms
-• Underlying chronic conditions
-• Need for specific diagnosis/testing
-
-**Urgent Care:**
-• Mild-moderate symptoms
-• After-hours care needed
-• School/sports clearance
-• Basic evaluation/treatment
-
-**Home Management:**
-• Mild symptoms
-• Well-appearing child
-• Adequate hydration
-• Follow-up if worsens
-`,
- 
-  asthma_childhood: `
-**🌬️ CHILDHOOD ASTHMA - Management & Recognition**
-
-**1. DIAGNOSTIC CRITERIA**
-
-**CLINICAL FEATURES:**
-• **Episodic symptoms:** Wheeze, cough, shortness of breath
-• **Triggered by:** Viruses, allergens, exercise, cold air
-• **Family history:** Asthma, atopy
-• **Response to bronchodilators:** Improvement with albuterol
-
-**SPIROMETRY (≥5 years):**
-• **FEV1/FVC:** <80% predicted
-• **Bronchodilator response:** >12% improvement in FEV1
-• **Bronchial provocation:** >20% drop in FEV1 with methacholine
-
-**2. SEVERITY CLASSIFICATION**
-
-**INTERMITTENT:**
-• Symptoms ≤2 days/week
-• Night awakenings ≤2x/month
-• SABA use ≤2 days/week
-• Normal FEV1 between exacerbations
-
-**MILD PERSISTENT:**
-• Symptoms >2 days/week but not daily
-• Night awakenings 3-4x/month
-• Minor limitation with activity
-
-**MODERATE PERSISTENT:**
-• Daily symptoms
-• Night awakenings >1x/week
-• Some limitation with activity
-• FEV1 60-80% predicted
-
-**SEVERE PERSISTENT:**
-• Continuous symptoms
-• Frequent night awakenings
-• Extreme limitation with activity
-• FEV1 <60% predicted
-
-**3. EXACERBATION SEVERITY**
-
-**MILD:**
-• Speaks in sentences
-• Mild wheeze
-• PEF >70% personal best
-• Alert, minimal distress
-
-**MODERATE:**
-• Speaks in phrases
-• Moderate wheeze
-• PEF 40-69%
-• Some distress
-
-**SEVERE:**
-• Speaks in words
-• Severe wheeze (or silent chest)
-• PEF <40%
-• Agitated, diaphoretic
-
-**LIFE-THREATENING:**
-• Too breathless to speak
-• Exhaustion, confusion
-• Cyanosis
-• Bradycardia, hypotension
-
-**4. ACTION PLAN COMPONENTS**
-
-**GREEN ZONE (Doing Well):**
-• PEF >80% personal best
-• No symptoms day/night
-• Treatment: Controller medication daily
-
-**YELLOW ZONE (Getting Worse):**
-• PEF 50-80%
-• Cough, wheeze, tight chest
-• Night awakenings
-• Action: Increase controller, add SABA
-
-**RED ZONE (Medical Alert):**
-• PEF <50%
-• Severe symptoms
-• Action: SABA immediately, call doctor/911
-
-**5. WHEN TO CONSULT A DOCTOR**
-**Call 911 Immediately:**
-• Severe respiratory distress
-• Altered mental status
-• Cyanosis
-• Unable to speak
-• Exhaustion from breathing
-
-**Emergency Department:**
-• Yellow zone symptoms not improving with treatment
-• PEF <50% despite treatment
-• Rapid breathing, retractions
-• Concern for pneumonia
-
-**Pediatrician (Same day):**
-• Yellow zone symptoms
-• Need for oral steroids
-• Failed action plan
-• Frequent SABA use (>2 days/week)
-
-**Pulmonology/Allergy Referral:**
-• Poorly controlled despite therapy
-• Frequent exacerbations/hospitalizations
-• Need for advanced therapies
-• Allergy evaluation needed
-`,
-
-  adhd: `
-**🧠 ADHD IN CHILDREN**
-
-**1. DSM-5 CRITERIA**
-**INATTENTION (≥6 symptoms for children):**
-• Fails to give close attention, careless mistakes
-• Difficulty sustaining attention
-• Does not seem to listen
-• Does not follow through/finish tasks
-• Difficulty organizing
-• Avoids tasks requiring sustained mental effort
-• Loses things
-• Easily distracted
-• Forgetful in daily activities
-
-**HYPERACTIVITY/IMPULSIVITY (≥6 symptoms):**
-• Fidgets, taps hands/feet
-• Leaves seat when expected to remain
-• Runs/climbs inappropriately
-• Unable to play quietly
-• "On the go"/"driven by motor"
-• Talks excessively
-• Blurts out answers
-• Difficulty waiting turn
-• Interrupts/intrudes
-
-**2. SUBTYPES**
-• **Combined:** Both inattention and hyperactivity-impulsivity
-• **Predominantly inattentive**
-• **Predominantly hyperactive-impulsive**
-
-**3. DIAGNOSTIC PROCESS**
-• Symptoms present before age 12
-• Symptoms in ≥2 settings (home, school)
-• Interferes with functioning
-• Not better explained by another condition
-• **Rating scales:** Vanderbilt, Conners, ADHD-RS
-
-**4. TREATMENT**
-**BEHAVIORAL THERAPY:** First-line for preschool, adjunct for school-age
-**MEDICATION:**
-• **Stimulants:** Methylphenidate, amphetamine (first-line for school-age)
-• **Non-stimulants:** Atomoxetine, guanfacine, clonidine
-• **Monitoring:** Growth, cardiovascular, side effects
-
-**5. WHEN TO CONSULT A DOCTOR**
-**PEDIATRICIAN/DEVELOPMENTAL:** Initial evaluation, medication management
-**CHILD PSYCHIATRY:** Complex cases, comorbidities, treatment-resistant
-**SCHOOL:** Educational accommodations, IEP/504 plan
-`,
-
-  childhood_development: `
-**📈 CHILDHOOD DEVELOPMENTAL CONCERNS**
-
-**1. MILESTONES RED FLAGS**
-**BY 6 MONTHS:**
-• No social smile
-• Persistent head lag
-• Not reaching for objects
-• Not bringing objects to mouth
-
-**BY 12 MONTHS:**
-• No babbling
-• No gesturing (pointing, waving)
-• Not responding to name
-• Not sitting independently
-
-**BY 18 MONTHS:**
-• No single words
-• No walking
-• Loss of previously acquired skills
-
-**BY 24 MONTHS:**
-• <50 words
-• No 2-word phrases
-• Doesn't imitate actions/words
-
-**2. AUTISM SPECTRUM DISORDER**
-**SOCIAL COMMUNICATION DEFICITS:**
-• Poor eye contact
-• Lack of social-emotional reciprocity
-• Difficulty developing/maintaining relationships
-• Deficits in nonverbal communication
-
-**RESTRICTED/REPETITIVE PATTERNS:**
-• Stereotyped/repetitive movements
-• Insistence on sameness, routines
-• Highly restricted interests
-• Sensory hyper/hyposensitivity
-
-**3. LEARNING DISABILITIES**
-**DYSLEXIA:** Reading difficulty
-**DYSCALCULIA:** Math difficulty
-**DYSGRAPHIA:** Writing difficulty
-**PROCESSING DISORDERS:** Auditory/visual processing
-
-**4. WHEN TO CONSULT A DOCTOR**
-**EARLY INTERVENTION:** Any developmental concerns (birth-3 years)
-**DEVELOPMENTAL PEDIATRICS:** Complex concerns, ASD diagnosis
-**NEUROLOGY:** Regression, seizures, neurological signs
-**PSYCHOLOGY/PSYCHIATRY:** Behavioral/emotional concerns
-`,
-
-  /* =========================
-     INJURIES & FIRST AID
-  ========================== */
-
-  animal_bites: `
-**🐕 ANIMAL BITES - Risk Stratification & Management**
-
-**1. RISK CATEGORIZATION**
-
-**LOW RISK:**
-• Pet dog/cat, vaccinated, provoked bite
-• Superficial scratch/abrasion
-• Bite on trunk/limbs (not hand/face)
-
-**MODERATE RISK:**
-• Unprovoked bite
-• Stray animal
-• Bite on hand/face
-• Deep puncture
-• Immunocompromised host
-
-**HIGH RISK:**
-• Wild animal (bat, raccoon, skunk, fox)
-• Bat exposure in room where sleeping
-• Dog/cat with neurologic symptoms
-• Unvaccinated animal
-
-**2. IMMEDIATE FIRST AID**
-
-**FOR ALL BITES:**
-1. **Control bleeding:** Direct pressure with clean cloth
-2. **Clean thoroughly:** 15 minutes with soap and running water
-3. **Irrigate:** High-pressure saline if available
-4. **Debride:** Remove foreign material, necrotic tissue
-5. **Dress:** Apply antibiotic ointment, sterile dressing
-
-**DO NOT:**
-• Close wounds primarily (except facial wounds)
-• Use alcohol/hydrogen peroxide (damages tissue)
-• Apply herbal remedies
-• Delay seeking care for high-risk bites
-
-**3. ANTIBIOTIC PROPHYLAXIS**
-
-**INDICATIONS:**
-• **All cat bites** (high infection risk)
-• **Hand/foot/face/genital** bites
-• **Puncture wounds**
-• **Deep wounds**
-• **Immunocompromised patients**
-• **Wounds >6 hours old**
-
-**REGIMENS:**
-• **First-line:** Amoxicillin-clavulanate 875/125mg BID
-• **Penicillin allergic:** Doxycycline + metronidazole
-• **MRSA coverage:** Add trimethoprim-sulfamethoxazole
-
-**4. RABIES RISK ASSESSMENT**
-
-**ANIMAL TYPES:**
-• **High risk:** Bats, raccoons, skunks, foxes
-• **Variable risk:** Dogs, cats, ferrets (depends on vaccination)
-• **Low risk:** Rodents, rabbits, squirrels
-
-**QUARANTINE OBSERVATION:**
-• **Dogs/cats/ferrets:** 10-day observation if healthy
-• **If animal develops signs:** Euthanize and test brain
-• **Wild animals:** Assume rabid unless tested negative
-
-**5. TETANUS PROPHYLAXIS**
-
-**CLEAN MINOR WOUNDS:**
-• Last dose >10 years ago: Give Tdap/Td
-• Unknown/uncertain history: Give Tdap/Td
-
-**ALL OTHER WOUNDS:**
-• Last dose >5 years ago: Give Tdap/Td
-• Unknown/uncertain history: Give Tdap/Td + TIG
-
-**6. WHEN TO CONSULT A DOCTOR**
-**Emergency Department (Immediate):**
-• Bite from high-risk animal (bat, wild carnivore)
-• Bite on face/hands/genitals
-• Deep puncture, arterial bleeding
-• Signs of infection (redness, swelling, pus)
-• Immunocompromised patient
-• Suspected fracture/tendon injury
-
-**Urgent Care/Clinic (Within 6-8 hours):**
-• Dog/cat bites requiring antibiotics
-• Tetanus booster needed
-• Wound closure assessment
-• Rabies risk assessment
-
-**Primary Care (Within 24 hours):**
-• Superficial abrasions/scratches
-• Low-risk bites for follow-up
-• Antibiotic monitoring
-• Rabies vaccination series initiation
-
-**Public Health Department:**
-• Animal bite reporting
-• Rabies exposure investigation
-• Quarantine arrangements
-`,
-
- 
-  fractures: `
-**🦴 FRACTURES - Recognition & Initial Management**
-
-**1. CLASSIFICATION SYSTEMS**
-
-**BY MECHANISM:**
-• **Traumatic:** Direct/indirect force
-• **Pathological:** Underlying bone disease (cancer, osteoporosis)
-• **Stress:** Repetitive microtrauma
-
-**BY PATTERN:**
-• **Transverse:** Clean break perpendicular to bone
-• **Oblique:** Diagonal break
-• **Spiral:** Twisting force
-• **Comminuted:** Multiple fragments
-• **Greenstick:** Incomplete (children)
-• **Compression:** Vertebral body collapse
-
-**BY DISPLACEMENT:**
-• **Non-displaced:** Anatomical alignment maintained
-• **Displaced:** Fragments separated
-• **Angulated:** Fragments at angle
-
-**2. CLINICAL ASSESSMENT**
-
-**HISTORY (AMPLE):**
-• **A**llergies
-• **M**edications
-• **P**ast medical history
-• **L**ast meal
-• **E**vents/environment
-
-**PHYSICAL EXAM (6 Ps):**
-• **Pain:** Point tenderness
-• **Pallor:** Distal to injury
-• **Paresthesia:** Nerve injury
-• **Paralysis:** Motor function loss
-• **Pulses:** Distal circulation
-• **Poikilothermia:** Temperature change
-
-**3. IMMEDIATE FIRST AID**
-
-**SPLINTING PRINCIPLES:**
-• **Immobilize joint above and below**
-• **Pad bony prominences**
-• **Check neurovascular status before/after**
-• **Elevate to reduce swelling**
-• **Apply ice (20 minutes on/off)**
-
-**SPECIFIC INJURIES:**
-• **Upper extremity:** Sling and swathe
-• **Lower extremity:** Pillow splint, traction splint for femur
-• **Spine:** Do not move, maintain alignment
-• **Pelvis:** Do not log roll, stabilize with sheet
-
-**4. RED FLAGS FOR COMPLICATIONS**
-
-**COMPARTMENT SYNDROME (5 Ps + Pain with passive stretch):**
-• **Pain out of proportion**
-• **Pallor**
-• **Paresthesia**
-• **Paralysis**
-• **Pulselessness (late sign)**
-• **Pain with passive stretch**
-• **Pressure >30 mmHg**
-
-**NEUROVASCULAR INJURY:**
-• Absent pulses
-• Capillary refill >2 seconds
-• Motor/sensory deficits
-• Expanding hematoma
-
-**OPEN FRACTURE:**
-• Bone protruding through skin
-• Wound over fracture site
-• Higher infection risk
-
-**5. WHEN TO CONSULT A DOCTOR**
-**Emergency Department (Immediate):**
-• Open fracture (bone through skin)
-• Neurovascular compromise
-• Suspected compartment syndrome
-• Multiple fractures/polytrauma
-• Hip/pelvis/vertebral fractures
-• Severe deformity/severe pain
-
-**Urgent Care/Ortho Clinic (Within 24 hours):**
-• Closed non-displaced fractures
-• Suspected fractures without deformity
-• Follow-up for ED-managed fractures
-• Cast/splint checks
-
-**Primary Care (Within 48-72 hours):**
-• Minor fractures (toes, fingers)
-• Stress fracture evaluation
-• Repeat imaging needed
-• Pain management follow-up
-
-**Orthopedic Surgery:**
-• All displaced fractures
-• Intra-articular fractures
-• Open fractures
-• Non-union/malunion
-• Surgical planning needed
-`,
-
-  burns: `
-**🔥 BURNS - Classification & Management**
-
-**1. DEPTH CLASSIFICATION**
-**FIRST-DEGREE (Superficial):**
-• **Appearance:** Red, dry, painful
-• **Healing:** 3-6 days, no scarring
-• **Example:** Sunburn
-
-**SECOND-DEGREE (Partial Thickness):**
-• **Superficial:** Blisters, moist, red, blanches, painful
-• **Deep:** May be whitish, less blanching, less painful (nerve damage)
-• **Healing:** Superficial 1-3 weeks, deep >3 weeks, may scar
-
-**THIRD-DEGREE (Full Thickness):**
-• **Appearance:** Leathery, white/brown/black, no blanching, insensate
-• **Healing:** Requires grafting
-
-**FOURTH-DEGREE:** Involves muscle/bone
-
-**2. EXTENT (% TBSA)**
-• **Rule of Nines:** Adult: Head 9%, Each arm 9%, Each leg 18%, Front trunk 18%, Back trunk 18%, Genitalia 1%
-• **Palmar method:** Patient's palm = 1% TBSA
-
-**3. SEVERITY**
-**MINOR:**
-• <10% TBSA in adult (<5% in child/elderly)
-• <2% full thickness
-• Not involving special areas
-
-**MODERATE:**
-• 10-20% TBSA in adult (5-10% in child/elderly)
-• 2-5% full thickness
-• Suspected inhalation injury
-• High-voltage electrical
-• Circumferential
-
-**MAJOR (Transfer to burn center):**
-• >20% TBSA
-• >5% full thickness
-• Face, hands, feet, genitalia, perineum, major joints
-• Chemical, electrical, inhalation injuries
-• Patients with comorbidities
-
-**4. IMMEDIATE CARE**
-• Stop burning process
-• Cool with lukewarm water (not ice)
-• Remove jewelry/constrictive items
-• Cover with clean dry cloth
-• Pain management
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** All moderate/major burns, facial/hand/genital burns, inhalation injury, electrical/chemical burns
-**BURN CENTER:** Major burns as above
-**PRIMARY CARE:** Minor burns, follow-up
-`,
-
-  head_injury: `
-**🤕 HEAD INJURY & CONCUSSION**
-
-**1. CONCUSSION DEFINITION**
-• Mild traumatic brain injury
-• Functional disturbance (structural imaging normal)
-• May or may not involve loss of consciousness
-
-**2. SYMPTOMS**
-**PHYSICAL:** Headache, nausea, vomiting, dizziness, balance problems, visual disturbances, fatigue, sensitivity to light/noise
-**COGNITIVE:** Feeling foggy, difficulty concentrating, memory problems
-**EMOTIONAL:** Irritability, sadness, emotional lability, anxiety
-**SLEEP:** Drowsiness, sleeping more/less, trouble falling asleep
-
-**3. RED FLAGS (Need CT)**
-• **NEXUS II criteria:** Age >65, dangerous mechanism, vomiting, amnesia, GCS <15, skull fracture signs, coagulopathy
-• **PECARN (children):** Additional considerations
-• **CT indicated:** GCS <15 at 2 hours, suspected skull fracture, vomiting ≥2, age ≥65, dangerous mechanism, coagulopathy
-
-**4. MANAGEMENT**
-**ACUTE:** Rest (physical/cognitive), symptom management, gradual return to activity
-**RETURN TO PLAY/LEARN:** Graduated protocol, no symptoms at each stage
-
-**5. POST-CONCUSSION SYNDROME**
-• Symptoms persist >1-3 months
-• May require multidisciplinary approach
-• Risk factors: Previous concussion, migraine history, psychiatric history
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Red flags as above, worsening symptoms, seizure, focal neurological deficit
-**SPORTS MEDICINE/NEUROLOGY:** Concussion management, persistent symptoms, return to play decisions
-`,
-
-  insect_bites_stings: `
-**🐝 INSECT BITES & STINGS**
-
-**1. LOCAL REACTIONS**
-**NORMAL:** Redness, swelling, pain/itching at site (2-3cm), lasts hours-days
-**LARGE LOCAL:** Swelling >10cm, peaks 48 hours, may last 7-10 days
-**CELLULITIS:** Spreading redness, warmth, fever, lymphangitis (differentiate from large local)
-
-**2. SYSTEMIC REACTIONS**
-**ANAPHYLAXIS:** Medical emergency
-• **Symptoms:** Urticaria, angioedema, respiratory distress, wheezing, hypotension, GI symptoms
-• **Treatment:** Epinephrine IM, antihistamines, steroids, support
-
-**SERUM SICKNESS:** Fever, arthralgias, urticaria, lymphadenopathy 7-14 days after sting
-
-**3. SPECIFIC INSECTS**
-**BEES/WASPS:** Venom allergy common cause of anaphylaxis
-**TICKS:** Lyme disease (erythema migrans), Rocky Mountain spotted fever, anaplasmosis, babesiosis
-**SPIDERS:** Black widow (neurotoxic), brown recluse (necrotic)
-**MOSQUITOES:** West Nile, Zika, dengue, malaria (endemic areas)
-**SCORPIONS:** Neurotoxic (some species)
-
-**4. MANAGEMENT**
-**LOCAL:** Clean, cold compress, topical steroids, antihistamines
-**ANAPHYLAXIS:** Epinephrine auto-injector for known severe allergy
-**TICK REMOVAL:** Fine-tipped tweezers, grasp close to skin, pull steadily
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Anaphylaxis, severe systemic reaction, necrotic spider bite, scorpion sting (in endemic areas)
-**ALLERGY:** Venom immunotherapy for severe reactions
-**INFECTIOUS DISEASE:** Tick-borne illness symptoms
-`,
-
-  /* =========================
-     CHRONIC CONDITIONS
-  ========================== */
-
-  diabetes_symptoms: `
-**🩸 DIABETES MELLITUS - Recognition & Management**
-
-**1. DIAGNOSTIC CRITERIA**
-• **Fasting glucose:** ≥126 mg/dL (two tests)
-• **Random glucose:** ≥200 mg/dL with symptoms
-• **HbA1c:** ≥6.5%
-• **OGTT:** 2-hour glucose ≥200 mg/dL
-
-**2. TYPE 1 VS TYPE 2**
-**TYPE 1:** Autoimmune, insulin deficiency, lean, younger onset, ketosis-prone
-**TYPE 2:** Insulin resistance, obesity, older onset, metabolic syndrome features
-
-**3. HYPERGLYCEMIA SYMPTOMS**
-• Polyuria, polydipsia, polyphagia
-• Weight loss (type 1)
-• Fatigue, blurred vision
-• Poor wound healing, recurrent infections
-
-**4. ACUTE COMPLICATIONS**
-**DKA (Type 1):** Hyperglycemia, ketosis, acidosis, dehydration
-**HHS (Type 2):** Extreme hyperglycemia, hyperosmolar, altered consciousness
-**HYPOGLYCEMIA:** Shakiness, sweating, confusion, seizures, coma
-
-**5. CHRONIC COMPLICATIONS**
-**MICROVASCULAR:** Retinopathy, nephropathy, neuropathy
-**MACROVASCULAR:** CAD, PAD, stroke
-**OTHER:** Foot ulcers, infections, dental disease, depression
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** DKA/HHS, severe hypoglycemia
-**ENDOCRINOLOGY:** New diagnosis, poor control, complications, need for insulin pump/CGM
-**PODIATRY:** Foot care, ulcer management
-**OPHTHALMOLOGY:** Annual diabetic eye exam
-`,
-
-  hypertension: `
-**📈 HYPERTENSION**
-
-**1. CLASSIFICATION (ACC/AHA)**
-• **Normal:** <120/<80
-• **Elevated:** 120-129/<80
-• **Stage 1:** 130-139/80-89
-• **Stage 2:** ≥140/≥90
-• **Hypertensive crisis:** >180/>120
-
-**2. PRIMARY VS SECONDARY**
-**PRIMARY (Essential):** 90-95%, multifactorial
-**SECONDARY:** Young onset, resistant, suggestive features
-• **Renal:** Disease, artery stenosis
-• **Endocrine:** Primary aldosteronism, pheochromocytoma, Cushing's
-• **Other:** OSA, medications, coarctation
-
-**3. TARGET ORGAN DAMAGE**
-**CARDIAC:** LVH, heart failure, coronary disease
-**CEREBROVASCULAR:** Stroke, TIA, dementia
-**RENAL:** Proteinuria, reduced GFR, failure
-**RETINAL:** Hemorrhages, exudates, papilledema
-**PERIPHERAL:** PAD, aneurysm
-
-**4. TREATMENT**
-**LIFESTYLE:** DASH diet, sodium reduction, exercise, weight loss, limit alcohol
-**MEDICATIONS:** Thiazide, ACEi/ARB, CCB, beta-blocker
-• **Stage 1:** Often single drug
-• **Stage 2:** Usually two drugs
-• **Combination therapy:** Often needed
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Hypertensive emergency (with end-organ damage)
-**CARDIOLOGY/NEPHROLOGY:** Resistant hypertension, secondary causes, complicated cases
-**PRIMARY CARE:** Routine management, uncomplicated hypertension
-`,
-
-  thyroid_problems: `
-**🦋 THYROID DISORDERS**
-
-**1. HYPOTHYROIDISM**
-**SYMPTOMS:** Fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, depression, cognitive slowing, menstrual irregularities
-**LABS:** High TSH, low T4
-**CAUSES:** Hashimoto's (autoimmune), post-ablative (radioiodine, surgery), medications (lithium, amiodarone), iodine deficiency
-**TREATMENT:** Levothyroxine (start low, go slow in elderly/CAD)
-
-**2. HYPERTHYROIDISM**
-**SYMPTOMS:** Weight loss, heat intolerance, palpitations, tremor, anxiety, diarrhea, menstrual changes, lid lag/retraction
-**LABS:** Low TSH, high T4/T3
-**CAUSES:** Graves' disease (autoimmune, eye signs, dermopathy), toxic nodule/multinodular goiter, thyroiditis
-**TREATMENT:** Antithyroid drugs (methimazole, PTU), radioiodine, surgery
-
-**3. THYROIDITIS**
-**SUBACUTE (De Quervain's):** Painful, viral, transient hyper then hypothyroid
-**POSTPARTUM:** Autoimmune, similar course
-**SILENT:** Painless, autoimmune
-**HASHIMOTO'S:** Chronic autoimmune, progressive hypothyroid
-
-**4. NODULES/CANCER**
-**EVALUATION:** Ultrasound, FNA based on size/features (TI-RADS)
-**CANCER TYPES:** Papillary (most common), follicular, medullary, anaplastic
-**RISK FACTORS:** Radiation exposure, family history, certain syndromes (MEN2)
-
-**5. WHEN TO CONSULT A DOCTOR**
-**ENDOCRINOLOGY:** Abnormal thyroid function tests, nodules, thyroiditis, Graves' disease, cancer
-**SURGERY:** Large goiter, suspicious nodules, cancer
+I'm sorry to hear you have concerns about sexually transmitted infections. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe abdominal or pelvic pain
+- Fever with genital symptoms
+- Difficulty urinating
+- Severe pain or swelling in testicles
+- Sores with fever
+- Pregnancy with possible STI exposure
+
+**When to Call a Doctor**
+- Symptoms of STI: discharge, burning with urination, sores, bumps, itching
+- Unprotected sex with new partner
+- Partner diagnosed with STI
+- Need routine STI screening
+- Need HIV prevention (PrEP) or post-exposure (PEP)
+
+**Common STIs & Symptoms**
+- Chlamydia/gonorrhea: Often no symptoms, discharge, burning
+- Syphilis: Painless sore, later rash
+- HIV: Flu-like illness, later infections
+- Herpes: Painful blisters
+- HPV: Genital warts
+
+**What You Can Do**
+- Avoid sexual activity until evaluated
+- Notify recent partners
+- Get tested for multiple STIs
+- Complete all prescribed medications
+- Use barrier protection consistently
+
+**Final Advice**
+STIs are common—having one doesn't reflect on your character. Many have no symptoms, so regular screening is important if sexually active. Early diagnosis and treatment prevent complications. Don't let embarrassment prevent you from seeking care.
 `,
 
   /* =========================
      MENTAL HEALTH
   ========================== */
-
   depression: `
-**😔 DEPRESSION**
+I'm sorry to hear you're experiencing symptoms of depression. Here are some guidelines:
 
-**1. DIAGNOSTIC CRITERIA (DSM-5)**
-• **≥5 symptoms during same 2-week period:** Depressed mood most of day, diminished interest/pleasure, weight/appetite change, insomnia/hypersomnia, psychomotor agitation/retardation, fatigue, worthlessness/guilt, diminished concentration, suicidal thoughts
-• **At least one:** Depressed mood or loss of interest/pleasure
-• **Cause significant distress/impairment**
+**When to Seek Immediate Medical Care**
+- Thoughts of harming yourself or others
+- Plans to attempt suicide
+- Feeling life isn't worth living
+- Severe agitation
+- Inability to care for yourself
+- Psychotic symptoms (hallucinations, delusions)
 
-**2. SEVERITY**
-**MILD:** Few symptoms beyond minimum, manageable impairment
-**MODERATE:** Symptoms/impairment between mild/severe
-**SEVERE:** Many symptoms, marked impairment, possible psychotic features
+**When to Call a Doctor**
+- Sadness, hopelessness lasts most of day, nearly every day for 2+ weeks
+- Lost interest in activities once enjoyed
+- Symptoms interfere with work, school, relationships
+- Changes in sleep, appetite, energy
+- Difficulty concentrating
+- Feeling worthless or excessively guilty
 
-**3. SUBTYPES**
-**MELANCHOLIC:** Severe, anhedonia, worse in morning, early morning awakening, psychomotor changes
-**ATYPICAL:** Mood reactivity, weight gain/increased appetite, hypersomnia, leaden paralysis, rejection sensitivity
-**POSTPARTUM:** Onset during pregnancy/4 weeks postpartum
-**SEASONAL:** Regular temporal relationship to season
+**Common Symptoms**
+- Persistent sad, anxious, or "empty" mood
+- Loss of interest in hobbies
+- Feelings of hopelessness, guilt, worthlessness
+- Decreased energy, fatigue
+- Sleep disturbances
+- Appetite or weight changes
+- Thoughts of death or suicide
 
-**4. TREATMENT**
-**PSYCHOTHERAPY:** CBT, interpersonal, psychodynamic
-**MEDICATION:** SSRIs (first-line), SNRIs, atypical antidepressants, TCAs, MAOIs
-**OTHER:** ECT for severe/treatment-resistant, TMS, ketamine
+**What You Can Do** (while awaiting help)
+- Reach out to trusted friends/family
+- Try to maintain a routine
+- Engage in gentle physical activity
+- Practice relaxation techniques
+- Avoid alcohol and recreational drugs
+- Set small, achievable goals
 
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Suicidal ideation with plan/intent, inability to care for self, psychotic features
-**PSYCHIATRY:** Moderate-severe depression, treatment-resistant, need for medication management
-**THERAPY:** Mild-moderate depression, psychotherapy
+**Crisis Resources**
+- National Suicide Prevention Lifeline: 988 (US)
+- Crisis Text Line: Text HOME to 741741
+- Emergency department for immediate safety
+
+**Final Advice**
+Depression is a medical condition, not a weakness. Effective treatments are available. Don't hesitate to seek help—reaching out is a sign of strength. If you're having thoughts of suicide, seek immediate help. Recovery is possible.
 `,
 
   anxiety: `
-**😰 ANXIETY DISORDERS**
+I'm sorry to hear you're experiencing anxiety. Here are some guidelines:
 
-**1. GENERALIZED ANXIETY DISORDER**
-• **Excessive anxiety/worry >6 months**
-• **Difficult to control worry**
-• **≥3 symptoms:** Restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbance
-• **Causes impairment**
+**When to Seek Immediate Medical Care**
+- Thoughts of harming yourself or others
+- Chest pain or pressure
+- Difficulty breathing
+- Feeling detached from reality
+- Severe panic attack that doesn't subside
+- Inability to function due to anxiety
 
-**2. PANIC DISORDER**
-• **Recurrent unexpected panic attacks**
-• **≥1 month of:** Persistent concern about additional attacks, worry about consequences, significant behavior change
-• **Panic attack symptoms:** Palpitations, sweating, trembling, shortness of breath, chest pain, nausea, dizziness, derealization/depersonalization, fear of losing control/dying, paresthesias, chills/hot flashes
+**When to Call a Doctor**
+- Anxiety interferes with daily activities, work, relationships
+- You avoid situations due to anxiety
+- Frequent panic attacks
+- Physical symptoms: racing heart, sweating, trembling, dizziness
+- Excessive worry difficult to control
+- Anxiety causes sleep problems
+- Use alcohol/drugs to cope
 
-**3. SOCIAL ANXIETY DISORDER**
-• **Marked fear/anxiety about social situations** (possible scrutiny)
-• **Social situations almost always provoke fear**
-• **Avoided/endured with intense anxiety**
-• **Out of proportion to actual threat**
-• **≥6 months**
+**Types of Anxiety Disorders**
+- Generalized anxiety: persistent, excessive worry
+- Panic disorder: recurrent panic attacks
+- Social anxiety: fear of social situations
+- Specific phobias
+- Agoraphobia
 
-**4. SPECIFIC PHOBIAS**
-• **Marked fear/anxiety about specific object/situation**
-• **Almost always provokes immediate fear**
-• **Actively avoided/endured with intense anxiety**
-• **Out of proportion**
-• **≥6 months**
+**What You Can Do** (while awaiting help)
+- Practice deep breathing exercises
+- Try progressive muscle relaxation
+- Limit caffeine and alcohol
+- Get regular physical exercise
+- Practice mindfulness or meditation
+- Maintain consistent sleep schedule
 
-**5. TREATMENT**
-**PSYCHOTHERAPY:** CBT (exposure, cognitive restructuring), ACT, mindfulness
-**MEDICATION:** SSRIs/SNRIs (first-line), benzodiazepines (short-term, risk of dependence), buspirone, beta-blockers (performance anxiety)
-**SELF-HELP:** Relaxation techniques, exercise, stress management
-
-**6. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Panic attack with chest pain/other alarming symptoms (rule out medical), suicidal thoughts
-**PSYCHIATRY/THERAPY:** Significant impairment, need for medication/therapy
+**Final Advice**
+Anxiety disorders are highly treatable. Seeking help is important—untreated anxiety can worsen. Treatment can significantly improve quality of life. Be patient—sometimes it takes trying different approaches.
 `,
-  insomnia: `
-**😴 INSOMNIA & SLEEP DISORDERS**
-
-**1. INSOMNIA DIAGNOSIS**
-• **Difficulty initiating/maintaining sleep, early awakening**
-• **≥3 nights/week for ≥3 months**
-• **Despite adequate opportunity**
-• **Causes daytime impairment** (fatigue, mood, cognitive, behavioral)
-• **Not due to substance/other sleep disorder**
-
-**2. SLEEP HYGIENE**
-• Consistent sleep schedule
-• Relaxing bedtime routine
-• Comfortable sleep environment (cool, dark, quiet)
-• Avoid caffeine, nicotine, alcohol close to bedtime
-• Limit daytime naps (<30 minutes, not late)
-• Regular exercise (not close to bedtime)
-• Avoid screens before bed
-
-**3. CBT FOR INSOMNIA**
-• **Sleep restriction:** Limit time in bed to actual sleep time
-• **Stimulus control:** Bed only for sleep/sex
-• **Cognitive therapy:** Address anxiety about sleep
-• **Relaxation techniques:** Progressive muscle relaxation, deep breathing, meditation
-
-**4. MEDICATIONS**
-**BENZODIAZEPINES:** Temazepam, triazolam (short-term due to dependence/tolerance)
-**NON-BENZODIAZEPINES:** Zolpidem, zaleplon, eszopiclone
-**MELATONIN RECEPTOR AGONIST:** Ramelteon
-**ANTIDEPRESSANTS:** Trazodone, doxepin, mirtazapine (sedating properties)
-**ANTIHISTAMINES:** Diphenhydramine, doxylamine (short-term, tolerance develops)
-**MELATONIN:** Over-the-counter, may help with circadian rhythm disorders
-
-**5. OTHER SLEEP DISORDERS**
-**SLEEP APNEA:**
-• **Symptoms:** Loud snoring, witnessed apneas, daytime sleepiness, morning headache
-• **Risk factors:** Obesity, large neck circumference, retrognathia
-• **Diagnosis:** Sleep study (polysomnography)
-• **Treatment:** CPAP, oral appliances, weight loss, surgery
-
-**RESTLESS LEGS SYNDROME:**
-• **Symptoms:** Urge to move legs, worse at rest/evening, relieved by movement
-• **Associated:** Iron deficiency, pregnancy, renal failure
-• **Treatment:** Iron replacement, dopaminergic agents, gabapentin, opioids for refractory
-
-**NARCOLEPSY:**
-• **Tetrad:** Excessive daytime sleepiness, cataplexy, sleep paralysis, hypnagogic hallucinations
-• **Diagnosis:** Multiple sleep latency test
-• **Treatment:** Stimulants, sodium oxybate, scheduled naps
-
-**CIRCADIAN RHYTHM DISORDERS:**
-• **Delayed sleep phase:** Night owl, difficulty falling asleep early
-• **Advanced sleep phase:** Early bird, early evening sleepiness
-• **Treatment:** Light therapy, melatonin, chronotherapy
-
-**6. WHEN TO CONSULT A DOCTOR A DOCTOR**
-**EMERGENCY DEPARTMENT:**
-• Sleep-related breathing disorder with severe oxygen desaturation
-• Severe sleep deprivation with psychosis or hallucinations
-• Sleep-related injury (sleepwalking with dangerous behavior)
-
-**SLEEP MEDICINE SPECIALIST (Within 1-4 weeks):**
-• Suspected sleep apnea (snoring, witnessed apneas, daytime sleepiness)
-• Suspected narcolepsy or hypersomnia
-• Restless legs syndrome not responding to initial treatment
-• Insomnia resistant to standard treatments
-• Need for sleep study evaluation
-
-**PRIMARY CARE (Schedule Appointment):**
-• Initial insomnia evaluation
-• Mild-moderate sleep complaints
-• Sleep hygiene counseling
-• Basic medication management
-• Referral to sleep specialist if needed
-
-**PSYCHIATRY/PSYCHOLOGY:**
-• Insomnia with comorbid depression/anxiety
-• Need for CBT-I (Cognitive Behavioral Therapy for Insomnia)
-• Sleep disorders related to trauma/PTSD
-• Medication management for complex cases
-
-**PULMONOLOGY/CARDIOLOGY:**
-• Sleep apnea with cardiopulmonary complications
-• Obesity hypoventilation syndrome
-• Central sleep apnea related to heart failure
-
-**7. DIAGNOSTIC EVALUATION**
-**SLEEP DIARY:** 2-week record of sleep patterns
-**EPWORTH SLEEPINESS SCALE:** Quantifies daytime sleepiness
-**POLYSOMNOGRAPHY:** Overnight sleep study (gold standard for sleep apnea)
-**HOME SLEEP APNEA TEST:** Screening for uncomplicated sleep apnea
-**ACTIGRAPHY:** Wrist-worn device measuring sleep-wake patterns
-**MULTIPLE SLEEP LATENCY TEST:** Diagnoses narcolepsy/hypersomnia
-
-**8. LIFESTYLE MANAGEMENT**
-**DIETARY CONSIDERATIONS:**
-• Avoid large meals before bedtime
-• Limit fluid intake 2 hours before sleep to reduce nocturia
-• Consider magnesium-rich foods (nuts, seeds, leafy greens)
-• Tart cherry juice (natural melatonin source)
-
-**ENVIRONMENT OPTIMIZATION:**
-• Ideal bedroom temperature: 60-67°F (15-19°C)
-• Blackout curtains for light control
-• White noise machine for sound masking
-• Comfortable mattress and pillows
-
-**STRESS MANAGEMENT:**
-• Mindfulness meditation
-• Journaling to process thoughts before bed
-• Worry time scheduled earlier in day
-• Relaxation techniques (4-7-8 breathing, progressive muscle relaxation)
-
-**9. SPECIAL POPULATIONS**
-**CHILDREN:**
-• Age-appropriate sleep requirements
-• Consistent bedtime routines
-• Limit screen time before bed
-• Address night terrors/sleepwalking
-
-**ELDERLY:**
-• Age-related sleep changes (lighter sleep, more awakenings)
-• Increased prevalence of sleep apnea
-• Medication side effects affecting sleep
-• Sundowning in dementia
-
-**PREGNANT WOMEN:**
-• Positional changes affecting sleep
-• Restless legs syndrome common
-• Sleep apnea risk increases
-• Hormonal influences on sleep architecture
-
-**10. FOLLOW-UP & MONITORING**
-• Reassess sleep habits every 3-6 months
-• Monitor medication effectiveness and side effects
-• Adjust treatment based on response
-• Consider gradual medication taper when appropriate
-• Long-term management of chronic insomnia
-`,
-  /* =========================
-     MENTAL HEALTH (CONTINUED)
-  ========================== */
 
   stress: `
-**😫 STRESS MANAGEMENT & BURNOUT**
+I'm sorry to hear you're experiencing stress. Here are some guidelines:
 
-**1. STRESS VS DISTRESS**
-**EUSTRESS (Positive):** Motivational, improves performance, short-term
-**DISTRESS (Negative):** Overwhelming, impairs function, chronic
+**When to Seek Immediate Medical Care**
+- Chest pain or pressure
+- Thoughts of harming yourself or others
+- Severe anxiety or panic that doesn't subside
+- Inability to function or care for yourself
 
-**2. PHYSICAL SYMPTOMS**
-• Headaches, muscle tension
-• Fatigue, sleep disturbances
-• GI issues (nausea, diarrhea, constipation)
-• Chest pain, palpitations
-• Weakened immune system
-• Changes in appetite
+**When to Call a Doctor**
+- Stress interferes with daily life, work, relationships
+- Using alcohol/drugs to cope
+- Physical symptoms: headaches, digestive issues, muscle tension
+- Trouble sleeping due to stress
+- Feeling overwhelmed and unable to cope
+- Stress causing anxiety or depression
 
-**3. EMOTIONAL/COGNITIVE SYMPTOMS**
-• Anxiety, irritability, depression
-• Feeling overwhelmed
-• Difficulty concentrating
-• Memory problems
-• Poor judgment
-• Constant worrying
+**Physical Effects of Chronic Stress**
+- Weakened immune system
+- Digestive problems
+- Headaches
+- Muscle tension and pain
+- High blood pressure
+- Sleep problems
+- Weight changes
 
-**4. BURNOUT SYNDROME**
-**THREE DIMENSIONS:**
-• **Exhaustion:** Physical/emotional depletion
-• **Cynicism/Detachment:** Negative attitudes, loss of enjoyment
-• **Reduced efficacy:** Feelings of incompetence, lack of achievement
+**What You Can Do**
+- Identify stressors and what you can control
+- Practice relaxation techniques
+- Get regular physical exercise
+- Maintain healthy diet
+- Ensure adequate sleep
+- Set realistic goals and priorities
+- Learn to say no
+- Take breaks during the day
+- Connect with supportive people
 
-**5. COPING STRATEGIES**
-**HEALTHY:**
-• Exercise (30 minutes most days)
-• Relaxation techniques (meditation, deep breathing)
-• Time management
-• Social support
-• Hobbies/leisure activities
-• Professional counseling
+**Final Advice**
+Some stress is inevitable, but chronic stress affecting your health needs attention. Developing healthy coping strategies is important. Small, consistent changes can make a significant difference in quality of life.
+`,
 
-**UNHEALTHY TO AVOID:**
-• Excessive alcohol/drug use
-• Overeating/undereating
-• Procrastination
-• Social withdrawal
-• Taking out stress on others
+  insomnia: `
+I'm sorry to hear you're experiencing insomnia. Here are some guidelines:
 
-**6. WHEN TO CONSULT A DOCTOR**
-**PRIMARY CARE:** Physical symptoms, sleep disturbances
-**MENTAL HEALTH PROFESSIONAL:** Anxiety/depression symptoms, burnout, difficulty coping
-**WORKPLACE RESOURCES:** Employee assistance programs, occupational health
+**When to Seek Immediate Medical Care**
+- Thoughts of harming yourself or others
+- Severe confusion or disorientation
+- Hallucinations related to sleep deprivation
+- Inability to function due to lack of sleep
+
+**When to Call a Doctor**
+- Insomnia occurs at least 3 nights/week for 3+ months
+- Sleep problems interfere with daytime functioning
+- Symptoms of sleep apnea: loud snoring, gasping for air
+- Restless legs syndrome
+- Unusual sleep behaviors
+- OTC sleep aids not effective or used regularly
+
+**Types of Insomnia**
+- Acute: brief, often related to stress
+- Chronic: 3+ nights/week for 3+ months
+- Sleep onset: difficulty falling asleep
+- Sleep maintenance: difficulty staying asleep
+
+**What You Can Do** (sleep hygiene)
+- Maintain consistent sleep schedule
+- Create relaxing bedtime routine
+- Make bedroom cool, dark, quiet
+- Limit screen time 1-2 hours before bed
+- Avoid caffeine after noon
+- Exercise regularly, but not close to bedtime
+- If can't sleep after 20 minutes, get up and do something relaxing
+
+**Final Advice**
+Chronic insomnia rarely resolves on its own. CBT-I is the most effective long-term treatment. Don't accept poor sleep as inevitable—effective treatments are available. Addressing insomnia improves daytime functioning, mood, and overall health.
+`,
+
+  /* =========================
+     CHRONIC CONDITIONS
+  ========================== */
+  diabetes_symptoms: `
+I'm sorry to hear you're experiencing symptoms that might be related to diabetes. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Extreme thirst with frequent urination
+- Confusion, drowsiness, difficulty waking
+- Rapid breathing with fruity breath (possible ketoacidosis)
+- Blood glucose over 400 mg/dL or under 70 mg/dL with symptoms
+- Inability to keep down food/fluids
+- Severe abdominal pain with nausea/vomiting
+
+**When to Call a Doctor**
+- Symptoms of diabetes: increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision
+- Risk factors for diabetes
+- Need screening
+- Have prediabetes and want to prevent progression
+- Diabetes not well-controlled
+
+**Common Symptoms**
+- Type 1 (develops quickly): extreme thirst, frequent urination, sudden weight loss, fatigue
+- Type 2 (develops gradually): increased thirst/urination, fatigue, blurred vision, slow-healing sores, numbness in hands/feet
+
+**What You Can Do** (if suspect diabetes)
+- Get proper medical evaluation
+- Monitor blood glucose as recommended
+- Follow recommended diet and exercise plan
+- Take medications as prescribed
+- Have regular check-ups including A1c, foot exams, eye exams
+
+**Prevention (Type 2)**
+- Maintain healthy weight
+- Regular physical activity
+- Healthy diet (whole grains, fruits, vegetables, lean proteins)
+- Limit processed foods, sugar-sweetened beverages
+- Don't smoke
+
+**Final Advice**
+Diabetes is manageable with proper treatment. Early diagnosis and good control prevent complications. Don't ignore symptoms—undiagnosed or poorly controlled diabetes can lead to serious complications.
+`,
+
+  hypertension: `
+I'm sorry to hear you have concerns about high blood pressure. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe headache with high BP reading
+- Chest pain or pressure
+- Shortness of breath
+- Blurred vision
+- BP reading over 180/120 mmHg (hypertensive crisis)
+- Confusion, seizures, unresponsiveness
+
+**When to Call a Doctor**
+- Consistently elevated BP readings
+- Need routine BP screening
+- Risk factors for hypertension
+- Symptoms possibly related to high BP
+- BP meds not controlling readings
+- Side effects from BP medications
+
+**Blood Pressure Categories**
+- Normal: Less than 120/80 mmHg
+- Elevated: 120-129/less than 80
+- Stage 1: 130-139/80-89
+- Stage 2: 140+/90+
+- Crisis: 180+/120+ (immediate attention)
+
+**What You Can Do**
+- Follow DASH diet (fruits, vegetables, whole grains, lean proteins)
+- Limit sodium to less than 2,300 mg daily
+- Maintain healthy weight
+- Regular physical activity
+- Limit alcohol
+- Don't smoke
+- Manage stress
+- Take medications as prescribed
+
+**Final Advice**
+Hypertension is the "silent killer"—no symptoms until serious damage occurs. Regular screening is crucial. Lifestyle modifications can prevent or control hypertension. If medications are needed, take them consistently.
+`,
+
+  thyroid_problems: `
+I'm sorry to hear you have concerns about thyroid problems. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or swallowing
+- Rapid heart rate with chest pain
+- High fever with confusion (thyroid storm)
+- Severe weakness or paralysis
+- Sudden, severe neck pain or swelling
+
+**When to Call a Doctor**
+- Symptoms of thyroid problems (see below)
+- Family history of thyroid disease
+- Autoimmune condition
+- Unexplained weight changes, fatigue, mood changes
+- Lump or swelling in neck
+
+**Hypothyroid Symptoms**
+- Fatigue, weakness
+- Weight gain
+- Cold intolerance
+- Dry skin, hair loss
+- Constipation
+- Depression
+- Memory problems
+- Slowed heart rate
+
+**Hyperthyroid Symptoms**
+- Weight loss despite increased appetite
+- Rapid/irregular heartbeat
+- Anxiety, irritability
+- Tremors
+- Heat intolerance
+- Increased sweating
+- Difficulty sleeping
+
+**What You Can Do**
+- Get proper testing (TSH is initial test)
+- Keep symptom diary
+- If on thyroid medication: take consistently, same time daily
+- Follow up regularly for monitoring
+- Report new symptoms or changes
+
+**Final Advice**
+Thyroid disorders are highly treatable. Symptoms can be vague, so proper testing is important. If on medication, consistency is key. Pregnancy requires special attention to thyroid function. Regular monitoring ensures treatment remains appropriate.
+`,
+
+  autoimmune_diseases: `
+I'm sorry to hear you have concerns about autoimmune diseases. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or swallowing
+- Chest pain or pressure
+- Severe abdominal pain
+- Sudden vision changes or loss
+- Severe headache with neck stiffness
+- Weakness or paralysis
+- High fever with rash or joint pain
+
+**When to Call a Doctor**
+- Persistent symptoms suggesting autoimmune disease
+- Family history of autoimmune disease
+- Have one autoimmune disease and develop new symptoms
+- Symptoms flare or worsen
+- Side effects from autoimmune medications
+- Considering pregnancy (requires special planning)
+
+**Common Autoimmune Diseases**
+- Rheumatoid arthritis (joint pain, swelling)
+- Lupus (fatigue, joint pain, rash)
+- Multiple sclerosis (neurological symptoms)
+- Type 1 diabetes
+- Inflammatory bowel disease
+- Psoriasis
+- Hashimoto's (hypothyroidism)
+- Graves' (hyperthyroidism)
+
+**General Symptoms**
+- Fatigue that doesn't improve with rest
+- Low-grade fever
+- Joint pain and swelling
+- Skin rashes
+- Digestive problems
+- Hair loss
+- Numbness or tingling
+- Brain fog
+
+**What You Can Do**
+- Get proper diagnosis from specialist
+- Follow treatment plan consistently
+- Report new symptoms or flares promptly
+- Practice stress management
+- Get adequate rest and pace activities
+- Use sun protection
+
+**Final Advice**
+Autoimmune diseases are chronic but manageable. Early diagnosis and treatment prevent organ damage. Treatment has advanced significantly. Work closely with your healthcare team. Symptoms can fluctuate—good days and bad days are normal.
+`,
+
+  cancer_warning_signs: `
+I'm sorry to hear you have concerns about cancer warning signs. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe bleeding that doesn't stop
+- Difficulty breathing
+- Chest pain or pressure
+- Sudden severe headache with vision changes
+- Seizures or loss of consciousness
+
+**When to Call a Doctor** (if you notice any persistent symptom)
+- Unexplained weight loss (10+ pounds without trying)
+- Fatigue that doesn't improve with rest
+- Persistent pain without clear cause
+- Skin changes: new mole, changing mole, sore that doesn't heal
+- Unusual bleeding or bruising
+- Persistent cough or hoarseness
+- Changes in bowel or bladder habits
+- Difficulty swallowing
+- Lump in breast or elsewhere
+
+**CAUTION Signs**
+- Change in bowel or bladder habits
+- A sore that does not heal
+- Unusual bleeding or discharge
+- Thickening or lump in breast or elsewhere
+- Indigestion or difficulty swallowing
+- Obvious change in wart or mole
+- Nagging cough or hoarseness
+
+**What You Can Do**
+- Don't panic—most symptoms have benign causes
+- Make appointment with healthcare provider
+- Keep symptom diary
+- Get age-appropriate cancer screenings
+- Don't ignore symptoms out of fear
+
+**Final Advice**
+While awareness is important, most people with these symptoms don't have cancer. However, persistent symptoms should always be evaluated. Don't delay evaluation—early detection significantly improves outcomes. Trust your instincts—if something doesn't feel right, get it checked.
+`,
+
+  chronic_pain: `
+I'm sorry to hear you're experiencing chronic pain. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- New severe pain or sudden worsening
+- Weakness or numbness in limbs
+- Loss of bowel or bladder control
+- Fever with pain
+- Chest pain or difficulty breathing
+- Thoughts of self-harm due to pain
+
+**When to Call a Doctor**
+- Pain persists beyond 3-6 months
+- Pain interferes with daily activities, work, sleep
+- Current pain management isn't effective
+- Side effects from pain medications
+- Pain causing depression, anxiety, isolation
+
+**Common Chronic Pain Conditions**
+- Back pain
+- Arthritis pain
+- Neuropathic pain
+- Fibromyalgia
+- Headaches
+- Cancer pain
+- Post-surgical pain
+
+**What You Can Do**
+- Physical therapy and appropriate exercise
+- Cognitive behavioral therapy for pain
+- Relaxation techniques
+- Pacing activities
+- Heat or cold therapy
+- Massage or gentle stretching
+- Support groups
+- Good sleep hygiene
+
+**Medication Management**
+- Take exactly as prescribed
+- Don't adjust doses without consulting doctor
+- Report side effects promptly
+- Consider non-opioid options first
+
+**Final Advice**
+Chronic pain often requires multidisciplinary management. Complete pain elimination may not be possible, but improved function and quality of life are realistic goals. Be patient—finding effective management takes time. Don't give up.
+`,
+
+  /* =========================
+     WOMEN'S HEALTH
+  ========================== */
+  menstrual_problems: `
+I'm sorry to hear you're experiencing menstrual problems. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe pelvic pain with dizziness, fainting
+- Bleeding so heavy you soak a pad/tampon every hour for several hours
+- Severe pain with fever over 101°F
+- Grayish or foul-smelling menstrual blood
+- Symptoms of toxic shock syndrome: sudden high fever, vomiting, diarrhea, rash, dizziness
+
+**When to Call a Doctor**
+- Periods suddenly become irregular
+- Miss three or more periods (not pregnant)
+- Flow much heavier or lighter than usual
+- Periods last more than 7 days or occur more frequently than every 21 days
+- Severe cramps not responding to OTC pain relievers
+- Bleeding between periods
+
+**Possible Causes**
+- Dysmenorrhea (painful periods)
+- Menorrhagia (heavy bleeding)
+- Amenorrhea (absent periods)
+- PMS, PMDD
+- Endometriosis
+- Fibroids
+- PCOS
+- Thyroid disorders
+
+**What You Can Do**
+- Use heating pads for cramps
+- Take OTC pain relievers (ibuprofen, naproxen)
+- Exercise regularly
+- Reduce salt, caffeine, alcohol before period
+- Try relaxation techniques
+- Track symptoms to identify patterns
+
+**Final Advice**
+While some discomfort is normal, severe pain, heavy bleeding, or significant changes shouldn't be ignored. Many menstrual problems are treatable once properly diagnosed. Regular gynecological check-ups are important.
+`,
+
+  heavy_periods: `
+I'm sorry to hear you're experiencing heavy periods. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Soaking through pad/tampon every hour for several hours
+- Passing clots larger than a quarter
+- Symptoms of anemia: dizziness, weakness, pale skin, rapid heartbeat
+- Severe pain with heavy bleeding
+- Bleeding between periods or after menopause
+- Feeling faint or lightheaded
+
+**When to Call a Doctor**
+- Need to change pads/tampons every 1-2 hours regularly
+- Period lasts more than 7 days
+- Pass large blood clots regularly
+- Need to "double up" on protection
+- Restrict activities due to heavy flow
+- Fatigue with periods
+- Family history of bleeding disorders
+
+**Possible Causes**
+- Hormonal imbalances
+- Uterine fibroids
+- Polyps
+- Adenomyosis
+- Endometriosis
+- IUD (especially copper)
+- Bleeding disorders
+- Medications (blood thinners)
+
+**What You Can Do**
+- Use menstrual cups or period underwear for better protection
+- Take iron supplements if recommended
+- Use heating pads for cramps
+- Track bleeding patterns
+- Rest during heaviest flow days
+- Consider NSAIDs (ibuprofen, naproxen) which can reduce flow
+
+**Final Advice**
+Heavy periods are common but treatable. You don't have to "just live with it." Don't dismiss heavy bleeding as normal if it's affecting your life. Treatment should be tailored to your symptoms, underlying causes, and reproductive plans.
+`,
+
+  vaginal_discharge: `
+I'm sorry to hear you're experiencing concerns about vaginal discharge. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe abdominal or pelvic pain
+- High fever (over 101°F)
+- Nausea or vomiting
+- Pregnancy with abnormal discharge and pain
+
+**When to Call a Doctor**
+- Discharge has unusual color: green, gray, yellow
+- Discharge has foul or fishy odor
+- Itching, burning, or irritation
+- Pain during urination or intercourse
+- Yeast infection symptoms not improving with OTC treatment
+- Recurrent infections
+- Pregnant and notice discharge changes
+
+**Normal vs Abnormal**
+- Normal: Clear/milky white, mild odor or odorless, varies with cycle
+- Concerning: Green/gray/yellow, thick/clumpy, frothy, strong foul odor, with itching/burning
+
+**Common Causes**
+- Yeast infection: thick, white, clumpy with itching
+- Bacterial vaginosis: thin, grayish with fishy odor
+- Trichomoniasis: frothy, yellow-green with odor
+- STIs (chlamydia, gonorrhea)
+- Forgotten tampon: foul-smelling discharge
+
+**What You Can Do**
+- Practice good hygiene (wipe front to back)
+- Wear cotton underwear
+- Use protection during sexual activity
+- Avoid douching
+- Limit scented products
+- Consider probiotics if prone to infections
+
+**Final Advice**
+Changes in discharge should be evaluated. Don't self-diagnose and treat repeatedly without evaluation. Proper diagnosis ensures appropriate treatment and prevents complications.
+`,
+
+  pregnancy_concerns: `
+I'm sorry to hear you have concerns about pregnancy. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Vaginal bleeding, especially if heavy or with clots
+- Severe abdominal pain or cramping
+- Sudden swelling of face, hands, or feet
+- Severe headache not improving with medication
+- Visual disturbances (blurring, spots, flashes)
+- Decreased fetal movement after 28 weeks
+- Water breaking before 37 weeks
+- Signs of preterm labor (regular contractions before 37 weeks)
+- Fever over 100.4°F
+
+**When to Call Your Provider**
+- Mild to moderate vaginal bleeding or spotting
+- Mild to moderate abdominal pain
+- Persistent nausea/vomiting preventing eating/drinking
+- Unusual vaginal discharge
+- Symptoms of UTI (burning, frequency)
+- Mild to moderate swelling with headache
+- Concerns about medication safety
+- Significant anxiety or depression
+
+**What You Can Do** (for normal discomforts)
+- Morning sickness: small frequent meals, ginger, vitamin B6
+- Fatigue: rest when possible, balanced diet, gentle exercise
+- Back pain: good posture, supportive pillows, prenatal yoga
+- Heartburn: smaller meals, avoid spicy/fatty foods
+- Swelling: elevate feet, stay hydrated
+- Take prenatal vitamins
+- Attend all prenatal appointments
+
+**Final Advice**
+Pregnancy involves many normal changes, but trust your instincts. Never hesitate to contact your provider with concerns. Attend all prenatal visits. Early intervention for complications improves outcomes for mother and baby.
+`,
+
+  breast_concerns: `
+I'm sorry to hear you have concerns about your breasts. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Sudden, severe breast pain with redness and warmth
+- Fever with breast redness, swelling, and pain
+- Rapidly growing lump with skin changes
+- Bloody or clear nipple discharge (spontaneous)
+- Signs of infection spreading
+
+**When to Call a Doctor**
+- Discover new lump in breast or underarm
+- Changes in breast size, shape, or contour
+- Skin changes: dimpling, puckering, redness, scaling
+- Nipple changes: inversion, retraction, discharge
+- Persistent breast pain not related to menstrual cycle
+- Risk factors for breast cancer
+
+**Possible Causes**
+- Fibrocystic changes (benign lumpiness)
+- Cysts (fluid-filled sacs)
+- Fibroadenomas (benign solid tumors)
+- Mastitis (breast infection, common with breastfeeding)
+- Hormonal changes (cyclical pain)
+- Injury
+- Breast cancer
+
+**What You Can Do**
+- Perform monthly breast self-exams
+- Wear supportive bra
+- Apply warm or cold compresses for pain
+- Reduce caffeine and salt for cyclical pain
+- Maintain healthy weight
+- Limit alcohol
+- Follow screening guidelines for mammograms
+
+**Screening Recommendations**
+- Clinical breast exam: every 1-3 years for 25-39, annually for 40+
+- Mammogram: starting at 40-50, then every 1-2 years
+- Higher risk: earlier/more frequent screening
+
+**Final Advice**
+Most breast lumps are not cancer, but any new or persistent symptom should be evaluated. Don't delay evaluation out of fear—early detection significantly improves outcomes. Know your family history and discuss screening with your doctor.
+`,
+
+  pcos: `
+I'm sorry to hear you have concerns about PCOS. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe abdominal pain
+- Heavy vaginal bleeding
+- Symptoms of diabetic ketoacidosis: excessive thirst, frequent urination, fruity breath, confusion
+- Chest pain or difficulty breathing
+- Severe headache with vision changes
+
+**When to Call a Doctor**
+- Irregular periods or no periods
+- Excess facial/body hair, acne, male-pattern baldness
+- Difficulty getting pregnant
+- Symptoms of insulin resistance: weight gain, dark skin patches, skin tags
+- Want to discuss diagnosis or treatment
+
+**Common Symptoms**
+- Irregular or no periods
+- Excess facial/body hair (hirsutism)
+- Acne or oily skin
+- Weight gain or difficulty losing weight
+- Thinning hair on scalp
+- Darkening of skin
+- Skin tags
+- Fertility problems
+
+**What You Can Do**
+- Maintain healthy weight (even 5-10% loss improves symptoms)
+- Exercise regularly
+- Eat balanced diet (whole foods, lean proteins, complex carbs)
+- Manage stress
+- Track menstrual cycles
+- Use appropriate skincare for acne
+- Discuss hair removal options
+
+**Long-term Health Risks**
+- Type 2 diabetes
+- High blood pressure
+- High cholesterol
+- Heart disease
+- Endometrial cancer (from irregular periods)
+- Sleep apnea
+- Depression and anxiety
+
+**Final Advice**
+PCOS is lifelong but manageable. Early diagnosis and treatment prevent long-term complications. Be patient finding the right treatment combination. You're not alone—PCOS affects about 1 in 10 women. Support groups provide valuable information and emotional support.
+`,
+
+  menopause_symptoms: `
+I'm sorry to hear you're experiencing menopause symptoms. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Vaginal bleeding after menopause (12 months without periods)
+- Chest pain with hot flashes
+- Severe headaches with visual changes
+- Sudden severe bone pain
+- Signs of severe depression
+
+**When to Call a Doctor**
+- Symptoms significantly affect quality of life
+- Concerns about hormone therapy
+- Vaginal dryness, pain with intercourse
+- Want to discuss bone health
+- Mood changes, anxiety, sleep disturbances problematic
+- Considering treatment options
+
+**Common Symptoms**
+- Hot flashes, night sweats
+- Vaginal dryness, urinary changes
+- Sleep disturbances
+- Mood changes (irritability, anxiety)
+- Brain fog, memory issues
+- Weight gain, joint pain
+- Decreased libido
+- Bone density loss
+
+**What You Can Do**
+- For hot flashes: dress in layers, use fans, avoid triggers (spicy foods, caffeine, alcohol)
+- For sleep: maintain cool bedroom, bedtime routine, limit screens
+- For vaginal dryness: water-based lubricants, moisturizers
+- For mood: exercise, stress management, social support
+- For bone health: weight-bearing exercise, calcium, vitamin D
+- Regular health screenings
+
+**Treatment Options**
+- Hormone therapy for moderate-severe symptoms
+- Non-hormonal medications for hot flashes
+- Vaginal estrogen for local symptoms
+- Osteoporosis prevention
+- Lifestyle modifications
+
+**Final Advice**
+Menopause is natural, but symptoms vary. Don't suffer in silence—effective treatments are available. Regular health screenings become increasingly important. Work with your provider to develop a personalized plan addressing immediate symptoms and long-term health.
+`,
+
+  /* =========================
+     MEN'S HEALTH
+  ========================== */
+  erectile_dysfunction: `
+I'm sorry to hear you're experiencing erectile dysfunction. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Priapism: erection lasting more than 4 hours
+- Severe pelvic or genital pain
+- Sudden loss of erection after trauma
+- Chest pain, shortness of breath with ED
+- Signs of severe depression or suicidal thoughts
+
+**When to Call a Doctor**
+- ED occurs frequently (more than 50% of attempts)
+- Problem persists more than 2-3 months
+- Risk factors for heart disease (ED can be early warning sign)
+- Reduced sexual desire along with ED
+- Concerns about medication side effects
+- Problem causing relationship issues or distress
+
+**Possible Causes**
+- Vascular issues (reduced blood flow)
+- Neurological conditions (diabetes, MS)
+- Hormonal imbalances (low testosterone)
+- Psychological factors (stress, anxiety, depression)
+- Medications (antidepressants, blood pressure drugs)
+- Lifestyle factors (smoking, alcohol, obesity, lack of exercise)
+
+**What You Can Do**
+- Talk openly with partner
+- Address lifestyle factors: quit smoking, reduce alcohol, exercise
+- Manage stress
+- Ensure adequate sleep
+- Maintain healthy weight
+- Control chronic conditions (diabetes, hypertension)
+- Review medications with doctor
+
+**Treatment Options**
+- Oral medications (PDE5 inhibitors)
+- Testosterone replacement if low
+- Vacuum devices, injections
+- Counseling or sex therapy
+- Lifestyle modifications
+
+**Final Advice**
+ED is a common medical condition, not a reflection of masculinity. Most cases are treatable. Because ED can be an early warning sign of heart disease, it's important to have it evaluated. Open communication with partner and provider is key.
+`,
+
+  prostate_concerns: `
+I'm sorry to hear you have concerns about prostate health. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Inability to urinate
+- Severe pain with urination or ejaculation
+- Blood in urine with clots
+- Fever with chills and urinary symptoms
+- Severe lower abdominal or back pain
+
+**When to Call a Doctor**
+- Difficulty starting or stopping urination
+- Weak urine stream or dribbling
+- Frequent urination, especially at night
+- Urgent need to urinate
+- Pain or burning during urination
+- Blood in urine or semen
+- Persistent pain in lower back, hips, or pelvis
+- Concerns about prostate cancer screening
+
+**Common Conditions**
+- BPH (benign prostatic hyperplasia): non-cancerous enlargement
+- Prostatitis: inflammation or infection
+- Prostate cancer
+
+**Screening Recommendations**
+- PSA testing: discuss with doctor starting at 50 (45 if high risk, 40 if very high risk)
+- Digital rectal exam may be performed
+- Shared decision-making important given potential benefits and risks
+
+**What You Can Do** (for mild symptoms)
+- Limit fluids before bedtime
+- Avoid caffeine and alcohol
+- Practice "double voiding"
+- Schedule bathroom trips
+- Maintain healthy weight
+- Exercise regularly
+- Practice pelvic floor exercises
+
+**Final Advice**
+Prostate symptoms are common but shouldn't be ignored. While BPH isn't cancerous, it can affect quality of life. Prostate cancer screening decisions should be individualized. Don't hesitate to discuss urinary or sexual symptoms—these are common medical issues with available treatments.
+`,
+
+  male_infertility: `
+I'm sorry to hear you have concerns about male fertility. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe testicular pain or swelling
+- Inability to urinate
+- Fever with genital pain or swelling
+- Trauma to genitals with severe pain
+
+**When to Call a Doctor**
+- Trying to conceive for 12 months without success (6 months if partner over 35)
+- Known risk factors for male infertility
+- Symptoms of hormonal problems: reduced facial/body hair, breast enlargement, decreased libido
+- History of testicular problems
+- Sexual function problems
+- Concerns about sperm quality
+
+**Common Causes**
+- Sperm production problems (low count, poor motility)
+- Varicocele (enlarged veins in scrotum)
+- Hormonal imbalances
+- Genetic conditions
+- Obstructions
+- Sexual function issues
+- Lifestyle factors (smoking, alcohol, drugs, obesity)
+- Medications
+
+**What You Can Do**
+- Maintain healthy weight
+- Exercise regularly but avoid excessive cycling
+- Eat balanced diet rich in antioxidants
+- Avoid tobacco, recreational drugs, excessive alcohol
+- Limit heat exposure (hot tubs, saunas, tight underwear)
+- Manage stress
+- Have regular intercourse during fertile window (every 2-3 days)
+
+**Final Advice**
+Male fertility evaluation is important. Many causes are treatable. Early evaluation can identify issues and guide appropriate interventions. Be patient—fertility treatments and lifestyle changes take time to show effects.
+`,
+
+  testicular_concerns: `
+I'm sorry to hear you have concerns about testicular health. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Sudden, severe testicular pain (possible testicular torsion—emergency)
+- Testicular pain with nausea and vomiting
+- Trauma with severe swelling or deformity
+- Fever with testicular pain, swelling, redness
+- Sudden scrotal swelling with pain
+
+**When to Call a Doctor**
+- Discover lump or swelling in testicle or scrotum
+- Pain or discomfort in testicles
+- Changes in size, shape, or consistency
+- Heaviness or aching in scrotum
+- Swelling or fluid collection
+- Concerns about fertility or testosterone
+
+**Common Conditions**
+- Testicular torsion (emergency)
+- Epididymitis/orchitis (infection)
+- Hydrocele (fluid collection)
+- Varicocele (enlarged veins)
+- Spermatocele (cyst)
+- Testicular cancer (most common in young men)
+- Hernia
+
+**Testicular Self-Exam**
+- Perform monthly, after warm shower when scrotum is relaxed
+- Examine each testicle separately with both hands
+- Roll gently between thumb and fingers
+- Feel for lumps, hardness, or changes
+- Report any changes to doctor promptly
+
+**Final Advice**
+Testicular cancer is highly treatable when detected early—don't ignore lumps. Testicular torsion requires immediate surgery to save the testicle. Become familiar with your normal anatomy through regular self-exams. Young men (15-35) should be particularly vigilant.
+`,
+
+  /* =========================
+     CHILD HEALTH
+  ========================== */
+  infant_fever: `
+I'm sorry to hear your infant has a fever. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Under 3 months with temp 100.4°F (38°C) or higher
+- Fever of 104°F (40°C) or higher at any age
+- Fever with stiff neck, bulging fontanelle (soft spot)
+- Signs of difficulty breathing or blue lips
+- Fever with purple rash that doesn't fade when pressed
+- Unusually drowsy, difficult to awaken
+- Seizure with fever
+- Signs of severe dehydration: no tears, dry mouth, no wet diapers for 8 hours
+
+**When to Call Pediatrician**
+- Fever persists more than 24 hours in infant under 2 years
+- Fever lasts more than 3 days in child over 2 years
+- Fever returns after going away 24 hours
+- Child has chronic medical conditions
+- Child seems irritable, uncomfortable
+- Fever with cough, ear pulling, diarrhea, vomiting
+- Child not drinking enough
+
+**Special Considerations for Infants**
+- Under 3 months: any fever needs immediate evaluation
+- 3-6 months: fever over 102°F needs attention
+- Rectal temps most accurate for infants
+- Never give aspirin to children
+- Use appropriate infant formulations
+
+**What You Can Do**
+- Offer frequent small feedings
+- Ensure hydration (watch for wet diapers)
+- Dress in lightweight clothing
+- Give age-appropriate dose of acetaminophen (over 3 months) or ibuprofen (over 6 months)
+- Offer lukewarm sponge baths if uncomfortable
+- Monitor temperature regularly
+
+**Final Advice**
+Fever in infants under 3 months is always a medical emergency. Trust your instincts. When in doubt, err on the side of caution. Never hesitate to seek help for a febrile infant—it's always better to be safe.
+`,
+
+  childhood_viral: `
+I'm sorry to hear your child has viral symptoms. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or rapid breathing
+- Signs of dehydration: no tears, dry mouth, no urine 8 hours
+- High fever not responding to medication
+- Confused, difficult to awaken, lethargic
+- Stiff neck, severe headache, light sensitivity
+- Purple rash that doesn't fade when pressed
+- Seizure with fever
+- Blue lips or face
+
+**When to Call Pediatrician**
+- Fever persists more than 3 days
+- Symptoms worsen after initial improvement
+- Child has underlying medical conditions
+- Child not drinking enough fluids
+- Symptoms last longer than expected
+- Need guidance on when to return to school/daycare
+
+**Common Childhood Viral Illnesses**
+- Common cold: runny nose, cough, mild fever
+- Influenza: high fever, body aches, cough, fatigue
+- RSV: cough, wheezing, breathing difficulty (especially in infants)
+- Hand-foot-mouth: fever, mouth sores, rash on hands/feet
+- Roseola: high fever followed by rash
+- Fifth disease: "slapped cheek" rash
+- Croup: barking cough
+- Gastroenteritis: vomiting, diarrhea
+
+**What You Can Do**
+- Ensure adequate hydration
+- Use fever reducers as needed
+- For cough: honey (over 1 year), humidifier
+- For congestion: saline spray, bulb suction for infants
+- Encourage rest
+- Offer bland foods if nauseated
+- Practice good hand hygiene
+- Keep child home until fever-free for 24 hours
+
+**Final Advice**
+Most childhood viral illnesses resolve with home care. Watch for signs of complications. Trust your instincts—if your child seems seriously ill, seek medical attention. Have a plan for when your child gets sick.
+`,
+
+  childhood_rashes: `
+I'm sorry to hear your child has a rash. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Difficulty breathing, wheezing, swelling of lips/tongue
+- Purple spots that don't fade when pressed
+- Fever with stiff neck, headache, light sensitivity
+- Rash covering most of body with fever
+- Blisters involving eyes, mouth, genitals
+- Signs of severe infection: spreading redness, warmth, pus, fever
+- Child appears seriously ill: lethargic, inconsolable
+
+**When to Call Pediatrician**
+- Rash painful, itchy, causing significant discomfort
+- Rash persists more than a week
+- Rash spreads or worsens despite home care
+- Suspect contagious condition
+- Rash with fever over 101°F
+- Concern about vaccine-preventable illness
+
+**Common Causes**
+- Viral exanthems (roseola, fifth disease, hand-foot-mouth)
+- Bacterial infections (scarlet fever, impetigo)
+- Allergic reactions (hives, eczema flares)
+- Common conditions (eczema, heat rash, diaper rash)
+- Insect-related (Lyme disease, bug bites)
+- Contagious conditions (chickenpox, measles if unvaccinated)
+
+**What You Can Do** (if mild)
+- Keep skin clean and dry
+- Use gentle, fragrance-free products
+- Apply cool compresses for itching
+- Keep nails short to prevent scratching
+- Use OTC hydrocortisone for itching (short-term)
+- For diaper rash: frequent changes, barrier cream, air drying
+- Dress in loose, breathable clothing
+
+**Final Advice**
+Most childhood rashes aren't serious. The "glass test" (pressing clear glass against rash) helps identify non-blanching rashes needing urgent evaluation. When in doubt, especially with fever, seek medical evaluation.
+`,
+
+  asthma_childhood: `
+I'm sorry to hear your child is experiencing asthma symptoms. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Severe difficulty breathing: nostrils flaring, ribs showing
+- Can't speak in full sentences due to shortness of breath
+- Lips or fingernails turning blue
+- Rescue inhaler not improving symptoms
+- Peak flow in red zone
+- Signs of severe respiratory distress: grunting, head bobbing, lethargy
+
+**When to Call Pediatrician**
+- Symptoms occur more than twice weekly
+- Symptoms wake child at night more than twice monthly
+- Rescue inhaler needed more than twice weekly
+- Asthma limits normal activities
+- Need to refill rescue inhaler more than every 2-3 months
+- Side effects from medications
+- Symptoms occur with every cold
+
+**Common Symptoms**
+- Coughing (often worse at night or with exercise)
+- Wheezing
+- Shortness of breath
+- Chest tightness
+- Fatigue during play
+- Difficulty keeping up with peers
+
+**What You Can Do**
+- Follow asthma action plan
+- Ensure medications taken as prescribed
+- Use spacer with inhalers for better delivery
+- Monitor symptoms and peak flow if recommended
+- Identify and avoid triggers
+- Have rescue medication available at all times
+- Ensure school has action plan and medications
+
+**Final Advice**
+Asthma is chronic but controllable with proper management. Don't underestimate asthma—even mild can become severe quickly. Ensure child always has access to rescue medication. Regular follow-up is important even when symptoms controlled.
+`,
+
+  adhd: `
+I'm sorry to hear you have concerns about ADHD in your child. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Thoughts of self-harm or suicide
+- Severe aggression causing injury
+- Psychotic symptoms (hallucinations, delusions)
+- Severe anxiety preventing basic functioning
+- Medication side effects: chest pain, difficulty breathing, severe mood changes
+
+**When to Call Pediatrician**
+- ADHD symptoms interfere with learning or social relationships
+- Problems in multiple settings (home, school, activities)
+- Behavioral strategies not helping
+- Suspect ADHD and want evaluation
+- Current treatment not effective or causes side effects
+- Need guidance on school accommodations
+- Want to discuss medication options
+
+**Common Symptoms**
+- Inattention: difficulty sustaining attention, easily distracted, forgetful, difficulty organizing
+- Hyperactivity-impulsivity: fidgeting, difficulty remaining seated, excessive running, talking excessively, interrupting
+
+**What You Can Do at Home**
+- Establish consistent routines
+- Use visual schedules
+- Break tasks into smaller steps
+- Provide immediate, frequent feedback
+- Use positive reinforcement
+- Ensure adequate sleep, nutrition, exercise
+- Limit screen time
+- Create organized, distraction-free workspaces
+
+**Treatment Approaches**
+- Behavioral therapy (parent training, classroom management)
+- Medication (stimulants, non-stimulants)
+- School accommodations (504 plan or IEP)
+- Lifestyle modifications
+- Combination therapy often most effective
+
+**Final Advice**
+ADHD is a neurodevelopmental disorder, not poor parenting. Early intervention prevents secondary problems. Treatment requires regular monitoring. Be patient—finding the right combination takes time. Work with school as partners in your child's success.
+`,
+
+  childhood_behavior_concerns: `
+I'm sorry to hear you have concerns about your child's behavior. Here are some guidelines:
+
+**When to Seek Immediate Help**
+- Talking about self-harm or suicide
+- Threatening to harm others
+- Severe aggression causing injury
+- Psychotic symptoms (hallucinations, delusions)
+- Severe withdrawal from all social interaction
+- Extreme anxiety preventing basic functioning
+- Sudden, dramatic personality change after trauma
+
+**When to Consult a Professional**
+- Behavioral issues persist for months and affect daily functioning
+- Problems in multiple settings (home, school, social)
+- Behavior interferes with learning or relationships
+- Suspect ADHD, autism, or learning disability
+- Significant anxiety, depression, mood swings
+- Sleep problems, eating issues, regression in skills
+- Concern about developmental milestones
+
+**Common Concerns**
+- Attention problems, hyperactivity
+- Oppositional behavior (arguing, defiance)
+- Anxiety, social difficulties
+- Emotional regulation (tantrums, mood swings)
+- Developmental concerns (speech/language delays)
+- School problems (academic struggles, refusal to attend)
+
+**What You Can Do at Home**
+- Establish consistent routines
+- Use positive reinforcement
+- Implement logical consequences
+- Ensure adequate sleep, nutrition, exercise
+- Limit screen time
+- Practice calm, consistent parenting
+- Provide choices within limits
+- Model emotional regulation skills
+
+**Final Advice**
+All children have challenging behaviors at times. However, persistent patterns affecting functioning in multiple areas may indicate underlying issues. Early intervention leads to better outcomes. Trust your instincts—you know your child best. Don't hesitate to seek professional guidance.
+`,
+
+  childhood_developmental_concerns: `
+I'm sorry to hear you have concerns about your child's development. Here are some guidelines:
+
+**When to Discuss with Pediatrician**
+By these ages if child doesn't:
+- 6 months: roll over, reach for objects, smile, make sounds
+- 12 months: sit without support, crawl, say "mama"/"dada," wave
+- 18 months: walk independently, say several words, point, follow simple commands
+- 24 months: two-word phrases, follow two-step commands, run, stack blocks
+
+**When to Seek Evaluation**
+- Loss of previously acquired skills at any age
+- Doesn't respond to sounds or name
+- Limited eye contact or social smiling
+- Repetitive behaviors or intense interests
+- Speech/language significantly delayed
+- Concerns about hearing or vision
+- Motor skills significantly delayed
+- Unusual responses to sensory experiences
+- Family history of developmental disorders
+
+**Areas of Development**
+- Motor (gross and fine)
+- Speech and language
+- Cognitive (thinking, learning)
+- Social-emotional (interactions, relationships)
+- Adaptive skills (self-care)
+
+**What You Can Do**
+- Provide plenty of tummy time for infants
+- Engage in face-to-face interaction
+- Read to your child daily
+- Provide age-appropriate toys
+- Encourage exploration in safe environments
+- Limit screen time
+- Establish consistent routines
+
+**Early Intervention**
+- Ask about Early Intervention program (ages 0-3)
+- Services include speech, physical, occupational therapy
+- After age 3, services transition to school district
+
+**Final Advice**
+Children develop at different rates. Trust your instincts as a parent. Early intervention for developmental concerns makes a significant difference. Don't "wait and see" for true developmental delays. Regular well-child visits include developmental screening—share all observations with your pediatrician.
 `,
 
   /* =========================
      GERIATRIC HEALTH
   ========================== */
+  fall_prevention: `
+I'm sorry to hear you have concerns about falls or balance problems. Here are some guidelines:
 
-  dementia_memory: `
-**🧠 DEMENTIA & MEMORY LOSS**
+**When to Seek Immediate Medical Care**
+- Head injury with loss of consciousness, confusion, vomiting
+- Suspected broken bone or severe pain
+- Inability to bear weight or move after fall
+- Chest pain, palpitations, shortness of breath
+- Sudden severe dizziness
+- New weakness or numbness
+- Signs of stroke
 
-**1. NORMAL AGING VS DEMENTIA**
-**NORMAL AGING:** Occasionally forgetting names/appointments, remembering later
-**MILD COGNITIVE IMPAIRMENT:** Noticeable decline but not interfering with daily life
-**DEMENTIA:** Significant decline affecting daily function
+**When to Call a Doctor**
+- You've fallen once in past year
+- Feel unsteady when standing or walking
+- Worry about falling
+- Reduced activities because of fear of falling
+- Need to hold furniture when walking at home
+- Dizziness or lightheadedness
+- Medications may affect balance
 
-**2. MAJOR TYPES**
-**ALZHEIMER'S (60-80%):**
-• **Early:** Memory loss, getting lost, difficulty handling money
-• **Middle:** Worsening memory, confusion, mood/personality changes
-• **Late:** Need full-time care, loss of physical abilities
+**Risk Factors**
+- Age over 65
+- Previous falls
+- Muscle weakness, balance problems
+- Vision problems
+- Medications (sedatives, antidepressants, some BP meds)
+- Chronic conditions (arthritis, stroke, Parkinson's)
+- Home hazards (loose rugs, poor lighting, clutter)
+- Poor footwear
 
-**VASCULAR DEMENTIA (10%):**
-• Stepwise decline
-• Focal neurological signs
-• History of stroke/TIA
+**What You Can Do**
+- Home safety: remove tripping hazards, grab bars, non-slip mats, improve lighting
+- Exercise regularly to improve strength and balance
+- Have vision checked annually
+- Review medications with doctor/pharmacist
+- Wear proper footwear
+- Use assistive devices if needed (cane, walker)
+- Rise slowly from sitting/lying positions
+- Ensure adequate vitamin D and calcium
 
-**LEWY BODY DEMENTIA:**
-• Fluctuating cognition
-• Visual hallucinations
-• Parkinsonism features
-
-**FRONTOTEMPORAL DEMENTIA:**
-• Early personality/behavior changes
-• Language difficulties
-• Younger onset (40-65)
-
-**3. DIAGNOSTIC WORKUP**
-• Cognitive testing (MMSE, MoCA)
-• Labs (B12, TSH, RPR, CBC, metabolic panel)
-• Brain imaging (CT/MRI)
-• Neuropsychiatric evaluation
-
-**4. MANAGEMENT**
-**NON-PHARMACOLOGIC:**
-• Cognitive stimulation
-• Routine/structure
-• Safety modifications
-• Caregiver support
-
-**MEDICATIONS:**
-• **Cholinesterase inhibitors:** Donepezil, rivastigmine, galantamine
-• **NMDA antagonist:** Memantine
-• **Symptomatic:** Antidepressants, antipsychotics (caution)
-
-**5. WHEN TO CONSULT A DOCTOR**
-**NEUROLOGY/GERIATRICS:** Memory concerns, diagnosis, management
-**PSYCHIATRY:** Behavioral symptoms, mood disorders
-**SOCIAL SERVICES:** Caregiver support, placement options
+**Final Advice**
+Falls aren't inevitable—many can be prevented. Don't accept falls as normal. Addressing fall risk improves independence and quality of life. Be proactive before a serious fall occurs. If you fall, even without injury, tell your doctor—it's important information.
 `,
 
-  fall_prevention: `
-**🩼 FALL PREVENTION & BALANCE ISSUES**
+  /* =========================
+     INJURIES & FIRST AID
+  ========================== */
+  animal_bites: `
+I'm sorry to hear you've experienced an animal bite. Here are some guidelines:
 
-**1. RISK FACTORS**
-**INTRINSIC (Personal):**
-• Age >65
-• Previous falls
-• Muscle weakness
-• Gait/balance problems
-• Vision impairment
-• Chronic conditions (arthritis, stroke, Parkinson's)
-• Medications (sedatives, antihypertensives, psychotropics)
-• Cognitive impairment
+**When to Seek Immediate Medical Care**
+- Deep puncture wounds or tissue damage
+- Bite on face, neck, hands, feet, or near joint
+- Signs of infection: increasing pain, redness, swelling, pus
+- Wild animal, bat, or unknown animal
+- Heavy bleeding that doesn't stop
+- Inability to move affected area
+- Human bite (high infection risk)
+- Person has diabetes, liver disease, cancer, or compromised immune system
+- Signs of allergic reaction: difficulty breathing, swelling
 
-**EXTRINSIC (Environmental):**
-• Poor lighting
-• Clutter/tripping hazards
-• Uneven surfaces
-• Lack of handrails
-• Slippery floors
-• Improper footwear
+**When to Call a Doctor**
+- Bite breaks the skin
+- No tetanus shot in past 5 years
+- Wound becomes painful, red, swollen
+- Develop fever after bite
+- Unsure about animal's rabies vaccination
+- Wound not healing after a few days
 
-**2. ASSESSMENT TOOLS**
-**TIMED UP AND GO TEST:** >12 seconds indicates high fall risk
-**BERG BALANCE SCALE:** Assesses static/dynamic balance
-**4-STAGE BALANCE TEST:** Progressively challenging positions
-**MEDICATION REVIEW:** Identify fall-risk increasing drugs
+**Immediate First Aid**
+1. Control bleeding with direct pressure
+2. Wash with soap and warm water for 5-10 minutes
+3. Apply antibiotic ointment
+4. Cover with clean bandage
+5. Elevate area if possible
+6. Try to safely identify animal for rabies assessment
 
-**3. PREVENTION STRATEGIES**
-**EXERCISE:**
-• Balance training (Tai Chi, standing on one leg)
-• Strength training (legs, core)
-• Flexibility exercises
-• Gait training
+**Rabies Risk**
+- High risk: bats, raccoons, skunks, foxes, unvaccinated dogs/cats in endemic areas
+- Low risk: small rodents, rabbits
+- Post-exposure prophylaxis required for high-risk exposures
 
-**HOME MODIFICATIONS:**
-• Remove clutter/throw rugs
-• Improve lighting (night lights)
-• Install grab bars in bathroom
-• Non-slip mats in tub/shower
-• Raised toilet seat if needed
+**Final Advice**
+Never underestimate an animal bite—even small wounds can become seriously infected. Cat bites are particularly prone to infection. Rabies is almost always fatal once symptoms appear, so don't delay evaluation for possible exposure.
+`,
 
-**MEDICAL:**
-• Vision checks
-• Foot care/proper footwear
-• Medication review/reduction
-• Vitamin D/calcium supplementation
-• Management of orthostatic hypotension
+  insect_bites_stings: `
+I'm sorry to hear you've been bitten or stung by an insect. Here are some guidelines:
 
-**4. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Fall with injury, head trauma, inability to get up
-**GERIATRICS/PHYSICAL THERAPY:** Fall risk assessment, balance training
-**OCCUPATIONAL THERAPY:** Home safety evaluation, adaptive equipment
-**OPHTHALMOLOGY:** Vision correction
-**PODIATRY:** Foot problems, proper footwear
+**When to Seek Immediate Medical Care**
+- Difficulty breathing, wheezing, throat tightness
+- Swelling of lips, tongue, face, or throat
+- Dizziness, fainting, rapid heartbeat
+- Hives spreading over large areas
+- Nausea, vomiting with sting
+- History of severe allergic reaction to similar insects
+- Multiple stings
+- Sting in mouth or throat
+- Signs of anaphylaxis
+
+**When to Call a Doctor**
+- Signs of infection: increasing redness, swelling, pain, pus
+- Fever, chills after bite
+- Reaction seems excessive
+- Large local reaction (swelling >4 inches)
+- Tick bite with concern about Lyme disease
+- Need guidance on removing stingers or ticks
+
+**Immediate First Aid**
+1. Move to safety
+2. Remove stinger by scraping (don't squeeze)
+3. Wash with soap and water
+4. Apply cold compress for 10-20 minutes
+5. Use OTC anti-itch creams or oral antihistamines
+6. Elevate if on arm/leg
+7. Don't scratch
+
+**Tick Removal**
+- Use fine-tipped tweezers, grasp close to skin, pull straight out steadily
+
+**Final Advice**
+Most bites/stings cause temporary discomfort. Know signs of severe allergic reaction and seek immediate help if they occur. If you have a known severe insect allergy, always carry epinephrine auto-injector. For tick bites, save tick for identification if symptoms develop.
+`,
+
+  snake_bites: `
+I'm sorry to hear you've experienced a snake bite. Here are critical guidelines:
+
+**When to Seek Immediate Medical Care**
+ALL SNAKE BITES REQUIRE IMMEDIATE MEDICAL ATTENTION. Call emergency services if:
+- You're unsure if snake is venomous
+- Bite causes pain, swelling, discoloration, blistering
+- Nausea, vomiting, sweating, dizziness
+- Difficulty breathing or swallowing
+- Blurred vision, slurred speech, muscle weakness
+- Bleeding from bite site or other areas
+- Bite on face, neck, or torso
+- Victim is child, elderly, or has medical conditions
+- Signs of shock: pale, clammy skin, rapid pulse, faintness
+
+**What NOT to Do**
+- DO NOT attempt to catch or kill snake
+- DO NOT apply tourniquet
+- DO NOT cut wound or suck out venom
+- DO NOT apply ice
+- DO NOT drink alcohol or caffeine
+- DO NOT elevate bite above heart level
+
+**Immediate First Aid**
+1. Move away from snake
+2. Stay calm and still
+3. Keep bite at or slightly below heart level
+4. Remove jewelry, tight clothing near bite
+5. Gently wash with soap and water if available
+6. Cover with clean cloth
+7. Note time of bite
+
+**Final Advice**
+Treat every snake bite as a medical emergency. Time is critical with venomous bites. Try to remember snake's appearance but don't risk further bites. Stay calm to slow venom spread. Follow medical advice carefully during recovery.
+`,
+
+  fractures: `
+I'm sorry to hear you may have a fracture. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Bone protruding through skin
+- Severe bleeding
+- Loss of pulse or sensation below injury
+- Pale, cool, or blue fingers/toes
+- Injury to head, neck, or back
+- Multiple suspected fractures
+- Signs of shock: pale skin, rapid pulse, dizziness, confusion
+- Severe pain not improving with immobilization
+
+**When to Call a Doctor**
+- Heard or felt snap/grinding at injury
+- Deformity, swelling, bruising
+- Pain worsens with movement or pressure
+- Unable to bear weight
+- Numbness or tingling near injury
+- Injury doesn't improve after a few days
+
+**Types of Fractures**
+- Closed: bone broken but skin intact
+- Open: bone protruding (higher infection risk)
+- Stress: small crack from overuse
+- Greenstick: incomplete break (common in children)
+
+**Immediate First Aid**
+1. Stop bleeding with pressure
+2. Immobilize area (splint, sling, pillow)
+3. Apply ice wrapped in cloth (15-20 min at a time)
+4. Elevate if possible
+5. Don't try to realign bone
+6. Don't eat or drink (in case surgery needed)
+
+**Final Advice**
+All suspected fractures need medical evaluation. Don't assume it's "just a sprain" if you can't bear weight or have significant swelling/deformity. Early proper treatment leads to better outcomes. Rehabilitation is important for regaining full function.
+`,
+
+  burns: `
+I'm sorry to hear you've experienced a burn. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Deep burns (white or charred)
+- Cover large area (bigger than palm)
+- On face, hands, feet, genitals, major joints
+- Circumferential (around a body part)
+- Chemical or electrical burns
+- Difficulty breathing (from inhaling smoke)
+- Occur in young children, elderly, or people with chronic conditions
+- Signs of infection
+- Symptoms of shock
+
+**Burn Degrees**
+- First-degree: red, painful, dry (like sunburn)
+- Second-degree: red, painful, blistered, moist
+- Third-degree: white, charred, leathery, may be painless
+- Fourth-degree: extends into muscle and bone
+
+**Immediate First Aid** (for minor burns)
+1. Cool the burn: run cool (not cold) water for 10-20 minutes
+2. Remove jewelry or clothing near burn before swelling
+3. Cover loosely with sterile non-stick dressing
+4. Take pain reliever if needed
+5. Don't break blisters
+6. Don't apply butter, oil, or ointments initially
+
+**Special Burns**
+- Chemical: remove contaminated clothing, rinse with lots of water
+- Electrical: check for entry/exit wounds, monitor for heart issues
+- Sunburn: cool compresses, aloe vera, hydration, pain relievers
+
+**Final Advice**
+Never underestimate a burn—what seems minor can become infected or cause significant scarring. Facial burns or burns to hands/feet often need specialist evaluation. If in doubt, seek medical evaluation. Proper initial care significantly affects healing.
+`,
+
+  head_injury: `
+I'm sorry to hear you've experienced a head injury. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Loss of consciousness (even briefly)
+- Confusion or disorientation
+- Severe headache that worsens
+- Repeated vomiting
+- Seizures
+- Unequal pupil size
+- Clear fluid draining from nose or ears
+- Bruising behind ears or around eyes
+- Weakness or numbness in limbs
+- Slurred speech
+- Symptoms worsen over time
+
+**When to Call a Doctor**
+- Persistent headache after injury
+- Dizziness or balance problems
+- Memory problems or confusion
+- Vision changes
+- Nausea
+- Unusually drowsy or fatigued
+- Sensitivity to light or noise
+- Symptoms don't improve after a few days
+
+**Concussion Signs**
+- Headache, nausea, balance problems
+- Blurry vision, light sensitivity
+- Feeling sluggish, foggy, groggy
+- Concentration or memory problems
+- Confusion
+- Just not "feeling right"
+
+**What to Do After Minor Head Injury**
+- Rest, avoid physical and mental exertion
+- Apply ice to bruised areas
+- Take acetaminophen for pain (avoid aspirin/ibuprofen initially)
+- Avoid alcohol
+- Have someone check on you
+- Avoid screens, reading
+- Gradually return to normal activities as symptoms improve
+
+**Final Advice**
+Never ignore a head injury, especially with loss of consciousness or neurological symptoms. "When in doubt, check it out." Children with head injuries need special attention. Report all head injuries to coaches if athlete. If symptoms worsen, seek medical attention promptly.
 `,
 
   /* =========================
      NUTRITION & METABOLIC
   ========================== */
-
   weight_management: `
-**⚖️ WEIGHT MANAGEMENT & OBESITY**
+I'm sorry to hear you have concerns about weight management. Here are some guidelines:
 
-**1. BMI CLASSIFICATION**
-• **Underweight:** <18.5
-• **Normal:** 18.5-24.9
-• **Overweight:** 25-29.9
-• **Obesity Class 1:** 30-34.9
-• **Obesity Class 2:** 35-39.9
-• **Obesity Class 3:** ≥40
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or shortness of breath
+- Chest pain or pressure
+- Severe abdominal pain
+- Inability to keep down food/fluids
+- Confusion or difficulty thinking
+- Rapid heartbeat with dizziness
+- Signs of severe malnutrition
+- Thoughts of self-harm related to body image or eating
 
-**2. ASSESSMENT**
-• BMI calculation
-• Waist circumference (men >40in, women >35in)
-• Body composition analysis
-• Medical history (medications, conditions)
-• Lifestyle assessment (diet, activity, sleep, stress)
+**When to Call a Doctor**
+- Unexplained weight loss (10+ pounds without trying)
+- Difficulty losing weight despite effort
+- Rapid weight gain
+- Weight changes affecting health or quality of life
+- Concerns about eating disorders
+- Want to discuss weight management strategies
+- Considering weight loss medications or surgery
 
-**3. COMORBIDITIES**
-• Type 2 diabetes
-• Hypertension
-• Dyslipidemia
-• Sleep apnea
-• Osteoarthritis
-• GERD
-• Depression/anxiety
-• Certain cancers
+**Weight Categories (BMI)**
+- Underweight: Below 18.5
+- Normal: 18.5-24.9
+- Overweight: 25-29.9
+- Obesity: 30 or higher
+- Severe obesity: 40 or higher
 
-**4. TREATMENT APPROACH**
-**LIFESTYLE MODIFICATION:**
-• **Diet:** 500-1000 kcal deficit/day, balanced macronutrients, portion control
-• **Exercise:** 150-300 minutes moderate activity/week, strength training 2x/week
-• **Behavioral:** Self-monitoring, goal setting, stress management
+**What You Can Do**
+- Balanced diet: fruits, vegetables, whole grains, lean proteins
+- Portion control
+- Regular physical activity (150 min moderate activity weekly)
+- Mindful eating
+- Adequate sleep (7-9 hours)
+- Stress management
+- Hydration (water instead of sugary drinks)
+- Limit processed foods
+- Set realistic goals (1-2 pounds weekly loss sustainable)
 
-**MEDICATIONS:**
-• **Appetite suppressants:** Phentermine (short-term)
-• **GLP-1 agonists:** Liraglutide, semaglutide
-• **Other:** Orlistat, bupropion/naltrexone, topiramate/phentermine
+**Eating Disorder Awareness**
+Seek help if you experience:
+- Preoccupation with weight, food, calories
+- Extreme dieting or fasting
+- Binge eating followed by purging or extreme exercise
+- Distorted body image
 
-**SURGICAL:**
-• **Criteria:** BMI ≥40 or ≥35 with comorbidities, failed conservative treatment
-• **Options:** Gastric bypass, sleeve gastrectomy, gastric band
-
-**5. WHEN TO CONSULT A DOCTOR**
-**NUTRITION/DIETETICS:** Dietary planning, meal management
-**BARIATRIC MEDICINE:** Medical weight management, medication options
-**BARIATRIC SURGERY:** Surgical candidates, pre/post-op management
-**MENTAL HEALTH:** Emotional eating, body image, eating disorders
+**Final Advice**
+Weight management is a lifelong journey. Focus on health improvements, not just scale numbers. Small, sustainable changes are more effective than drastic restrictions. Be kind to yourself—self-criticism undermines progress. Celebrate non-scale victories: more energy, better sleep, improved lab values.
 `,
 
   vitamin_deficiencies: `
-**💊 VITAMIN & MINERAL DEFICIENCIES**
+I'm sorry to hear you have concerns about vitamin deficiencies. Here are some guidelines:
 
-**1. COMMON DEFICIENCIES**
-**IRON:**
-• **Symptoms:** Fatigue, pallor, shortness of breath, pica, restless legs
-• **Causes:** Blood loss, poor intake, malabsorption
-• **Labs:** Low ferritin, microcytic anemia
+**When to Seek Immediate Medical Care**
+- Severe difficulty breathing or swallowing
+- Chest pain or irregular heartbeat
+- Severe weakness or paralysis
+- Confusion, seizures, or loss of consciousness
+- Severe bleeding that doesn't stop
 
-**VITAMIN D:**
-• **Symptoms:** Bone pain, muscle weakness, increased fracture risk
-• **Risk factors:** Limited sun exposure, dark skin, obesity, malabsorption
-• **Labs:** 25-OH vitamin D
+**When to Call a Doctor**
+- Symptoms suggesting vitamin deficiency (see below)
+- Conditions affecting nutrient absorption (celiac, Crohn's, gastric bypass)
+- Restrictive diets (vegan, vegetarian)
+- Pregnant or breastfeeding
+- Chronic alcohol use
+- Medications affecting nutrient absorption
+- Want to discuss supplements
 
-**VITAMIN B12:**
-• **Symptoms:** Fatigue, neurological symptoms (numbness, balance), cognitive changes
-• **Causes:** Pernicious anemia, vegan diet, malabsorption, medications (PPIs, metformin)
-• **Labs:** Low B12, elevated methylmalonic acid/homocysteine
+**Common Deficiencies & Symptoms**
+- Vitamin D: bone pain, muscle weakness, fatigue, depression
+- Vitamin B12: fatigue, weakness, numbness/tingling, memory problems
+- Iron: fatigue, weakness, pale skin, shortness of breath, dizziness
+- Vitamin C: bleeding gums, slow wound healing, bruising
+- Calcium: muscle cramps, numbness/tingling, weak bones
+- Magnesium: muscle cramps, tremors, fatigue
 
-**FOLATE:**
-• **Symptoms:** Similar to B12 but no neurological symptoms
-• **Causes:** Poor intake, alcohol, malabsorption, medications (methotrexate)
-• **Important in pregnancy**
+**What You Can Do** (for prevention)
+- Eat balanced diet with variety of foods
+- Consider fortified foods if dietary restrictions
+- Get safe sun exposure for vitamin D (10-15 minutes several times weekly)
+- Consider multivitamin if diet inadequate (discuss with doctor first)
+- Don't take excessive supplements
 
-**2. OTHER DEFICIENCIES**
-**VITAMIN C:** Scurvy (bleeding gums, poor wound healing)
-**CALCIUM:** Osteoporosis, tetany
-**MAGNESIUM:** Muscle cramps, arrhythmias, weakness
-**ZINC:** Impaired immunity, taste/smell changes, skin lesions
-**IODINE:** Goiter, hypothyroidism
+**Food Sources**
+- Vitamin D: fatty fish, fortified milk, eggs, sunlight
+- B12: meat, fish, dairy, eggs
+- Iron: red meat, beans, lentils, spinach
+- Vitamin C: citrus, strawberries, bell peppers
+- Calcium: dairy, leafy greens, fortified foods
 
-**3. PREVENTION/TREATMENT**
-• Balanced diet with variety
-• Supplementation when deficient/at risk
-• Regular screening for high-risk groups
-• Address underlying causes (malabsorption, blood loss)
-
-**4. WHEN TO CONSULT A DOCTOR**
-**PRIMARY CARE:** Initial evaluation, basic supplementation
-**HEMATOLOGY:** Complex anemia, refractory deficiency
-**GASTROENTEROLOGY:** Malabsorption evaluation
-**ENDOCRINOLOGY:** Bone health, calcium/vitamin D disorders
+**Final Advice**
+Don't self-diagnose and supplement without testing—excess can be harmful. Food should be primary nutrient source. If you have symptoms suggesting deficiency, proper testing guides appropriate treatment. Regular check-ups can identify issues before severe symptoms develop.
 `,
 
   /* =========================
      ENVIRONMENTAL & TRAVEL
   ========================== */
-
   heat_cold_injuries: `
-**🌡️ HEAT & COLD-RELATED ILLNESSES**
+I'm sorry to hear you have concerns about heat or cold injuries. Here are some guidelines:
 
-**1. HEAT-RELATED**
-**HEAT CRAMPS:** Painful muscle cramps during/after exertion
-**HEAT EXHAUSTION:**
-• Heavy sweating, weakness, cold/pale/clammy skin
-• Fast/weak pulse, nausea/vomiting, fainting
-• Core temperature usually <104°F (40°C)
+**When to Seek Immediate Medical Care**
+Heat-related:
+- Confusion, agitation, slurred speech
+- Loss of consciousness
+- Seizures
+- Body temperature above 104°F
+- Rapid breathing or heartbeat
+- Hot, dry skin
+Cold-related:
+- Confusion, drowsiness, memory loss
+- Slurred speech
+- Loss of consciousness
+- Shivering that stops
+- Body temperature below 95°F
+- Cold, pale, hard skin
 
-**HEAT STROKE:**
-• **Medical emergency**
-• Core temperature >104°F (40°C)
-• Hot/red/dry OR damp skin
-• Rapid/strong pulse
-• Confusion, unconsciousness, seizures
+**Heat-Related Conditions**
+- Heat cramps: painful muscle spasms in heat
+- Heat exhaustion: heavy sweating, weakness, dizziness, nausea
+- Heat stroke: high body temp, altered mental state, possibly no sweating (emergency)
 
-**2. COLD-RELATED**
-**FROSTNIP:** Superficial cold injury, reversible with rewarming
-**FROSTBITE:**
-• **1st degree:** Numbness, erythema
-• **2nd degree:** Blisters, swelling
-• **3rd/4th degree:** Deep tissue involvement, necrosis
+**Cold-Related Conditions**
+- Frostnip: numbness, pale skin
+- Frostbite: freezing of skin and tissues
+- Hypothermia: dangerously low body temp (emergency)
 
-**HYPOTHERMIA:**
-• **Mild:** Shivering, confusion (95-89.6°F/35-32°C)
-• **Moderate:** Loss of shivering, worsening confusion (89.6-82.4°F/32-28°C)
-• **Severe:** Unconscious, vital signs depressed (<82.4°F/28°C)
+**Immediate First Aid**
+Heat exhaustion: move to cool place, loosen clothing, cool cloths, sip water
+Heat stroke: call emergency, move to cooler place, reduce temp with cool cloths
+Frostbite: warm area, immerse in warm (not hot) water, don't rub
+Hypothermia: warm area, remove wet clothing, warm center first, warm blankets
 
-**3. PREVENTION**
-**HEAT:**
-• Hydration (water/electrolytes)
-• Light, loose clothing
-• Avoid midday sun
-• Acclimate gradually
-• Never leave anyone in parked car
+**Prevention**
+Heat: stay hydrated, wear light clothing, limit outdoor activity in peak heat, take breaks
+Cold: dress in layers, wear hat/gloves, keep dry, limit time in extreme cold, avoid alcohol
 
-**COLD:**
-• Layered clothing
-• Protect extremities
-• Stay dry
-• Limit alcohol (increases heat loss)
-• Watch for early signs
-
-**4. TREATMENT**
-**HEAT EXHAUSTION:** Move to cool place, cool wet cloths, sip water
-**HEAT STROKE:** Call 911, cool rapidly (ice bath if possible)
-**FROSTBITE:** Rewarm in warm water (NOT hot), don't rub, protect from refreezing
-**HYPOTHERMIA:** Remove wet clothing, warm gradually (trunk first), warm beverages if alert
-
-**5. WHEN TO CONSULT A DOCTOR**
-**EMERGENCY:** Heat stroke, severe hypothermia, deep frostbite
-**URGENT CARE:** Moderate heat/cold injuries, dehydration
-**PRIMARY CARE:** Follow-up, prevention counseling
+**Final Advice**
+Temperature-related injuries can develop quickly. Don't ignore early warning signs. Prevention is key. Children and elderly are particularly vulnerable. When in doubt about severity, seek medical evaluation.
 `,
 
   travel_medicine: `
-**✈️ TRAVEL MEDICINE & VACCINATIONS**
+I'm sorry to hear you have travel health concerns. Here are some guidelines:
 
-**1. PRE-TRAVEL PREPARATION**
-• **Timing:** Visit 4-6 weeks before travel
-• **Destination-specific risks:** Malaria, dengue, altitude, political instability
-• **Medical kit:** Prescriptions, OTC meds, first aid
-• **Travel insurance:** Medical evacuation coverage
-• **Documentation:** Passport, visas, vaccination records
+**When to Seek Immediate Medical Care During/After Travel**
+- Fever during/after travel to malaria-endemic area
+- Severe diarrhea with dehydration
+- Difficulty breathing or chest pain
+- Severe headache with stiff neck
+- Unexplained bleeding or bruising
+- Yellow skin or eyes (jaundice)
+- Severe abdominal pain
+- Mental confusion or seizures
 
-**2. ROUTINE VACCINES (Update if needed)**
-• Tetanus/diphtheria/pertussis
-• MMR
-• Varicella
-• Influenza
-• COVID-19
-• Pneumococcal (if indicated)
+**When to Call a Doctor**
+- Planning international travel and need vaccinations
+- Develop mild illness during/after travel
+- Chronic medical conditions and plan to travel
+- Pregnant and planning travel
+- Need guidance on travel medications
+- Concerns about specific travel health risks
 
-**3. TRAVEL-SPECIFIC VACCINES**
-**YELLOW FEVER:** Required for certain countries
-**TYPHOID:** Oral/injectable, for developing countries
-**HEPATITIS A:** Recommended for most travelers
-**HEPATITIS B:** If medical procedures/tattoos possible
-**MENINGOCOCCAL:** For Hajj, sub-Saharan Africa "meningitis belt"
-**JAPANESE ENCEPHALITIS:** Rural Asia, prolonged stay
-**RABIES:** Animal handlers, remote travel
-**CHOLERA:** Limited circumstances
+**Pre-Travel (4-6 weeks before)**
+- Schedule travel medicine appointment
+- Update routine vaccinations
+- Get destination-specific vaccines
+- Obtain necessary prescriptions
+- Research destination health risks
+- Purchase travel health insurance
+- Prepare travel health kit
 
-**4. MALARIA PREVENTION**
-**CHEMOPROPHYLAXIS (Region-specific):**
-• Atovaquone-proguanil
-• Doxycycline
-• Mefloquine
-• Chloroquine (limited areas)
+**Travel Health Kit**
+- Prescription meds (extra supply)
+- OTC meds: pain relievers, anti-diarrheal, antihistamines
+- First aid supplies
+- Insect repellent with DEET or picaridin
+- Sunscreen, hand sanitizer
+- Oral rehydration salts
+- Copy of prescriptions and vaccination records
 
-**PERSONAL PROTECTION:**
-• DEET insect repellent
-• Permethrin-treated clothing/bed nets
-• Long sleeves/pants at dusk/dawn
+**Food & Water Safety**
+- Drink bottled or purified water
+- Avoid ice in drinks
+- Eat thoroughly cooked foods
+- Avoid raw fruits/vegetables unless you peel them
+- Use hand sanitizer before eating
 
-**5. TRAVELER'S DIARRHEA**
-**PREVENTION:**
-• Food/water precautions ("boil it, cook it, peel it, or forget it")
-• Hand hygiene
-• Consider probiotics
-
-**TREATMENT:**
-• Oral rehydration
-• Loperamide (symptomatic relief)
-• Antibiotics (azithromycin, rifaximin) for moderate-severe
-
-**6. WHEN TO CONSULT A DOCTOR**
-**TRAVEL MEDICINE CLINIC:** Pre-travel consultation, specialized vaccines
-**EMERGENCY:** Illness during travel with fever, severe symptoms
-**POST-TRAVEL:** Persistent symptoms after return, especially fever
-`,
-
-  /* =========================
-     SPECIAL CONDITIONS
-  ========================== */
-
-  autoimmune_diseases: `
-**🛡️ AUTOIMMUNE DISEASES**
-
-**1. SYSTEMIC AUTOIMMUNE**
-**SYSTEMIC LUPUS ERYTHEMATOSUS:**
-• **Diagnosis:** ACR criteria (malar rash, discoid rash, photosensitivity, oral ulcers, arthritis, serositis, renal, neurological, hematological, immunologic, ANA)
-• **Management:** NSAIDs, antimalarials, steroids, immunosuppressants
-
-**RHEUMATOID ARTHRITIS:** [covered in joint_pain]
-**SJÖGREN'S SYNDROME:** Dry eyes/mouth, fatigue, joint pain, positive SSA/SSB
-
-**2. ORGAN-SPECIFIC**
-**HASHIMOTO'S/GRAVES':** Thyroid
-**TYPE 1 DIABETES:** Pancreatic islet cells
-**MULTIPLE SCLEROSIS:** CNS myelin
-**CELIAC DISEASE:** Small intestine
-**ADDISON'S DISEASE:** Adrenal glands
-
-**3. DIAGNOSTIC APPROACH**
-• Autoantibody testing (ANA, RF, anti-CCP, etc.)
-• Inflammatory markers (ESR, CRP)
-• Organ-specific function tests
-• Imaging
-• Biopsy when indicated
-
-**4. GENERAL MANAGEMENT PRINCIPLES**
-• Immunosuppression (steroids, DMARDs, biologics)
-• Symptom management
-• Lifestyle modifications
-• Regular monitoring for complications
-• Vaccinations (avoid live vaccines when immunosuppressed)
-
-**5. WHEN TO CONSULT A DOCTOR**
-**RHEUMATOLOGY:** Most systemic/organ-nonspecific autoimmune diseases
-**SPECIALIST:** Organ-specific (endocrinology for thyroid, neurology for MS, etc.)
-**EMERGENCY:** Severe flare, organ-threatening manifestations
-`,
-
-  cancer_warning_signs: `
-**⚠️ CANCER WARNING SIGNS (CAUTION US MNEMONIC)**
-
-**C** - Change in bowel/bladder habits
-**A** - A sore that does not heal
-**U** - Unusual bleeding/discharge
-**T** - Thickening/lump in breast or elsewhere
-**I** - Indigestion/difficulty swallowing
-**O** - Obvious change in wart/mole
-**N** - Nagging cough/hoarseness
-
-**U** - Unexplained anemia
-**S** - Sudden weight loss
-
-**M** - Malaise/fatigue
-**N** - Night pain/sweats
-**E** - Enlarged lymph nodes
-**M** - Mass/lesion that grows
-**O** - Obvious change in neurological function
-**N** - New onset pain without injury
-**I** - Irregular bleeding (postmenopausal, between periods)
-**C** - Change in appetite/nausea
-
-**1. SCREENING RECOMMENDATIONS**
-• **Breast:** Mammogram 40-50 start, frequency varies
-• **Cervical:** Pap smear 21-65, HPV testing
-• **Colorectal:** Colonoscopy 45-75, stool tests
-• **Lung:** Low-dose CT for high-risk smokers
-• **Prostate:** PSA discussion starting 50-55
-
-**2. WHEN TO CONSULT A DOCTOR**
-**PRIMARY CARE:** Initial evaluation of symptoms, routine screening
-**ONCOLOGY:** Suspicious findings, abnormal screening, diagnosis
-**EMERGENCY:** Severe symptoms, cord compression, hypercalcemia, neutropenic fever
-`,
-
-  /* =========================
-     PAIN MANAGEMENT
-  ========================== */
-
-  chronic_pain: `
-**😣 CHRONIC PAIN MANAGEMENT**
-
-**1. DEFINITION**
-• Pain lasting >3-6 months
-• Often persists beyond healing time
-• May have no identifiable cause
-• Can lead to functional impairment, mood changes
-
-**2. COMMON TYPES**
-• Chronic low back pain
-• Osteoarthritis
-• Neuropathic pain (diabetic neuropathy, post-herpetic)
-• Fibromyalgia
-• Chronic headache/migraine
-• Cancer pain
-
-**3. MULTIMODAL APPROACH**
-**PHARMACOLOGIC:**
-• **First-line:** Acetaminophen, NSAIDs (with GI/renal precautions)
-• **Neuropathic:** Gabapentinoids (gabapentin, pregabalin), TCAs, SNRIs
-• **Opioids:** Last resort, risk/benefit assessment, monitoring
-• **Topicals:** Lidocaine, capsaicin, NSAID gels
-
-**NON-PHARMACOLOGIC:**
-• Physical therapy
-• Cognitive behavioral therapy
-• Acupuncture
-• Mindfulness/meditation
-• Exercise (tailored to ability)
-• Interventional procedures (injections, nerve blocks)
-
-**4. OPIOID PRESCRIBING PRINCIPLES**
-• Lowest effective dose
-• Regular reassessment
-• Risk evaluation/mitigation strategies
-• Urine drug screening
-• Prescription drug monitoring program checks
-• Taper plan from initiation
-
-**5. WHEN TO CONSULT A DOCTOR**
-**PAIN MANAGEMENT:** Complex/chronic pain, need for procedures, opioid management
-**PHYSICAL THERAPY:** Movement-based pain, functional restoration
-**MENTAL HEALTH:** Pain-related distress, coping strategies
-**SPECIALIST:** Underlying condition management (rheumatology, neurology, etc.)
+**Final Advice**
+Don't wait until last minute for travel health prep—some vaccines require multiple doses. Research destination-specific health risks. Know how to access medical care at your destination. Enjoy your trip, but prioritize your health.
 `,
 
   /* =========================
      COMPLEMENTARY MEDICINE
   ========================== */
-
   alternative_therapies: `
-**🌿 COMPLEMENTARY & ALTERNATIVE MEDICINE**
+I'm sorry to hear you have questions about alternative therapies. Here are some guidelines:
 
-**1. CATEGORIES**
-**MIND-BODY:** Meditation, yoga, Tai Chi, hypnosis, biofeedback
-**BIOLOGICALLY-BASED:** Herbs, supplements, special diets
-**MANIPULATIVE:** Chiropractic, massage, osteopathic manipulation
-**ENERGY:** Reiki, therapeutic touch, acupuncture
-**WHOLE MEDICAL SYSTEMS:** Traditional Chinese medicine, Ayurveda, homeopathy
+**When to Seek Immediate Conventional Medical Care**
+- Symptoms suggesting medical emergency
+- Severe side effects from any therapy
+- Condition worsening despite alternative therapies
+- Considering stopping conventional treatment for serious conditions
 
-**2. EVIDENCE-BASED USES**
-**ACUPUNCTURE:** Chronic pain (back, neck, osteoarthritis), nausea/vomiting
-**MASSAGE:** Musculoskeletal pain, anxiety, stress
-**MEDITATION/YOGA:** Stress reduction, anxiety, depression, chronic pain
-**TAI CHI:** Balance/fall prevention in elderly, fibromyalgia, osteoarthritis
+**When to Discuss with Your Doctor**
+- Considering using alongside conventional treatment
+- Have chronic conditions and want to explore complementary approaches
+- Pregnant or breastfeeding
+- Taking medications (potential interactions)
+- Have upcoming surgery (some supplements affect bleeding/anesthesia)
+- Need help evaluating safety/effectiveness
 
-**3. SAFETY CONSIDERATIONS**
-• Herb-drug interactions (St. John's wort affects many medications)
-• Quality/safety of supplements (FDA doesn't regulate like drugs)
-• Provider qualifications/training
-• Delay of conventional treatment
-• Cost/insurance coverage
+**Common Complementary Therapies**
+- Acupuncture, chiropractic, massage therapy
+- Meditation, mindfulness, yoga, tai chi
+- Herbal medicine, homeopathy, naturopathy
+- Ayurveda, traditional Chinese medicine
 
-**4. INTEGRATIVE APPROACH**
-• Use alongside conventional medicine, not as replacement
-• Communicate with all providers about all treatments
-• Evidence-based selection of modalities
-• Realistic expectations
+**What You Can Do**
+- Research the therapy and its evidence base
+- Check practitioner credentials
+- Discuss with your conventional healthcare provider
+- Be skeptical of "miracle cures"
+- Consider cost and insurance coverage
+- Start with one therapy at a time
+- Report any side effects to all providers
 
-**5. WHEN TO CONSULT A DOCTOR**
-**INTEGRATIVE MEDICINE:** Coordinated approach, evidence-based CAM
-**SPECIALIST:** Acupuncture, chiropractic, massage for specific indications
-**PRIMARY CARE:** Discussing options, monitoring for interactions
+**Safety Considerations**
+- Natural doesn't always mean safe
+- Herbal supplements can interact with medications
+- Quality and purity of supplements vary
+- Some practitioners may not have proper training
+- Delay of conventional treatment can be dangerous for serious conditions
+
+**Final Advice**
+Complementary therapies can be valuable additions to conventional care, but shouldn't replace necessary medical treatment. Always inform all providers about all therapies you're using. Be cautious of practitioners who advise against conventional treatments for serious conditions.
 `,
 
   /* =========================
      MEDICATION MANAGEMENT
   ========================== */
-
   medication_safety: `
-**💊 MEDICATION SAFETY & ADHERENCE**
+I'm sorry to hear you have concerns about medication safety. Here are some guidelines:
 
-**1. COMMON MEDICATION ERRORS**
-• Wrong drug/dose
-• Drug interactions
-• Allergic reactions
-• Not taking as prescribed
-• Self-adjusting doses
-• Using expired medications
-• Mixing with alcohol/other substances
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or swelling of face/lips/throat
+- Chest pain or palpitations
+- Severe dizziness or fainting
+- Thoughts of self-harm or severe mood changes
+- Seizures or loss of consciousness
+- Severe allergic reaction
+- Overdose or incorrect medication taken
 
-**2. POLYPHARMACY MANAGEMENT**
-• **Definition:** ≥5 medications
-• **Risks:** Interactions, side effects, adherence difficulties, increased falls
-• **Strategies:** Regular medication review, deprescribing when possible, single pharmacy
+**When to Call Your Doctor or Pharmacist**
+- Experience side effects
+- Unsure how to take medications
+- Questions about potential interactions
+- Starting new medications
+- Difficulty affording medications
+- Trouble remembering to take medications
+- Considering stopping a medication
 
-**3. ADHERENCE IMPROVEMENT**
-• Understand purpose of each medication
-• Use pill organizers
-• Set reminders/alarms
-• Link to daily routines
-• Address side effects promptly
-• Regular follow-up with provider
+**Medication Safety Tips**
+- Know your medications: names, purposes, dosages, timing
+- Use one pharmacy to identify interactions
+- Keep updated medication list
+- Follow instructions exactly
+- Ask questions if unsure
+- Store properly
+- Check expiration dates
+- Use proper measuring devices
+- Don't share medications
 
-**4. STORAGE & DISPOSAL**
-• Store in cool, dry place (not bathroom)
-• Keep out of reach of children
-• Don't mix different medications in same container
-• Proper disposal (take-back programs, don't flush most)
-• Keep list of current medications (including OTC/herbals)
+**Preventing Errors**
+- At doctor's: mention all medications, ask for written instructions
+- At pharmacy: check label matches prescription, ask pharmacist to review
+- At home: read labels each time, use pill organizer, set reminders
 
-**5. WHEN TO CONSULT A DOCTOR**
-**PHARMACIST:** Medication questions, interactions, side effects
-**PRIMARY CARE:** Medication review, deprescribing, adherence issues
-**EMERGENCY:** Serious side effects, overdose, allergic reactions
-**GERIATRICS:** Polypharmacy in elderly, fall risk assessment
+**Managing Multiple Medications**
+- Regular medication review with doctor/pharmacist
+- Consider pill organizer or blister packs
+- Use medication management apps
+- Involve family member if needed for reminders
+- Don't stop medications without medical advice
+
+**Final Advice**
+Medication safety is a shared responsibility. Don't hesitate to ask questions. Keep an updated medication list with you at all times. Report any side effects promptly. Your pharmacist is an excellent resource—use their expertise. Never stop prescribed medications without medical guidance.
 `,
 
   /* =========================
      HEALTH MAINTENANCE
   ========================== */
-
   preventive_screening: `
-**🩺 PREVENTIVE SCREENING & HEALTH MAINTENANCE**
+I'm sorry to hear you have questions about preventive screening. Here are some guidelines:
 
-**1. AGE-BASED SCREENING**
-**20s-30s:**
-• Blood pressure (every 2 years if normal)
-• Cholesterol (starting 20-35 based on risk)
-• Cervical cancer (Pap starting 21)
-• STD screening if sexually active
-• Skin cancer checks (self-exam, clinical if risk)
+**When to Discuss Screening with Your Doctor**
+- Due for age-appropriate screenings
+- Risk factors requiring earlier or more frequent screening
+- Have symptoms or concerns between screenings
+- Want to understand screening recommendations
+- Need guidance on preparing for specific screenings
+- Considering genetic testing based on family history
 
-**40s:**
-• Breast cancer (mammogram starting 40-50)
-• Colorectal cancer (starting 45)
-• Diabetes screening (starting 35 if overweight)
-• Eye exam (baseline 40)
-• Osteoporosis (women at menopause)
+**Common Cancer Screenings**
+- Breast cancer: mammogram, clinical breast exam
+- Cervical cancer: Pap smear, HPV testing
+- Colorectal cancer: colonoscopy, stool tests
+- Lung cancer: low-dose CT for high-risk individuals
+- Prostate cancer: PSA testing (discuss risks/benefits)
+- Skin cancer: skin exams
 
-**50s-60s:**
-• Lung cancer (CT if smoking history)
-• Prostate cancer (discussion starting 50-55)
-• AAA screening (men 65-75 who ever smoked)
-• More frequent cancer screenings
+**Cardiovascular Screenings**
+- Blood pressure
+- Cholesterol
+- Blood glucose/diabetes
 
-**70+:**
-• Continued cancer screening (individualized)
-• Cognitive screening
-• Fall risk assessment
-• Hearing/vision checks
+**Other Screenings**
+- Bone density (osteoporosis)
+- Vision and hearing
+- Depression
+- Infectious diseases (based on risk)
 
-**2. IMMUNIZATIONS**
-• **Annual:** Influenza
-• **Periodic:** Td/Tdap (10 years)
-• **>50:** Shingles (Shingrix)
-• **>65:** Pneumococcal (PCV20 or PCV15+PPSV23)
-• **COVID-19:** Per current recommendations
+**What You Can Do**
+- Know your family health history
+- Understand personal risk factors
+- Follow recommended screening schedules
+- Keep track of when screenings are due
+- Prepare properly for screenings
+- Follow up on abnormal results promptly
+- Maintain healthy lifestyle regardless of screening status
 
-**3. LIFESTYLE COUNSELING**
-• Tobacco cessation
-• Alcohol moderation
-• Healthy diet
-• Physical activity
-• Sleep hygiene
-• Stress management
-• Sun protection
-
-**4. WHEN TO CONSULT A DOCTOR**
-**PRIMARY CARE:** Routine preventive care, screening coordination
-**SPECIALIST:** Abnormal screening results
-**EMERGENCY:** Not for routine prevention
+**Final Advice**
+Preventive screening is important but not a substitute for healthy living. Screening recommendations change as new evidence emerges, so discuss current guidelines with your doctor. Don't avoid screening out of fear—early detection saves lives. Remember: screening is for people without symptoms—if you have symptoms, you need diagnostic testing.
 `,
 
   /* =========================
      EMERGENCY RESPONSE
   ========================== */
-
   cpr_first_aid: `
-**🆘 BASIC FIRST AID & CPR**
+I'm sorry to hear you have questions about CPR or first aid. Here are some guidelines (not a substitute for proper training):
 
-**1. UNRESPONSIVE PERSON**
-• **Check:** Tap and shout "Are you OK?"
-• **Call:** 911 if unresponsive
-• **Send:** Someone for AED if available
-• **Check breathing:** Look/listen/feel (5-10 seconds)
+**When to Perform CPR or Use First Aid**
+- CPR: when someone is unresponsive and not breathing normally
+- Choking: when someone cannot breathe, speak, or cough
+- Severe bleeding: when bleeding doesn't stop with direct pressure
+- Burns: to cool and cover thermal burns
+- Fractures: to immobilize injured area
+- Poisoning: to identify poison and call poison control
+- Allergic reactions: to assist with epinephrine auto-injector if prescribed
 
-**2. CPR (C-A-B)**
-**COMPRESSIONS:**
-• Rate: 100-120/minute
-• Depth: 2-2.4 inches (adults), 2 inches (children), 1.5 inches (infants)
-• Allow full chest recoil
-• Minimize interruptions
+**When to Call Emergency Services First**
+Call 911 BEFORE providing care if:
+- Person is unresponsive
+- Severe bleeding
+- Chest pain or difficulty breathing
+- Suspected head, neck, or back injury
+- Signs of stroke
+- Severe burn
+- Situation is unsafe
+- Alone with unresponsive child or infant
 
-**AIRWAY:** Head tilt-chin lift (if no trauma)
-**BREATHING:** 30 compressions to 2 breaths (or compression-only if untrained)
+**Basic CPR Steps (Adults)**
+1. Check scene safety
+2. Check responsiveness: tap and shout
+3. Call 911
+4. Check breathing (no more than 10 seconds)
+5. Begin compressions: center of chest, push hard and fast (2 inches deep, 100-120/min)
+6. Give breaths if trained (30 compressions to 2 breaths)
 
-**3. AED USE**
-• Turn on, follow voice prompts
-• Attach pads (upper right, lower left)
-• Clear during analysis/shock
-• Resume CPR immediately after shock
+**Choking Response (Conscious Adult/Child)**
+1. Ask "Are you choking?"
+2. If cannot speak, breathe, or cough:
+3. Perform abdominal thrusts (Heimlich) until object expelled or person unconscious
 
-**4. COMMON EMERGENCIES**
-**CHOKING:**
-• **Conscious:** Heimlich maneuver (abdominal thrusts)
-• **Unconscious:** Start CPR (chest compressions)
+**Basic First Aid Principles**
+- Protect yourself: use gloves
+- Stop severe bleeding: direct pressure
+- Treat for shock: lie down, elevate legs, keep warm
+- Don't move unless necessary
+- Keep calm and reassure injured person
 
-**BLEEDING:**
-• Direct pressure with clean cloth
-• Elevate if possible
-• Pressure points if severe
-• Tourniquet as last resort
-
-**BURNS:** Cool with water, cover with clean cloth, don't pop blisters
-**FRACTURES:** Immobilize, don't realign
-**SEIZURES:** Protect from injury, time seizure, roll on side after
-
-**5. WHEN TO CALL 911**
-• Unconscious/unresponsive
-• Difficulty breathing
-• Chest pain >5 minutes
-• Severe bleeding
-• Sudden weakness/numbness
-• Severe burns
-• Suspected poisoning
-• Seizure >5 minutes or first seizure
-
-**6. TRAINING**
-• **Certification:** American Heart Association, Red Cross
-• **Renewal:** Every 2 years
-• **Skills practice:** Regular refreshers recommended
+**Final Advice**
+Proper training is essential—this overview cannot replace hands-on instruction. Take a course from American Red Cross or American Heart Association. Keep skills current with regular refreshers. Have well-stocked first aid kits at home, car, and work. In any emergency, call for help first, then provide care within your training.
 `,
 
   /* =========================
      TELEHEALTH GUIDANCE
   ========================== */
-
   telehealth_preparation: `
-**📱 TELEHEALTH VISIT PREPARATION**
+I'm sorry to hear you have questions about telehealth. Here are some guidelines:
 
-**1. BEFORE THE VISIT**
-• Confirm appointment time/date
-• Check technology (camera, microphone, internet)
-• Download required app/software
-• Charge device or have charger nearby
-• Find quiet, private, well-lit space
+**When Telehealth May Not Be Appropriate**
+Seek in-person care if you have:
+- Symptoms suggesting emergency: chest pain, difficulty breathing, severe pain
+- Need for physical examination or procedures
+- Symptoms requiring diagnostic testing
+- Complex medical issues better assessed in person
+- Technological barriers preventing effective virtual visit
 
-**2. INFORMATION TO HAVE READY**
-• List of current symptoms with onset/duration
-• Current medications (including OTC/herbals)
-• Vital signs if available (temperature, BP, pulse, weight)
-• Medical history (conditions, surgeries, allergies)
-• Pharmacy information
-• Insurance information
-• Questions for provider
+**When Telehealth Is Appropriate**
+- Follow-up visits for chronic conditions
+- Medication management appointments
+- Mental health therapy sessions
+- Minor acute issues: colds, rashes, UTIs
+- Post-operative follow-ups
+- Nutrition or lifestyle counseling
+- Second opinions or specialist consultations
+- Routine check-ins
 
-**3. DURING THE VISIT**
-• Be on time (log in 5-10 minutes early)
-• Have good lighting (face visible, not backlit)
-• Minimize background noise/distractions
-• Speak clearly
-• Take notes
-• Ask for clarification if needed
+**Before Your Appointment**
+- Test technology: internet, camera, microphone
+- Download required software/apps
+- Charge your device
+- Find quiet, private, well-lit location
+- Gather medications, medical devices, insurance card
+- Prepare questions in advance
+- Take vitals if possible: temp, BP, heart rate, weight
+- Have pharmacy information ready
 
-**4. PHYSICAL EXAM CONSIDERATIONS**
-• Provider may ask you to demonstrate range of motion
-• Show areas of concern via camera
-• Use flashlight for better visualization if needed
-• May need in-person follow-up for hands-on exam
+**During Your Appointment**
+- Join a few minutes early
+- Speak clearly, describe symptoms specifically
+- Show affected areas via camera if appropriate
+- Ask questions if something unclear
+- Take notes
+- Confirm understanding of next steps
 
-**5. AFTER THE VISIT**
-• Review visit summary/instructions
-• Schedule follow-up if needed
-• Fill prescriptions
-• Implement treatment plan
-• Contact office with questions
+**Final Advice**
+Telehealth is valuable but not suitable for all situations. Prepare thoroughly to make the most of your virtual visit. Be honest about what can and cannot be assessed remotely. Don't hesitate to ask for in-person appointment if telehealth isn't meeting your needs. Have backup plan if technical issues arise.
+`,
 
-**6. LIMITATIONS**
-• Cannot replace all in-person visits
-• Limited physical exam capability
-• Technology barriers for some
-• Not for emergencies
-• State licensing restrictions may apply
+  /* =========================
+     GENERAL SYMPTOMS
+  ========================== */
+  weakness: `
+I'm sorry to hear you're experiencing weakness. Here are some guidelines:
 
-**7. WHEN TELEHEALTH IS APPROPRIATE**
-• Follow-up visits
-• Medication management
-• Mental health therapy
-• Minor acute illnesses
-• Chronic condition management
-• Post-operative checks
-• Pre-operative evaluations
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or shortness of breath
+- Chest pain or pressure
+- Sudden severe headache
+- Difficulty speaking or slurred speech
+- Facial drooping or asymmetry
+- Sudden vision changes
+- Loss of consciousness or fainting
+- New onset of severe weakness in one side of body
+- Inability to move a limb
+
+**When to Call a Doctor**
+- Weakness persistent or worsening
+- Affects ability to perform daily activities
+- Unexplained weight loss with weakness
+- Weakness localized to specific area
+- Other symptoms: fever, pain, numbness, tingling
+- Weakness follows illness or injury
+- Chronic conditions and develop new weakness
+
+**Possible Causes**
+- Infections, anemia, thyroid disorders
+- Chronic fatigue syndrome, depression, anxiety
+- Sleep disorders, nutritional deficiencies
+- Neurological conditions (stroke, MS, Parkinson's)
+- Muscle disorders, nerve compression
+- Electrolyte imbalances, medication side effects
+
+**What You Can Do** (if mild)
+- Ensure adequate rest and sleep
+- Stay hydrated
+- Eat balanced diet with sufficient protein
+- Gentle exercise as tolerated
+- Manage stress
+- Pace activities (alternate activity with rest)
+- Address sleep problems
+
+**Final Advice**
+Weakness that is severe, sudden, or with other concerning symptoms needs prompt evaluation. Even mild persistent weakness should be discussed with your doctor. Don't dismiss weakness as "just getting older" without evaluation. Proper diagnosis is important because treatment depends on underlying cause.
+`,
+
+  numbness: `
+I'm sorry to hear you're experiencing numbness. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Weakness or paralysis, especially on one side of body
+- Difficulty speaking or understanding speech
+- Confusion or difficulty thinking
+- Sudden severe headache
+- Loss of vision or double vision
+- Dizziness, loss of balance
+- Loss of bladder or bowel control
+- Numbness following head, neck, or back injury
+- Numbness that spreads rapidly
+
+**When to Call a Doctor**
+- Numbness persists or recurs frequently
+- Spreads or worsens over time
+- Other symptoms: pain, weakness, coordination problems
+- Affects ability to perform daily activities
+- Have diabetes and develop numbness (possible neuropathy)
+- Risk factors for neurological conditions
+
+**Possible Causes**
+- Temporary: pressure on nerve, anxiety, migraine
+- Neurological: stroke, MS, pinched nerve, peripheral neuropathy, brain/spinal cord issues
+- Other: diabetes, thyroid disorders, vitamin deficiencies, autoimmune diseases, medications
+
+**What You Can Do** (if mild/temporary)
+- Change position to relieve nerve pressure
+- Gently massage or move affected area
+- Apply warm or cool compresses
+- Practice stress reduction
+- Manage blood sugar if diabetic
+- Avoid repetitive motions
+
+**Final Advice**
+Sudden numbness, especially with other neurological symptoms, needs immediate evaluation. Even mild persistent numbness should be discussed with your doctor. Don't ignore numbness in feet if you have diabetes—early intervention for neuropathy can prevent complications.
+`,
+
+  dizziness: `
+I'm sorry to hear you're experiencing dizziness. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Chest pain or pressure
+- Difficulty breathing
+- Severe headache
+- Fainting or loss of consciousness
+- Difficulty speaking or slurred speech
+- Weakness or numbness in face, arm, or leg
+- Vision changes
+- High fever
+- Stiff neck
+- Head injury
+- Seizures
+- Irregular heartbeat
+
+**When to Call a Doctor**
+- Dizziness recurrent or persistent
+- Interferes with daily activities
+- Hearing loss or ringing in ears with dizziness
+- Dizziness follows head injury
+- Risk factors for stroke or heart disease
+- Other concerning symptoms
+
+**Types of Dizziness**
+- Vertigo: spinning sensation
+- Lightheadedness: feeling faint
+- Disequilibrium: unsteadiness
+- Presyncope: near-fainting feeling
+
+**Possible Causes**
+- Inner ear problems (BPPV, Meniere's, vestibular neuritis)
+- Neurological conditions (migraine, stroke, MS)
+- Cardiovascular issues (low BP, arrhythmias)
+- Medications, anxiety, anemia, dehydration, low blood sugar
+
+**What You Can Do** (if mild)
+- Sit or lie down when dizzy
+- Move slowly when changing positions
+- Stay hydrated
+- Avoid caffeine, alcohol, tobacco
+- Use caution with driving
+- Manage stress
+- Ensure adequate sleep
+
+**Final Advice**
+Sudden severe dizziness, especially with other neurological symptoms, needs immediate evaluation. Even mild recurrent dizziness should be discussed with your doctor. Keep a dizziness diary: when, what doing, how long, associated symptoms. Don't ignore dizziness—it can indicate serious conditions or lead to dangerous falls.
+`,
+
+  swelling: `
+I'm sorry to hear you're experiencing swelling. Here are some guidelines:
+
+**When to Seek Immediate Medical Care**
+- Difficulty breathing or shortness of breath
+- Chest pain or pressure
+- Sudden severe headache
+- Confusion or difficulty thinking
+- Severe abdominal pain
+- Swelling in only one leg with pain (possible blood clot)
+- Sudden facial swelling, especially around eyes, lips, or tongue
+- Swelling after possible allergic reaction
+- Inability to urinate
+
+**When to Call a Doctor**
+- Swelling persistent or worsening
+- Affects ability to walk or use limbs
+- Unexplained weight gain with swelling
+- Swelling painful or warm to touch
+- Skin over swollen area red or stretched
+- Chronic conditions and develop new swelling
+- Swelling during pregnancy
+
+**Possible Causes**
+- Localized: injury, infection, insect bite, venous insufficiency, lymphedema
+- Generalized: heart failure, kidney disease, liver disease, low protein, medications, pregnancy, thyroid disorders
+
+**What You Can Do** (if mild)
+- Elevate swollen area above heart level
+- Apply cold compresses for acute swelling
+- Wear compression stockings if recommended
+- Reduce salt intake
+- Stay active (movement helps circulation)
+- Avoid prolonged sitting/standing
+- Stay hydrated
+
+**Special Considerations**
+- One leg swelling: more concerning, needs evaluation for blood clot
+- Sudden onset: more concerning than gradual
+- Painful swelling: may indicate infection or inflammation
+
+**Final Advice**
+Sudden swelling, especially with breathing difficulty or chest pain, needs immediate evaluation. Swelling in one leg with pain may indicate blood clot—don't wait to seek care. Even mild persistent swelling should be discussed with your doctor. Don't ignore swelling during pregnancy—while common, it can sometimes indicate serious conditions.
 `,
 
   /* =========================
      DEFAULT RESPONSE
   ========================== */
-
   default: `
-# 🏥 **COMPREHENSIVE MEDICAL GUIDANCE SYSTEM**
+I'm sorry, I didn't quite understand your health concern.
 
-## **📋 AVAILABLE HEALTH CATEGORIES:**
+If you're experiencing a medical emergency, please call emergency services immediately.
 
-### **🔹 HEAD & NEUROLOGICAL**
-• Hair loss, scalp conditions
-• Eye problems (red eye, vision changes)
-• Ear issues (hearing loss, vertigo, ear pain)
-• Nose/sinus problems (rhinitis, sinusitis)
-• Mouth issues (sores, dental pain, lesions)
-• Throat conditions (sore throat, tonsillitis)
-• Headache (migraine, tension, cluster)
-• Dizziness/vertigo
-• Memory problems, dementia
-• Stroke symptoms
-
-### **🔹 CHEST & RESPIRATORY**
-• Chest pain (cardiac vs non-cardiac)
-• Shortness of breath
-• Cough (acute/chronic)
-• Wheezing, asthma
-• Palpitations, irregular heartbeat
-• Heartburn, GERD
-
-### **🔹 ABDOMINAL & DIGESTIVE**
-• Abdominal pain (by quadrant)
-• Nausea/vomiting
-• Diarrhea/constipation
-• Heartburn/indigestion
-• Bloating, gas
-• Liver/gallbladder symptoms
-• Rectal bleeding, hemorrhoids
-
-### **🔹 GENITOURINARY**
-• Urinary symptoms (frequency, urgency, pain)
-• Kidney/flank pain
-• Menstrual problems (pain, heavy bleeding)
-• Vaginal discharge/infections
-• Breast concerns
-• Pregnancy symptoms
-• Prostate issues
-• Testicular pain/masses
-• Sexual dysfunction (men/women)
-
-### **🔹 MUSCULOSKELETAL**
-• Neck/back pain
-• Shoulder/elbow/wrist/hand pain
-• Hip/knee/ankle/foot pain
-• Joint pain/swelling
-• Muscle pain/cramps
-• Fractures, sprains, strains
-
-### **🔹 SKIN & NAILS**
-• Rashes (macular, papular, vesicular)
-• Itching (localized/generalized)
-• Acne, eczema, psoriasis
-• Skin infections (bacterial, fungal, viral)
-• Hair/nail problems
-• Moles, skin growths
-
-### **🔹 INFECTIOUS DISEASES**
-• Fever, chills
-• Common cold, influenza
-• COVID-19
-• STIs (chlamydia, gonorrhea, herpes, HIV)
-• Childhood viral illnesses
-• Travel-related infections
-
-### **🔹 MENTAL HEALTH**
-• Depression, anxiety
-• Stress, burnout
-• Insomnia, sleep disorders
-• ADHD (children/adults)
-• Eating disorders
-• Substance use disorders
-
-### **🔹 CHRONIC CONDITIONS**
-• Diabetes symptoms/management
-• Hypertension
-• Thyroid disorders
-• Autoimmune diseases
-• Asthma/COPD
-• Arthritis (OA, RA, gout)
-• Chronic pain
-
-### **🔹 WOMEN'S HEALTH**
-• Menstrual irregularities
-• Pregnancy/prenatal care
-• Menopause/perimenopause
-• PCOS
-• Contraception
-• Breast health
-• Gynecological cancers
-
-### **🔹 MEN'S HEALTH**
-• Prostate issues (BPH, prostatitis, cancer)
-• Erectile dysfunction
-• Male infertility
-• Testicular conditions
-• Low testosterone
-• Male-specific cancers
-
-### **🔹 PEDIATRICS**
-• Infant/childhood fever
-• Childhood rashes/viral illnesses
-• Developmental milestones
-• Behavioral issues (ADHD, autism)
-• Growth/nutrition
-• Childhood asthma/allergies
-• Vaccination questions
-
-### **🔹 GERIATRICS**
-• Memory loss/dementia
-• Fall prevention/balance
-• Polypharmacy management
-• Elderly-specific conditions
-• End-of-life care planning
-
-### **🔹 INJURIES & FIRST AID**
-• Animal/human bites
-• Fractures, sprains, strains
-• Burns (thermal, chemical, electrical)
-• Head injuries/concussion
-• Insect bites/stings
-• Poisoning
-• Wounds, lacerations
-• CPR/first aid guidance
-
-### **🔹 ENVIRONMENTAL**
-• Heat/cold-related illnesses
-• Altitude sickness
-• Sunburn, heat stroke
-• Frostbite, hypothermia
-• Drowning/near-drowning
-• Travel medicine
-
-### **🔹 NUTRITION & METABOLIC**
-• Weight management (loss/gain)
-• Vitamin/mineral deficiencies
-• Eating disorders
-• Food allergies/intolerances
-• Diabetes nutrition
-• Special diets (vegetarian, gluten-free)
-
-### **🔹 EYES, EARS, NOSE, THROAT**
-• Vision changes
-• Eye redness/pain
-• Hearing loss/tinnitus
-• Ear pain/infections
-• Sinus problems
-• Sore throat/hoarseness
-• Dental/oral health
-
-### **🔹 CANCER-RELATED**
-• Warning signs
-• Screening recommendations
-• Treatment side effects
-• Palliative care
-• Survivorship issues
-
-### **🔹 MEDICATION MANAGEMENT**
-• Medication safety
-• Side effects
-• Drug interactions
-• Adherence strategies
-• Generic vs brand
-• Over-the-counter guidance
-
-### **🔹 PREVENTIVE HEALTH**
-• Age-appropriate screening
-• Vaccinations
-• Lifestyle counseling
-• Health maintenance
-• Risk factor modification
-
-### **🔹 COMPLEMENTARY MEDICINE**
-• Acupuncture
-• Chiropractic
-• Herbal supplements
-• Massage therapy
-• Meditation/yoga
-• Alternative therapies
-
-### **🔹 TELEHEALTH GUIDANCE**
-• Virtual visit preparation
-• Technology requirements
-• What to expect
-• Follow-up care
-
----
-
-## **📝 FOR BEST ASSISTANCE, PLEASE PROVIDE:**
-
-1. **MAIN SYMPTOM** (be specific)
-2. **DURATION** (hours/days/weeks/months)
-3. **SEVERITY** (1-10 scale)
-4. **ASSOCIATED SYMPTOMS**
-5. **AGE & GENDER**
-6. **MEDICAL HISTORY** (conditions, surgeries)
-7. **CURRENT MEDICATIONS** (including OTC/herbals)
-8. **ALLERGIES** (medication/food/environmental)
-9. **RECENT TRAVEL** (if applicable)
-10. **EXPOSURES** (sick contacts, animals, insects)
-
----
-
-## **🚨 URGENT/EMERGENCY SYMPTOMS REQUIRING IMMEDIATE CARE:**
-
-• **CHEST PAIN** with shortness of breath, sweating, nausea
-• **DIFFICULTY BREATHING** or shortness of breath at rest
-• **SEVERE BLEEDING** that won't stop
-• **SUDDEN WEAKNESS/NUMBNESS** on one side of body
-• **SUDDEN SEVERE HEADACHE** ("worst headache of life")
-• **SUDDEN VISION CHANGES** or loss
-• **SUICIDAL OR HOMICIDAL THOUGHTS**
-• **SEVERE BURN** over large area
-• **SEIZURE** lasting >5 minutes or first seizure
-• **HIGH FEVER** with stiff neck and confusion
-• **SEVERE ALLERGIC REACTION** with swelling/difficulty breathing
-• **POISONING** or drug overdose
-• **TRAUMA** with loss of consciousness or deformity
-
-**📞 In these situations, CALL 911 or go to the nearest emergency department immediately.**
-
----
-
-## **⚠️ IMPORTANT DISCLAIMERS:**
-
-1. **NOT MEDICAL ADVICE:** This information is for educational purposes only and does not constitute medical advice, diagnosis, or treatment.
-
-2. **NO PATIENT-PROVIDER RELATIONSHIP:** Use of this system does not establish a doctor-patient relationship.
-
-3. **EMERGENCY SITUATIONS:** For medical emergencies, always call your local emergency number or go to the nearest emergency department.
-
-4. **CONSULT HEALTHCARE PROVIDER:** Always consult with a qualified healthcare provider for diagnosis and treatment of medical conditions.
-
-5. **ACCURACY:** While we strive for accuracy, medical information changes rapidly. Always verify with current medical sources.
-
-6. **PERSONALIZED CARE:** Your individual situation may require different management than general guidelines provided here.
-
-7. **PRIVACY:** Do not share protected health information through this system.
-
----
-
-**🩺 Remember: Your health is important. When in doubt, seek professional medical care.**
+Remember: I am an AI assistant providing general information only. Always consult with a healthcare professional for personal medical advice.
 `
 };

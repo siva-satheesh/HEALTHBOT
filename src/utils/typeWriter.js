@@ -1,13 +1,38 @@
-export function typeWriter(text, speed = 18, onUpdate, onComplete) {
+export function typeWriter(
+  text,
+  speed = 0.5, // smaller = slower, bigger = faster
+  onUpdate,
+  onComplete
+) {
   let index = 0;
+  let animationFrame;
+  let isStopped = false;
 
-  const interval = setInterval(() => {
-    onUpdate(text.slice(0, index));
-    index++;
+  function animate() {
+    if (isStopped) return;
 
-    if (index > text.length) {
-      clearInterval(interval);
-      onComplete && onComplete();
+    // Gradual character increase (smooth growth)
+    index += speed;
+
+    if (index < text.length) {
+      onUpdate(text.slice(0, Math.floor(index)));
+      animationFrame = requestAnimationFrame(animate);
+    } else {
+      onUpdate(text); // ensure full text renders
+      if (onComplete) onComplete();
     }
-  }, speed);
+  }
+
+  animationFrame = requestAnimationFrame(animate);
+
+  // Stop function
+  return (instantComplete = false) => {
+    isStopped = true;
+    cancelAnimationFrame(animationFrame);
+
+    if (instantComplete) {
+      onUpdate(text);
+      if (onComplete) onComplete();
+    }
+  };
 }
