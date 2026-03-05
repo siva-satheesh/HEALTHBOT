@@ -375,77 +375,38 @@ Some memory changes are normal with aging, but significant memory loss affecting
      CHEST & RESPIRATORY
   ========================== */
   chest_pain: `
-I'm sorry to hear you're experiencing chest pain. Here are critical guidelines:
+**⚠ This may be a medical emergency. Please contact a doctor immediately. Call Emergency Services if you have:**
 
-**When to Seek Immediate Medical Care**
-Call emergency services immediately if you have:
 - Chest pressure, squeezing, or heaviness
+
 - Pain radiating to jaw, neck, back, shoulder, or arm
+
 - Shortness of breath with chest discomfort
+
 - Cold sweat, nausea, or lightheadedness
+
 - Sudden onset of severe chest pain
-- Chest pain with coughing up blood
 
-**When to Call a Doctor**
-- Chest discomfort comes and goes over days
-- Pain occurs with exertion and resolves with rest
-- Heartburn symptoms not responding to antacids
-- Chest pain follows respiratory infection
-- Pain reproducible by pressing on chest wall
-
-**Possible Causes**
-- Cardiac: Angina, heart attack
-- Pulmonary: Pulmonary embolism, pneumonia
-- Gastrointestinal: GERD, esophageal spasm
-- Musculoskeletal: Costochondritis, muscle strain
-- Psychological: Anxiety, panic attacks
-
-**What You Can Do** (only if mild and non-cardiac)
-- Rest and avoid strenuous activity
-- Use OTC antacids for heartburn
-- Apply heat or ice to sore muscles
-- Practice relaxation techniques
-
-**Final Advice**
-Never ignore chest pain, especially if severe, persistent, or with shortness of breath or sweating. When in doubt, seek immediate medical attention—it's always better to be safe.
-`,
+- Chest pain with coughing up blood`,
 
   shortness_of_breath: `
-I'm sorry to hear you're experiencing shortness of breath. Here are some guidelines:
 
-**When to Seek Immediate Medical Care**
+
+**⚠ This may be a medical emergency. Please contact a doctor immediately. Call Emergency Services if you have:**
+
 - Chest pain or pressure
+
 - Fainting or near-fainting
+
 - Severe lightheadedness
+
 - Blue lips or fingertips
+
 - Confusion
+
 - Rapid heartbeat
-- Inability to speak in full sentences
 
-**When to Call a Doctor**
-- Occurs with minimal exertion or at rest
-- Wake up at night short of breath
-- Swelling in legs/ankles with breathing difficulty
-- Fever, cough, or chest congestion
-- Symptoms getting worse over time
-- History of heart or lung disease
-
-**Possible Causes**
-- Respiratory: Asthma, COPD, pneumonia, pulmonary embolism
-- Heart: Heart failure, arrhythmias, heart attack
-- Anxiety or panic attacks
-- Anemia, allergies, obesity
-
-**What You Can Do** (if mild)
-- Sit upright and lean forward slightly
-- Practice pursed-lip breathing
-- Use a fan to circulate air
-- Avoid triggers like smoke or dust
-- Pace activities and rest frequently
-
-**Final Advice**
-Shortness of breath should never be ignored, especially if new, worsening, or with other symptoms. Even mild breathing difficulties can indicate serious conditions. When in doubt, seek medical evaluation.
-`,
+- Inability to speak in full sentences`,
 
   cough: `
 I'm sorry to hear you're experiencing a cough. Here are some guidelines:

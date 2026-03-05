@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-   "preview": "vite preview",
+    "preview": "vite preview",
     "preview:https": "vite preview --https",
     "generate-pwa-assets": "pwa-assets-generator --preset minimal public/athena.png"
   },
@@ -16,10 +16,13 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.6",
     "@mui/material": "^7.3.6",
+    "axios": "^1.13.6",
     "framer-motion": "^12.30.0",
     "fuse.js": "^7.1.0",
+    "leaflet": "^1.9.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^7.13.0"
   },

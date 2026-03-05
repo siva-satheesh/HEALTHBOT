@@ -1,0 +1,97 @@
+:root {
+  /* Light mode colors (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-tertiary: #eaeaea;
+  
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  
+  --accent-primary: #0066cc;
+  --accent-secondary: #0052a3;
+  --accent-light: #e6f0ff;
+  
+  --border-color: #e0e0e0;
+  --border-hover: #cccccc;
+  
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  
+  --success: #28a745;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --info: #17a2b8;
+  
+  /* Input fields */
+  --input-bg: #ffffff;
+  --input-border: #e0e0e0;
+  --input-focus: #0066cc;
+  
+  /* Buttons */
+  --btn-primary-bg: #0066cc;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #0052a3;
+  
+  --btn-secondary-bg: #f0f0f0;
+  --btn-secondary-text: #333333;
+  --btn-secondary-hover: #e0e0e0;
+  
+  /* Cards */
+  --card-bg: #ffffff;
+  --card-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+  /* Chat bubbles (if applicable) */
+  --user-msg-bg: #0066cc;
+  --user-msg-text: #ffffff;
+  --bot-msg-bg: #f0f0f0;
+  --bot-msg-text: #333333;
+}
+
+[data-theme="dark"] {
+  /* Dark mode colors */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #3d3d3d;
+  
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #999999;
+  
+  --accent-primary: #4d9eff;
+  --accent-secondary: #66a3ff;
+  --accent-light: #2d2d2d;
+  
+  --border-color: #404040;
+  --border-hover: #555555;
+  
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  
+  --success: #34ce57;
+  --warning: #ffcd39;
+  --danger: #e05a5a;
+  --info: #3fb9e0;
+  
+  /* Input fields */
+  --input-bg: #2d2d2d;
+  --input-border: #404040;
+  --input-focus: #4d9eff;
+  
+  /* Buttons */
+  --btn-primary-bg: #4d9eff;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #66a3ff;
+  
+  --btn-secondary-bg: #3d3d3d;
+  --btn-secondary-text: #ffffff;
+  --btn-secondary-hover: #4d4d4d;
+  
+  /* Cards */
+  --card-bg: #2d2d2d;
+  --card-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  
+  /* Chat bubbles (if applicable) */
+  --user-msg-bg: #4d9eff;
+  --user-msg-text: #ffffff;
+  --bot-msg-bg: #3d3d3d;
+  --bot-msg-text: #ffffff;
+}

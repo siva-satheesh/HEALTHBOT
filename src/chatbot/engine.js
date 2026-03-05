@@ -67,7 +67,7 @@ export function chatbotReply(text) {
   }
 
   // Shortness of breath patterns
-  if (/(?:shortness of breath|difficulty breathing|dyspnea|breathlessness|can't breathe|hardbreathe|wheezing|gasping|air hunger|respiratory distress)/.test(input)) {
+  if (/(?:shortness of breath|difficulty breathing|respiratory problem|breathing problem|breathingproblem|dyspnea|breathlessness|can't breathe|hardbreathe|wheezing|gasping|air hunger|respiratory distress)/.test(input)) {
     return { reply: `${templates.shortness_of_breath || templates.default}` };
   }
 
@@ -279,7 +279,7 @@ export function chatbotReply(text) {
   ========================== */
   
   // Menstrual problems patterns
-  if (/(?:menstrual problems|period problems|irregular periods|menstrual cycle|menstrual issues|pms|pmdd|dysmenorrhea|period cramps|menstrual cramps)/.test(input)) {
+  if (/(?:menstrual problems|menstrual problem|period problems|period problem|irregular periods|menstrual cycle|menstrual issues|pms|pmdd|dysmenorrhea|period cramps|menstrual cramps)/.test(input)) {
     return { reply: `${templates.menstrual_problems || templates.default}` };
   }
 
