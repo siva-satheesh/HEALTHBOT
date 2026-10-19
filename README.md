@@ -1,4 +1,4 @@
-# 🏥 ATHENA AI , CHATBOTFOR PHUSICAL HEALTH SUPPORT
+# 🏥 ATHENA AI , CHATBOT FOR PHYSICAL HEALTH SUPPORT
 A fast and simple healthcare chatbot that provides predefined health information without unnecessary complexity.
 
 ### ✨ Key Features
